@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Hela Basa <r45xveza@pm.me>, 2021.
 # Tharindu Widanagama <otheraccounts@keemail.me>, 2024.
+# Malaka Tharumuthu <malakat100@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: crash-catcher@lists.fedoraproject.org\n"
 "POT-Creation-Date: 2020-01-23 15:47+0100\n"
-"PO-Revision-Date: 2024-12-30 18:16+0000\n"
-"Last-Translator: Tharindu Widanagama <otheraccounts@keemail.me>\n"
+"PO-Revision-Date: 2025-04-08 14:53+0000\n"
+"Last-Translator: Malaka Tharumuthu <malakat100@gmail.com>\n"
 "Language-Team: Sinhala <https://translate.fedoraproject.org/projects/abrt/"
 "abrt/si/>\n"
 "Language: si\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.9.1\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: ../src/applet/org.freedesktop.problems.applet.desktop.in.h:1
 msgid "Problem Reporting"
@@ -317,11 +318,11 @@ msgstr ""
 #: ../src/plugins/abrt-dump-journal-xorg.c:191
 #: ../src/plugins/abrt-dump-xorg.c:52
 msgid "Log to syslog"
-msgstr ""
+msgstr "syslog වෙත යොමු කරන්න"
 
 #: ../src/daemon/abrt-server.c:1113 ../src/daemon/abrtd.c:754
 msgid "Add program names to log"
-msgstr ""
+msgstr "ලොග් වාර්තාවට වැඩසටහන් නාම එකතු කරන්න"
 
 #: ../src/dbus/abrt-dbus.c:135
 #, c-format

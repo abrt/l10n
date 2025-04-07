@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: libreport 2.11.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-09 10:42+0100\n"
-"PO-Revision-Date: 2025-04-07 00:48+0000\n"
+"PO-Revision-Date: 2025-04-08 14:53+0000\n"
 "Last-Translator: Malaka Tharumuthu <malakat100@gmail.com>\n"
 "Language-Team: Sinhala <https://translate.fedoraproject.org/projects/abrt/"
 "libreport/si/>\n"
@@ -26,6 +26,10 @@ msgid ""
 "   or: & [-vspy] -d PROBLEM_DIR\n"
 "   or: & [-vspy] -x PROBLEM_DIR"
 msgstr ""
+"& [-vsp] -L[PREFIX] [PROBLEM_DIR]\n"
+"   or: & [-vspy] -e EVENT PROBLEM_DIR\n"
+"   or: & [-vspy] -d PROBLEM_DIR\n"
+"   or: & [-vspy] -x PROBLEM_DIR"
 
 #. short_name long_name  value    parameter_name  help
 #: ../src/cli/cli.c:89
@@ -50,15 +54,15 @@ msgstr "සංස්කරණය පෙන්වා පිටවන්න"
 
 #: ../src/cli/cli.c:94
 msgid "Noninteractive: don't ask questions, assume 'yes'"
-msgstr ""
+msgstr "අක්‍රිය ක්‍රියාකාරීත්වය: ප්‍රශ්න නොඅසන්න, 'ඔව්' ලෙස භාවිත කරන්න"
 
 #: ../src/cli/cli.c:96
 msgid "Log to syslog"
-msgstr ""
+msgstr "syslog වෙත යොමු කරන්න"
 
 #: ../src/cli/cli.c:97 ../src/gui-wizard-gtk/main.c:168
 msgid "Add program names to log"
-msgstr ""
+msgstr "ලොග් වාර්තාවට වැඩසටහන් නාම එකතු කරන්න"
 
 #: ../src/cli/cli-report.c:132
 #, c-format

@@ -10,16 +10,15 @@
 # <raypoatssium@gmail.com>, 2011-2012, 2013
 # Matej Habrnal <mhabrnal@redhat.com>, 2016. #zanata
 # simmon <simmon@nplob.com>, 2021.
-# 김인수 <simmon@nplob.com>, 2024.
+# 김인수 <simmon@nplob.com>, 2024, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-abrt 1.2.9.3.g80d2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-25 10:14-0300\n"
-"PO-Revision-Date: 2025-04-08 10:08+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-04-08 11:53+0000\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/abrt/"
 "gnome-abrt/ko/>\n"
 "Language: ko\n"
@@ -42,16 +41,12 @@ msgid "D_etails"
 msgstr "상세정보(_E)"
 
 #: data/ui/oops-menus.ui:19
-#, fuzzy
-#| msgid "_Open the problem data directory"
 msgid "_Open problem data directory"
 msgstr "문제되는 자료 디렉토리 개방(_O)"
 
 #: data/ui/oops-menus.ui:23
-#, fuzzy
-#| msgid "_Copy the problem ID to Clipboard"
 msgid "_Copy problem directory path to clipboard"
-msgstr "클립보드에 문제 ID 복사(_C)"
+msgstr "문제가 되는 디렉토리를 클립보드에 복사(_C)"
 
 #: data/ui/oops-menus.ui:27
 msgid "_Filter"
@@ -67,10 +62,8 @@ msgid "Search"
 msgstr "검색"
 
 #: data/ui/oops-window.ui:35
-#, fuzzy
-#| msgid "Delete selected problems"
 msgid "Detected Crashes"
-msgstr "선택한 문제 삭제"
+msgstr "탐지된 충돌"
 
 #: data/ui/oops-window.ui:61
 msgid "Delete selected problems"
@@ -82,19 +75,19 @@ msgstr "선택된 문제 제출"
 
 #: data/ui/oops-window.ui:97
 msgid "Create Report..."
-msgstr "보고서 작성"
+msgstr "보고서 작성..."
 
 #: data/ui/oops-window.ui:127
 msgid "Search or type @ for crash types"
-msgstr ""
+msgstr "충돌 유형을 위한 @ 검색 또는 입력"
 
 #: data/ui/oops-window.ui:246
 msgid "Affected Component"
-msgstr ""
+msgstr "영향을 받은 구성 요소"
 
 #: data/ui/oops-window.ui:274
 msgid "Component Version"
-msgstr ""
+msgstr "구성 요소 버전"
 
 #: data/ui/oops-window.ui:302 src/gnome_abrt/views.py:923
 msgid "Reported"
@@ -105,10 +98,8 @@ msgid "First Detected"
 msgstr "최초 감지"
 
 #: data/ui/oops-window.ui:369
-#, fuzzy
-#| msgid "First Detected"
 msgid "Times Detected"
-msgstr "최초 감지"
+msgstr "탐지된 시간"
 
 #: data/ui/oops-window.ui:407
 msgid "No problems detected!"
@@ -142,7 +133,7 @@ msgstr "abrt;결점 보고;충돌 기록기;"
 
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:7
 msgid "The ABRT Project"
-msgstr ""
+msgstr "ABRT 프로젝트"
 
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:11
 msgid ""

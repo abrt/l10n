@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: gnome-abrt 1.2.9.3.g80d2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-25 10:14-0300\n"
-"PO-Revision-Date: 2025-04-08 10:08+0000\n"
+"PO-Revision-Date: 2025-04-08 11:53+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/abrt/gnome-abrt/pt_BR/>\n"
@@ -61,7 +61,7 @@ msgstr "Pesquisa"
 
 #: data/ui/oops-window.ui:35
 msgid "Detected Crashes"
-msgstr "Falhas detectadas"
+msgstr "Travamentos Detectadas"
 
 #: data/ui/oops-window.ui:61
 msgid "Delete selected problems"
@@ -73,19 +73,19 @@ msgstr "Enviar o problema selecionado"
 
 #: data/ui/oops-window.ui:97
 msgid "Create Report..."
-msgstr "Criar relatório..."
+msgstr "Criar Relato..."
 
 #: data/ui/oops-window.ui:127
 msgid "Search or type @ for crash types"
-msgstr "Pesquise ou digite @ para tipos de falhas"
+msgstr "Pesquise ou digite @ para tipos de travamentos"
 
 #: data/ui/oops-window.ui:246
 msgid "Affected Component"
-msgstr "Componente afetado"
+msgstr "Componente Afetado"
 
 #: data/ui/oops-window.ui:274
 msgid "Component Version"
-msgstr "Versão do componente"
+msgstr "Versão do Componente"
 
 #: data/ui/oops-window.ui:302 src/gnome_abrt/views.py:923
 msgid "Reported"
@@ -93,11 +93,11 @@ msgstr "Reportado"
 
 #: data/ui/oops-window.ui:342
 msgid "First Detected"
-msgstr "Primeiro Detectado"
+msgstr "Primeira Detecção"
 
 #: data/ui/oops-window.ui:369
 msgid "Times Detected"
-msgstr "Vezes detectadas"
+msgstr "Vezes Detectado"
 
 #: data/ui/oops-window.ui:407
 msgid "No problems detected!"
@@ -140,7 +140,7 @@ msgid ""
 "Collection of software tools designed for collecting, analyzing and "
 "reporting of software issues."
 msgstr ""
-"Coleção de ferramentas de software criadas para colecionar, analizar e "
+"Coleção de ferramentas de software criadas para colecionar, analisar e "
 "reportar problemas de software."
 
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:15
@@ -202,7 +202,7 @@ msgstr "{0} saiu inesperadamente"
 #: src/gnome_abrt/views.py:842
 #, python-brace-format
 msgid "{0} problem has been detected"
-msgstr "{0} problema foi detectado"
+msgstr "Um problema de {0} foi detectado"
 
 #: src/gnome_abrt/views.py:846
 msgid "The system has encountered a problem and recovered."
@@ -228,7 +228,7 @@ msgstr "não pode ser reportado"
 
 #: src/gnome_abrt/views.py:931
 msgid "Reports"
-msgstr "Formulários"
+msgstr "Relatos"
 
 #: src/gnome_abrt/views.py:936
 msgid ""
@@ -237,9 +237,9 @@ msgid ""
 "Please consider also <b>reporting it</b> to Bugzilla in order to provide "
 "that. Thank you."
 msgstr ""
-"Este problema foi reportado, mas não foi aberto um ticket no <i>Bugzilla</"
-"i> . Nossos desenvolvedores podem precisar de mais informações para "
-"solucionar este problema. \n"
+"Este problema foi reportado, mas não foi aberto um ticket no <i>Bugzilla</i> "
+". Nossos desenvolvedores podem precisar de mais informações para solucionar "
+"este problema.\n"
 "Considere também <b>reportá-lo</b> no Bugzilla para ajudá-los. Obrigado."
 
 #. Translators: Displayed after 'Reported' if a problem

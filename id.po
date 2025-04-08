@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Andika Triwidada <andika@gmail.com>, 2020.
+# Andika Triwidada <andika@gmail.com>, 2020, 2025.
 # Didik Supriadi <didiksupriadi41@gmail.com>, 2021.
 # Parasian Panjaitan <ssparasianpanjaitan@gmail.com>, 2021.
 msgid ""
@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-09 10:42+0100\n"
-"PO-Revision-Date: 2021-11-27 20:15+0000\n"
-"Last-Translator: Parasian Panjaitan <ssparasianpanjaitan@gmail.com>\n"
+"PO-Revision-Date: 2025-04-09 15:53+0000\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/abrt/"
 "libreport/id/>\n"
 "Language: id\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: ../src/cli/cli.c:66
 msgid ""
@@ -806,7 +806,7 @@ msgstr ""
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:7
 msgid "Search"
-msgstr ""
+msgstr "Cari"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:8
 msgid ""

@@ -13,9 +13,8 @@ msgstr ""
 "Project-Id-Version: gnome-abrt 1.2.9.3.g80d2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-25 10:14-0300\n"
-"PO-Revision-Date: 2025-04-08 15:01+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-04-09 15:53+0000\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/abrt/"
 "gnome-abrt/id/>\n"
 "Language: id\n"
@@ -74,19 +73,20 @@ msgstr "Kirim masalah yang dipilih"
 
 #: data/ui/oops-window.ui:97
 msgid "Create Report..."
-msgstr "Buat Laporan"
+msgstr "Buat Laporan..."
 
 #: data/ui/oops-window.ui:127
+#, fuzzy
 msgid "Search or type @ for crash types"
-msgstr ""
+msgstr "Cari atau ketikkan @ untuk tipe kres"
 
 #: data/ui/oops-window.ui:246
 msgid "Affected Component"
-msgstr ""
+msgstr "Komponen Yang Terpengaruh"
 
 #: data/ui/oops-window.ui:274
 msgid "Component Version"
-msgstr ""
+msgstr "Versi Komponen"
 
 #: data/ui/oops-window.ui:302 src/gnome_abrt/views.py:923
 msgid "Reported"
@@ -97,10 +97,8 @@ msgid "First Detected"
 msgstr "Pertama Terdeteksi"
 
 #: data/ui/oops-window.ui:369
-#, fuzzy
-#| msgid "First Detected"
 msgid "Times Detected"
-msgstr "Pertama Terdeteksi"
+msgstr "Berapa Kali Terdeteksi"
 
 #: data/ui/oops-window.ui:407
 msgid "No problems detected!"
@@ -134,7 +132,7 @@ msgstr "abrt;pelaporan bug;crash logger;"
 
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:7
 msgid "The ABRT Project"
-msgstr ""
+msgstr "Proyek ABRT"
 
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:11
 msgid ""

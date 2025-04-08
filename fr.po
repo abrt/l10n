@@ -18,13 +18,13 @@
 # Julie Carbone <jcarbone@redhat.com>, 2016. #zanata
 # Julius Milan <jmilan@redhat.com>, 2017. #zanata
 # Julien Humbert <julroy67@gmail.com>, 2020.
-# Léane GRASSER <leane.grasser@proton.me>, 2024.
+# Léane GRASSER <leane.grasser@proton.me>, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-09 10:42+0100\n"
-"PO-Revision-Date: 2024-10-17 09:38+0000\n"
+"PO-Revision-Date: 2025-04-08 14:53+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/abrt/"
 "libreport/fr/>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: ../src/cli/cli.c:66
 msgid ""
@@ -839,7 +839,7 @@ msgstr "données"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:7
 msgid "Search"
-msgstr "Recherche"
+msgstr "Rechercher"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:8
 msgid ""

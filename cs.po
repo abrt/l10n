@@ -9,17 +9,17 @@
 # František Zatloukal <Zatloukal.Frantisek@gmail.com>, 2016. #zanata
 # Jakub Filak <jfilak@redhat.com>, 2016. #zanata
 # Zdenek <chmelarz@gmail.com>, 2016. #zanata
-# Daniel Rusek <mail@asciiwolf.com>, 2017. #zanata
+# Daniel Rusek <mail@asciiwolf.com>, 2017. #zanata, 2025.
 # Zdenek <chmelarz@gmail.com>, 2018. #zanata
-# Daniel Rusek <mail@asciiwolf.com>, 2019. #zanata
+# Daniel Rusek <mail@asciiwolf.com>, 2019. #zanata, 2025.
 # Michal Konečný <michal.konecny@packetseekers.eu>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-abrt 1.2.9.3.g80d2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-25 10:14-0300\n"
-"PO-Revision-Date: 2020-02-16 15:38+0000\n"
-"Last-Translator: Michal Konečný <michal.konecny@packetseekers.eu>\n"
+"PO-Revision-Date: 2025-04-08 11:53+0000\n"
+"Last-Translator: Daniel Rusek <mail@asciiwolf.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/abrt/"
 "gnome-abrt/cs/>\n"
 "Language: cs\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.10.3\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: data/ui/oops-menus.ui:7 data/ui/oops-window.ui:79
 msgid "_Report"
@@ -42,16 +42,12 @@ msgid "D_etails"
 msgstr "D_etaily"
 
 #: data/ui/oops-menus.ui:19
-#, fuzzy
-#| msgid "_Open the problem data directory"
 msgid "_Open problem data directory"
 msgstr "_Otevřít adresář s daty problému"
 
 #: data/ui/oops-menus.ui:23
-#, fuzzy
-#| msgid "_Copy the problem ID to Clipboard"
 msgid "_Copy problem directory path to clipboard"
-msgstr "_Zkopírovat ID problému do schránky"
+msgstr "_Zkopírovat cestu k adresáři problému do schránky"
 
 #: data/ui/oops-menus.ui:27
 msgid "_Filter"
@@ -64,13 +60,11 @@ msgstr "O _aplikaci Hlášení problémů"
 
 #: data/ui/oops-window.ui:28
 msgid "Search"
-msgstr ""
+msgstr "Hledat"
 
 #: data/ui/oops-window.ui:35
-#, fuzzy
-#| msgid "Delete selected problems"
 msgid "Detected Crashes"
-msgstr "Smazat vybrané problémy"
+msgstr "Detekované pády"
 
 #: data/ui/oops-window.ui:61
 msgid "Delete selected problems"
@@ -82,19 +76,19 @@ msgstr "Odeslat vybraný problém"
 
 #: data/ui/oops-window.ui:97
 msgid "Create Report..."
-msgstr ""
+msgstr "Vytvořit hlášení..."
 
 #: data/ui/oops-window.ui:127
 msgid "Search or type @ for crash types"
-msgstr ""
+msgstr "vyhledejte nebo napište @ pro typy pádů"
 
 #: data/ui/oops-window.ui:246
 msgid "Affected Component"
-msgstr ""
+msgstr "Dotčená komponenta"
 
 #: data/ui/oops-window.ui:274
 msgid "Component Version"
-msgstr ""
+msgstr "Verze komponenty"
 
 #: data/ui/oops-window.ui:302 src/gnome_abrt/views.py:923
 msgid "Reported"
@@ -105,10 +99,8 @@ msgid "First Detected"
 msgstr "První výskyt"
 
 #: data/ui/oops-window.ui:369
-#, fuzzy
-#| msgid "First Detected"
 msgid "Times Detected"
-msgstr "První výskyt"
+msgstr "Počet výskytů"
 
 #: data/ui/oops-window.ui:407
 msgid "No problems detected!"
@@ -142,7 +134,7 @@ msgstr "abrt;reportování chyb;zaznamenávač pádů;"
 
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:7
 msgid "The ABRT Project"
-msgstr ""
+msgstr "Projekt ABRT"
 
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:11
 msgid ""

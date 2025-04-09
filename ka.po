@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # This file is put in the public domain.
 # Weblate <noreply@weblate.org>, 2020.
-# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022, 2023.
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022, 2023, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-abrt 1.2.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-25 10:14-0300\n"
-"PO-Revision-Date: 2023-07-14 05:21+0000\n"
+"PO-Revision-Date: 2025-04-09 15:53+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/abrt/"
 "gnome-abrt/ka/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: data/ui/oops-menus.ui:7 data/ui/oops-window.ui:79
 msgid "_Report"
@@ -31,16 +31,12 @@ msgid "D_etails"
 msgstr "დეტალები"
 
 #: data/ui/oops-menus.ui:19
-#, fuzzy
-#| msgid "_Open the problem data directory"
 msgid "_Open problem data directory"
 msgstr "პრობლემის მონაცემების საქაღალდის გახსნა"
 
 #: data/ui/oops-menus.ui:23
-#, fuzzy
-#| msgid "_Copy the problem ID to Clipboard"
 msgid "_Copy problem directory path to clipboard"
-msgstr "პრობლემის ID-ის ბაფერში კოპირება"
+msgstr "პრობლემის საქაღალდის ბილიკის ბუფერში კოპირება"
 
 #: data/ui/oops-menus.ui:27
 msgid "_Filter"
@@ -53,13 +49,11 @@ msgstr "პრობლემების ანგარიშის გად�
 
 #: data/ui/oops-window.ui:28
 msgid "Search"
-msgstr ""
+msgstr "ძებნა"
 
 #: data/ui/oops-window.ui:35
-#, fuzzy
-#| msgid "Delete selected problems"
 msgid "Detected Crashes"
-msgstr "მონიშნული პრობლემების წაშლა"
+msgstr "აღმოჩენილი ავარიები"
 
 #: data/ui/oops-window.ui:61
 msgid "Delete selected problems"
@@ -71,7 +65,7 @@ msgstr "მონიშნული პრობლემის გადაგ�
 
 #: data/ui/oops-window.ui:97
 msgid "Create Report..."
-msgstr ""
+msgstr "ანგარიშის შექმნა..."
 
 #: data/ui/oops-window.ui:127
 msgid "Search or type @ for crash types"
@@ -83,7 +77,7 @@ msgstr ""
 
 #: data/ui/oops-window.ui:274
 msgid "Component Version"
-msgstr ""
+msgstr "კომპონენტის ვერსია"
 
 #: data/ui/oops-window.ui:302 src/gnome_abrt/views.py:923
 msgid "Reported"
@@ -94,10 +88,8 @@ msgid "First Detected"
 msgstr "პირველი ნაპოვნი"
 
 #: data/ui/oops-window.ui:369
-#, fuzzy
-#| msgid "First Detected"
 msgid "Times Detected"
-msgstr "პირველი ნაპოვნი"
+msgstr "აღმოჩენების რაოდენობა"
 
 #: data/ui/oops-window.ui:407
 msgid "No problems detected!"
@@ -131,7 +123,7 @@ msgstr "abrt;bug reporting;crash logger;შეცდომებისგად�
 
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:7
 msgid "The ABRT Project"
-msgstr ""
+msgstr "პროექტი ABRT"
 
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:11
 msgid ""

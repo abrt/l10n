@@ -4,19 +4,19 @@
 #
 # Translators:
 # Jiří Moskovčák <jmoskovc@redhat.com>, 2011
-# Piotr Drąg <piotrdrag@gmail.com>, 2011-2014, 2020.
-# Piotr Drąg <piotrdrag@gmail.com>, 2015. #zanata, 2020.
-# Piotr Drąg <piotrdrag@gmail.com>, 2016. #zanata, 2020.
+# Piotr Drąg <piotrdrag@gmail.com>, 2011-2014, 2020, 2025.
+# Piotr Drąg <piotrdrag@gmail.com>, 2015. #zanata, 2020, 2025.
+# Piotr Drąg <piotrdrag@gmail.com>, 2016. #zanata, 2020, 2025.
 # Rafał Lużyński <digitalfreak@lingonborough.com>, 2016. #zanata
-# Piotr Drąg <piotrdrag@gmail.com>, 2018. #zanata, 2020.
+# Piotr Drąg <piotrdrag@gmail.com>, 2018. #zanata, 2020, 2025.
 # Rafał Lużyński <digitalfreak@lingonborough.com>, 2018. #zanata
-# Piotr Drąg <piotrdrag@gmail.com>, 2019. #zanata, 2020.
+# Piotr Drąg <piotrdrag@gmail.com>, 2019. #zanata, 2020, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-abrt 1.2.9.3.g80d2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-25 10:14-0300\n"
-"PO-Revision-Date: 2020-01-22 15:09+0000\n"
+"PO-Revision-Date: 2025-04-10 16:11+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/abrt/"
 "gnome-abrt/pl/>\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.10.3\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: data/ui/oops-menus.ui:7 data/ui/oops-window.ui:79
 msgid "_Report"
@@ -41,16 +41,12 @@ msgid "D_etails"
 msgstr "_Szczegóły"
 
 #: data/ui/oops-menus.ui:19
-#, fuzzy
-#| msgid "_Open the problem data directory"
 msgid "_Open problem data directory"
 msgstr "_Otwórz katalog danych problemu"
 
 #: data/ui/oops-menus.ui:23
-#, fuzzy
-#| msgid "_Copy the problem ID to Clipboard"
 msgid "_Copy problem directory path to clipboard"
-msgstr "S_kopiuj identyfikator problemu do schowka"
+msgstr "S_kopiuj ścieżkę do katalogu problemu do schowka"
 
 #: data/ui/oops-menus.ui:27
 msgid "_Filter"
@@ -63,13 +59,11 @@ msgstr "_O programie"
 
 #: data/ui/oops-window.ui:28
 msgid "Search"
-msgstr ""
+msgstr "Wyszukuje"
 
 #: data/ui/oops-window.ui:35
-#, fuzzy
-#| msgid "Delete selected problems"
 msgid "Detected Crashes"
-msgstr "Usuwa wybrane problemy"
+msgstr "Wykryte awarie"
 
 #: data/ui/oops-window.ui:61
 msgid "Delete selected problems"
@@ -81,19 +75,19 @@ msgstr "Wysyła wybrany problem"
 
 #: data/ui/oops-window.ui:97
 msgid "Create Report..."
-msgstr ""
+msgstr "Utwórz zgłoszenie…"
 
 #: data/ui/oops-window.ui:127
 msgid "Search or type @ for crash types"
-msgstr ""
+msgstr "Wyszukiwanie (wpisanie @ wyświetli typy awarii)"
 
 #: data/ui/oops-window.ui:246
 msgid "Affected Component"
-msgstr ""
+msgstr "Składnik, którego dotyczy"
 
 #: data/ui/oops-window.ui:274
 msgid "Component Version"
-msgstr ""
+msgstr "Wersja składnika"
 
 #: data/ui/oops-window.ui:302 src/gnome_abrt/views.py:923
 msgid "Reported"
@@ -104,10 +98,8 @@ msgid "First Detected"
 msgstr "Pierwsze wystąpienie"
 
 #: data/ui/oops-window.ui:369
-#, fuzzy
-#| msgid "First Detected"
 msgid "Times Detected"
-msgstr "Pierwsze wystąpienie"
+msgstr "Liczba wystąpień"
 
 #: data/ui/oops-window.ui:407
 msgid "No problems detected!"
@@ -141,7 +133,7 @@ msgstr "abrt;zgłaszanie błędów;bugów;awarii;problemów;"
 
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:7
 msgid "The ABRT Project"
-msgstr ""
+msgstr "Projekt ABRT"
 
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:11
 msgid ""

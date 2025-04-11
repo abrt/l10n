@@ -29,7 +29,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-09 10:42+0100\n"
-"PO-Revision-Date: 2025-04-01 09:13+0000\n"
+"PO-Revision-Date: 2025-04-12 00:46+0000\n"
 "Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/abrt/"
 "libreport/es/>\n"
@@ -833,7 +833,7 @@ msgstr "datos"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:7
 msgid "Search"
-msgstr "Buscar"
+msgstr "Búsqueda"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:8
 msgid ""

@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: gnome-abrt 1.2.9.3.g80d2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-25 10:14-0300\n"
-"PO-Revision-Date: 2025-04-01 09:13+0000\n"
+"PO-Revision-Date: 2025-04-11 19:05+0000\n"
 "Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/abrt/"
 "gnome-abrt/es/>\n"
@@ -51,16 +51,12 @@ msgid "D_etails"
 msgstr "_Detalles"
 
 #: data/ui/oops-menus.ui:19
-#, fuzzy
-#| msgid "_Open the problem data directory"
 msgid "_Open problem data directory"
-msgstr "_Abrir el directorio de datos de problemas"
+msgstr "_Abrir directorio de datos del problema"
 
 #: data/ui/oops-menus.ui:23
-#, fuzzy
-#| msgid "_Copy the problem ID to Clipboard"
 msgid "_Copy problem directory path to clipboard"
-msgstr "_Copiar id. del problema en portapapeles"
+msgstr "_Copiar ruta del directorio de problemas al portapapeles"
 
 #: data/ui/oops-menus.ui:27
 msgid "_Filter"
@@ -76,10 +72,8 @@ msgid "Search"
 msgstr ""
 
 #: data/ui/oops-window.ui:35
-#, fuzzy
-#| msgid "Delete selected problems"
 msgid "Detected Crashes"
-msgstr "Eliminar problemas seleccionados"
+msgstr "Choque Detectado"
 
 #: data/ui/oops-window.ui:61
 msgid "Delete selected problems"
@@ -91,19 +85,19 @@ msgstr "Enviar el problema seleccionado"
 
 #: data/ui/oops-window.ui:97
 msgid "Create Report..."
-msgstr ""
+msgstr "Crear informe…"
 
 #: data/ui/oops-window.ui:127
 msgid "Search or type @ for crash types"
-msgstr ""
+msgstr "Busque o teclee @ para tipos de problema"
 
 #: data/ui/oops-window.ui:246
 msgid "Affected Component"
-msgstr ""
+msgstr "Componente Afectado"
 
 #: data/ui/oops-window.ui:274
 msgid "Component Version"
-msgstr ""
+msgstr "Versión del componente"
 
 #: data/ui/oops-window.ui:302 src/gnome_abrt/views.py:923
 msgid "Reported"
@@ -114,10 +108,8 @@ msgid "First Detected"
 msgstr "Primera detección"
 
 #: data/ui/oops-window.ui:369
-#, fuzzy
-#| msgid "First Detected"
 msgid "Times Detected"
-msgstr "Primera detección"
+msgstr "Veces detectado"
 
 #: data/ui/oops-window.ui:407
 msgid "No problems detected!"
@@ -151,7 +143,7 @@ msgstr "abrt;informe de errores;bug reporting;crash logger;"
 
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:7
 msgid "The ABRT Project"
-msgstr ""
+msgstr "El Proyecto ABRT"
 
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:11
 msgid ""

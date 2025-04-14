@@ -7,13 +7,14 @@
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2016. #zanata
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2018. #zanata
 # Julen Sansó <julensanso@gmail.com>, 2023.
+# naly zzwd <xeanhort007@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-abrt 1.2.9.3.g80d2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-25 10:14-0300\n"
-"PO-Revision-Date: 2023-11-30 10:02+0000\n"
-"Last-Translator: Julen Sansó <julensanso@gmail.com>\n"
+"PO-Revision-Date: 2025-04-14 22:18+0000\n"
+"Last-Translator: naly zzwd <xeanhort007@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/abrt/"
 "gnome-abrt/ca/>\n"
 "Language: ca\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.2.1\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: data/ui/oops-menus.ui:7 data/ui/oops-window.ui:79
 msgid "_Report"
@@ -37,11 +38,11 @@ msgstr "D_etalls"
 
 #: data/ui/oops-menus.ui:19
 msgid "_Open problem data directory"
-msgstr ""
+msgstr "_Obre el directori de dades del problema"
 
 #: data/ui/oops-menus.ui:23
 msgid "_Copy problem directory path to clipboard"
-msgstr ""
+msgstr "_Copia la ruta del directori del problema al porta-retalls"
 
 #: data/ui/oops-menus.ui:27
 msgid "_Filter"
@@ -50,17 +51,15 @@ msgstr "_Filtre"
 #. Translators: This is the menu item which displays the About box. Note that "Problem Reporting" is the name of this application.
 #: data/ui/oops-menus.ui:44
 msgid "_About Problem Reporting"
-msgstr ""
+msgstr "Sobre l'informe de problemes"
 
 #: data/ui/oops-window.ui:28
 msgid "Search"
 msgstr ""
 
 #: data/ui/oops-window.ui:35
-#, fuzzy
-#| msgid "Delete selected problems"
 msgid "Detected Crashes"
-msgstr "Elimina els problemes seleccionats"
+msgstr "Fallides detectades"
 
 #: data/ui/oops-window.ui:61
 msgid "Delete selected problems"
@@ -68,23 +67,23 @@ msgstr "Elimina els problemes seleccionats"
 
 #: data/ui/oops-window.ui:83
 msgid "Submit selected problem"
-msgstr ""
+msgstr "Envia el problema seleccionat"
 
 #: data/ui/oops-window.ui:97
 msgid "Create Report..."
-msgstr ""
+msgstr "Crea l'informe..."
 
 #: data/ui/oops-window.ui:127
 msgid "Search or type @ for crash types"
-msgstr ""
+msgstr "Cerqueu o escriviu @ per als tipus d'error"
 
 #: data/ui/oops-window.ui:246
 msgid "Affected Component"
-msgstr ""
+msgstr "Component Afectat"
 
 #: data/ui/oops-window.ui:274
 msgid "Component Version"
-msgstr ""
+msgstr "Versió del Component"
 
 #: data/ui/oops-window.ui:302 src/gnome_abrt/views.py:923
 msgid "Reported"
@@ -95,10 +94,8 @@ msgid "First Detected"
 msgstr "Primer cop detectat"
 
 #: data/ui/oops-window.ui:369
-#, fuzzy
-#| msgid "First Detected"
 msgid "Times Detected"
-msgstr "Primer cop detectat"
+msgstr "Cops detectat"
 
 #: data/ui/oops-window.ui:407
 msgid "No problems detected!"
@@ -124,7 +121,7 @@ msgstr "Presentació d'informes del problema"
 #: src/org.freedesktop.GnomeAbrt.desktop.in:3
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:8
 msgid "View and report application crashes"
-msgstr "Visualitzeu i informeu les panes de les aplicacions"
+msgstr "Visualitzeu i informeu de les fallides en les aplicacions"
 
 #: src/org.freedesktop.GnomeAbrt.desktop.in:4
 msgid "abrt;bug reporting;crash logger;"
@@ -132,7 +129,7 @@ msgstr "abrt;informar d'errors;registrador de panes;"
 
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:7
 msgid "The ABRT Project"
-msgstr ""
+msgstr "El projecte ABRT"
 
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:11
 msgid ""

@@ -8,13 +8,15 @@
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2018. #zanata
 # Julen Sansó <julensanso@gmail.com>, 2023.
 # naly zzwd <xeanhort007@gmail.com>, 2025.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-abrt 1.2.9.3.g80d2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-25 10:14-0300\n"
 "PO-Revision-Date: 2025-04-14 22:18+0000\n"
-"Last-Translator: naly zzwd <xeanhort007@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/abrt/"
 "gnome-abrt/ca/>\n"
 "Language: ca\n"
@@ -55,7 +57,7 @@ msgstr "Sobre l'informe de problemes"
 
 #: data/ui/oops-window.ui:28
 msgid "Search"
-msgstr ""
+msgstr "Cerca"
 
 #: data/ui/oops-window.ui:35
 msgid "Detected Crashes"

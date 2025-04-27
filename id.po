@@ -8,13 +8,14 @@
 # Andika Triwidada <andika@gmail.com>, 2019. #zanata, 2020, 2021, 2025.
 # Didik Supriadi <didiksupriadi41@gmail.com>, 2021.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
+# Muhammad Difagama Ivanka <imdifagama@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-abrt 1.2.9.3.g80d2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-25 10:14-0300\n"
-"PO-Revision-Date: 2025-04-09 15:53+0000\n"
-"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"PO-Revision-Date: 2025-04-27 13:18+0000\n"
+"Last-Translator: Muhammad Difagama Ivanka <imdifagama@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/abrt/"
 "gnome-abrt/id/>\n"
 "Language: id\n"
@@ -22,11 +23,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.11\n"
 
 #: data/ui/oops-menus.ui:7 data/ui/oops-window.ui:79
 msgid "_Report"
-msgstr "Lapo_rkan"
+msgstr "_Laporkan"
 
 #: data/ui/oops-menus.ui:11 data/ui/oops-menus.ui:35
 msgid "_Delete"
@@ -38,7 +39,7 @@ msgstr "_Rincian"
 
 #: data/ui/oops-menus.ui:19
 msgid "_Open problem data directory"
-msgstr "Buka direkt_ori data masalah"
+msgstr "_Masalah Terbuka direktori data"
 
 #: data/ui/oops-menus.ui:23
 msgid "_Copy problem directory path to clipboard"
@@ -58,10 +59,8 @@ msgid "Search"
 msgstr "Cari"
 
 #: data/ui/oops-window.ui:35
-#, fuzzy
-#| msgid "Delete selected problems"
 msgid "Detected Crashes"
-msgstr "Kres Yang Terdeteksi"
+msgstr "Kerusakan yang Terdeteksi"
 
 #: data/ui/oops-window.ui:61
 msgid "Delete selected problems"
@@ -76,9 +75,8 @@ msgid "Create Report..."
 msgstr "Buat Laporan..."
 
 #: data/ui/oops-window.ui:127
-#, fuzzy
 msgid "Search or type @ for crash types"
-msgstr "Cari atau ketikkan @ untuk tipe kres"
+msgstr "Cari atau ketik @ untuk tipe kerusakan"
 
 #: data/ui/oops-window.ui:246
 msgid "Affected Component"
@@ -114,7 +112,7 @@ msgstr "Lebih detail"
 #. displayed when a user runs: `gnome-abrt --help'
 #: src/gnome-abrt:103
 msgid "Selected problem ID"
-msgstr "ID masalah yang dipilih"
+msgstr "ID masalah terpilih"
 
 #: src/gnome-abrt:227 src/org.freedesktop.GnomeAbrt.desktop.in:2
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:6

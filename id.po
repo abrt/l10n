@@ -13,9 +13,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-09 10:42+0100\n"
-"PO-Revision-Date: 2025-04-28 04:25+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-04-28 15:11+0000\n"
+"Last-Translator: Muhammad Difagama Ivanka <imdifagama@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/abrt/"
 "libreport/id/>\n"
 "Language: id\n"
@@ -1303,97 +1302,109 @@ msgstr "Bugzilla"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:2
 msgid "Report to Bugzilla bug tracker"
-msgstr ""
+msgstr "Laporkan ke pelacak bug Bugzilla"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:3
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:3
 #: ../src/plugins/report_Uploader.xml.in.h:6
 msgid "User name"
-msgstr ""
+msgstr "Nama pengguna"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:4
 msgid "Bugzilla account user name"
-msgstr ""
+msgstr "Nama pengguna akun Bugzilla"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:5
 msgid ""
 "You can create bugzilla.redhat.com account &lt;a href=\"https://bugzilla."
 "redhat.com/createaccount.cgi\"&gt;here&lt;/a&gt;"
 msgstr ""
+"Anda bisa membuat akun bugzilla.redhat.com &lt;a href="
+"\"https://bugzilla.redhat.com/createaccount.cgi\"&gt;here&lt;/a&gt;"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:6
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:6
 #: ../src/plugins/report_RHTSupport.xml.in.h:5
 #: ../src/plugins/report_Uploader.xml.in.h:8
 msgid "Password"
-msgstr ""
+msgstr "Kata Sandi"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:7
 msgid "Bugzilla account password"
-msgstr ""
+msgstr "Kata sandi akun Bugzilla"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:8
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:8
 msgid "Restrict access"
-msgstr ""
+msgstr "Akses terlarang"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:9
 msgid ""
 "Restrict access to the created bugzilla ticket allowing only users from "
 "specified groups to view it (see advanced settings for more details)"
 msgstr ""
+"Akses terlarang untuk membuat tiket bugzilla yang hanya membolehkan pengguna "
+"dari grup tertentu untuk melihatnya (lihat pengaturan lanjutan untuk "
+"informasi lebih rinci)"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:10
 msgid "Groups"
-msgstr ""
+msgstr "Kelompok"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:11
 msgid ""
 "Restrict the access to specified groups &lt;a href=\"https://github.com/abrt/"
 "abrt/wiki/FAQ#creating-private-bugzilla-tickets\"&gt;?&lt;/a&gt;"
 msgstr ""
+"Larang akses ke grup tertentu &lt;a href="
+"\"https://github.com/abrt/abrt/wiki/FAQ#creating-private-bugzilla-tickets\""
+"&gt;?&lt;/a&gt;"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:12
 msgid "Bugzilla URL"
-msgstr ""
+msgstr "Alamat URL Bugzilla"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:13
 msgid "Address of Bugzilla server"
-msgstr ""
+msgstr "Alamat dari server Bugzilla"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:14
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:12
 #: ../src/plugins/report_RHTSupport.xml.in.h:11
 #: ../src/plugins/report_uReport.xml.in.h:11
 msgid "Verify SSL"
-msgstr ""
+msgstr "Verifikasi SSL"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:15
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:13
 #: ../src/plugins/report_RHTSupport.xml.in.h:12
 #: ../src/plugins/report_uReport.xml.in.h:12
 msgid "Check SSL key validity"
-msgstr ""
+msgstr "Cek validitas key SSL"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:16
 msgid "Bugzilla product"
-msgstr ""
+msgstr "Produk Bugzilla"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:17
 msgid ""
 "Specify this only if you needed different product than specified in /etc/os-"
 "release"
 msgstr ""
+"Tetapkan hal ini hanya jika anda perlu produk berbeda dari yang telah ada di "
+"/etc/os-release"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:18
 msgid "Bugzilla product version"
-msgstr ""
+msgstr "Versi produk Bugzilla"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:19
 msgid ""
 "Specify this only if you needed different product version than specified in /"
 "etc/os-release"
 msgstr ""
+"Tetapkan hal ini hanya jika anda perlu versi produk berbeda dari yang ada di "
+"/etc/os-release"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:20
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:18
@@ -1402,7 +1413,7 @@ msgstr ""
 #: ../src/plugins/report_Uploader.xml.in.h:10
 #: ../src/plugins/report_uReport.xml.in.h:13
 msgid "HTTP Proxy"
-msgstr ""
+msgstr "_Fraksi HTTP"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:21
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:19
@@ -1411,7 +1422,7 @@ msgstr ""
 #: ../src/plugins/report_Uploader.xml.in.h:11
 #: ../src/plugins/report_uReport.xml.in.h:14
 msgid "Sets the proxy server to use for HTTP"
-msgstr ""
+msgstr "Atur server proxy untuk penggunaan HTTP"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:22
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:20
@@ -1420,7 +1431,7 @@ msgstr ""
 #: ../src/plugins/report_Uploader.xml.in.h:12
 #: ../src/plugins/report_uReport.xml.in.h:15
 msgid "HTTPS Proxy"
-msgstr ""
+msgstr "Fraksi HTTPS"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:23
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:21
@@ -1429,7 +1440,7 @@ msgstr ""
 #: ../src/plugins/report_Uploader.xml.in.h:13
 #: ../src/plugins/report_uReport.xml.in.h:16
 msgid "Sets the proxy server to use for HTTPS"
-msgstr ""
+msgstr "Atur server proxy untuk penggunaan HTTPS"
 
 #: ../src/plugins/report.c:37
 msgid ""
@@ -1443,48 +1454,64 @@ msgid ""
 "\n"
 "Configuration (such as login data) can be supplied via files\n"
 msgstr ""
+"& [-v] --target TARGET --ticket ID FILE...\n"
+"\n"
+"Unggah FILEs ke tiket tertentu pada TARGET.\n"
+"\n"
+"Alat ini disediakan untuk memudahkan transisi para pengguna dalam\n"
+"melaporkan paket ke liberport. Kenali TARGETs sebagai 'strata' dan "
+"'bugzilla',\n"
+"pertama kali mohon unggah ke RHTSupport dan selanjutnya - ke Bugzilla.\n"
+"\n"
+"Konfigurasi (seperti data login) bisa ditambahkan melalui file\n"
 
 #: ../src/plugins/report.c:59
 msgid "'strata' or 'bugzilla'"
-msgstr ""
+msgstr "'strata' atau 'bugzilla'"
 
 #: ../src/plugins/report.c:60
 msgid "Ticket/case ID"
-msgstr ""
+msgstr "ID tiket/kasus"
 
 #: ../src/plugins/reporter-bugzilla.c:183
 msgid ""
 "Warning, private ticket groups already specified as cmdline argument, "
 "ignoring the env variable and configuration"
 msgstr ""
+"Peringatan, grup tiket privat telah ditetapkan sebagai argumen cmdline, "
+"mengabaikan variabel dan konfigurasi env"
 
 #: ../src/plugins/reporter-bugzilla.c:194
 #: ../src/plugins/reporter-rhtsupport.c:384
 #: ../src/plugins/reporter-mantisbt.c:55
 msgid "Can't continue without login"
-msgstr ""
+msgstr "Tidak bisa lanjut tanpa login"
 
 #: ../src/plugins/reporter-bugzilla.c:207
 #: ../src/plugins/reporter-rhtsupport.c:397
 #: ../src/plugins/reporter-mantisbt.c:68
 msgid "Can't continue without password"
-msgstr ""
+msgstr "Tidak bisa lanjut tanpa kata sandi"
 
 #: ../src/plugins/reporter-bugzilla.c:216
 #, c-format
 msgid "Logging into Bugzilla at %s"
-msgstr ""
+msgstr "Masuk ke Bugzilla di %s"
 
 #: ../src/plugins/reporter-bugzilla.c:223
 #, c-format
 msgid "Invalid password or login. Please enter your %s login:"
 msgstr ""
+"Informasi kata sandi atau login tidak valid. Silahkan masukkan informasi "
+"login %s anda:"
 
 #: ../src/plugins/reporter-bugzilla.c:228
 #: ../src/plugins/reporter-rhtsupport.c:411
 #, c-format
 msgid "Invalid password or login. Please enter the password for '%s':"
 msgstr ""
+"Informasi kata sandi atau login tidak valid. Silahkan ketukkan kata sandi "
+"untuk '%s':"
 
 #: ../src/plugins/reporter-bugzilla.c:247
 msgid ""
@@ -1531,87 +1558,130 @@ msgid ""
 "\n"
 "If not specified, CONFFILE defaults to "
 msgstr ""
+"\n"
+"& [-vbf] [-g GROUP-NAME]... [-c CONFFILE]... [-F FMTFILE] [-A FMTFILE2] -d "
+"DIR\n"
+"or:\n"
+"& [-v] [-c CONFFILE]... [-d DIR] -t[ID] FILE...\n"
+"or:\n"
+"& [-v] [-c CONFFILE]... [-d DIR] -t[ID] -w\n"
+"or:\n"
+"& [-v] [-c CONFFILE]... -h DUPHASH [-p[PRODUCT]]\n"
+"\n"
+"Laporkan masalah ke Bugzilla.\n"
+"\n"
+"Alat membaca DIR. Kemudian masuk ke Bugzilla dan mencoba\n"
+"mencari bug dengan abrt_hash: HEXSTRING di 'Whiteboard'.\n"
+"\n"
+"Jika bug tidak ditemukan, maka bug baru dibuat. Elemen dari DIR\n"
+"disimpan dalam bug sebagai bagian dari deskripsi atau lampirannya,\n"
+"tergantung dari tipe dan ukuran bug itu.\n"
+"\n"
+"Sebaliknya, jika bug ditemukan dan ditandai CLOSED DUPLICATE,\n"
+"alat akan mengikuti rangkaian duplikat sampai ke bug non-DUPLICATE.\n"
+"Alat menambahkan komentar baru untuk bug yang didapatkan.\n"
+"\n"
+"Alamat URL ke bug baru atau modifikasi dicetak ke stdout serta dicatat\n"
+"dalam elemen 'reported_to'.\n"
+"\n"
+"Opsi -t unggah FILEs ke bug yang telah dibuat di situs Bugzilla.\n"
+"ID bug diambil dari direktori yang tertulis pada -d DIR.\n"
+"Jika data masalah di DIR tidak pernah dilaporkan ke Bugzilla,\n"
+"proses unggah akan otomatis gagal.\n"
+"\n"
+"Opsi -tID unggah FILEs ke bug dengan ID yang ada di situs Bugzilla.\n"
+"-d DIR akan diabaikan..\n"
+"\n"
+"Opsi -w menambahkan pengguna bugzilla ke daftar CC bug.\n"
+"\n"
+"Opsi -r menetapkan url terakhir dari elemen reporter_to dengan imbuhan awal\n"
+"TRACKER_NAME ke area URL. Opsi ini hanya diterapkan ketika bug baru diisi.\n"
+"Value bawaan adalah 'ABRT Server'\n"
+"\n"
+"Jika tidak diberikan, CONFFILE diatur ke bawaan "
 
 #: ../src/plugins/reporter-bugzilla.c:324
 #: ../src/plugins/reporter-rhtsupport.c:549
 #: ../src/plugins/reporter-mantisbt.c:284
 msgid "Configuration file (may be given many times)"
-msgstr ""
+msgstr "File konfigurasi (mungkin diberikan berulang kali)"
 
 #: ../src/plugins/reporter-bugzilla.c:325
 #: ../src/plugins/reporter-mantisbt.c:285
 msgid "Formatting file for initial comment"
-msgstr ""
+msgstr "Memformat file untuk komentar awal"
 
 #: ../src/plugins/reporter-bugzilla.c:326
 #: ../src/plugins/reporter-mantisbt.c:286
 msgid "Formatting file for duplicates"
-msgstr ""
+msgstr "Memformat file untuk duplikasi"
 
 #: ../src/plugins/reporter-bugzilla.c:327
 msgid "Attach FILEs [to bug with this ID]"
-msgstr ""
+msgstr "Lampirkan FILEs [keperluan bug dengan ID terkait]"
 
 #: ../src/plugins/reporter-bugzilla.c:328
 msgid "When creating bug, attach binary files too"
-msgstr ""
+msgstr "Ketika membuat bug, lampirkan file binary juga"
 
 #: ../src/plugins/reporter-bugzilla.c:329
 #: ../src/plugins/reporter-rhtsupport.c:551
 #: ../src/plugins/reporter-mantisbt.c:288
 msgid "Force reporting even if this problem is already reported"
-msgstr ""
+msgstr "Paksa laporan walau masalah ini telah dilaporkan sebelumnya"
 
 #: ../src/plugins/reporter-bugzilla.c:330
 msgid "Add bugzilla user to CC list [of bug with this ID]"
-msgstr ""
+msgstr "Tambahkan pengguna bugzilla ke daftar CC [dari bug dengan ID ini]"
 
 #: ../src/plugins/reporter-bugzilla.c:331
 #: ../src/plugins/reporter-mantisbt.c:289
 msgid "Print BUG_ID which has given DUPHASH"
-msgstr ""
+msgstr "Cetak BUG_ID yang memberikan DUPHASH"
 
 #: ../src/plugins/reporter-bugzilla.c:332
 msgid "Specify a Bugzilla product (ignored without -h)"
-msgstr ""
+msgstr "Tetapkan sebuah produk Bugzilla (abaikan jika tanpa -h)"
 
 #: ../src/plugins/reporter-bugzilla.c:333
 #: ../src/plugins/reporter-mantisbt.c:290
 msgid "A name of bug tracker for an additional URL from 'reported_to'"
-msgstr ""
+msgstr "Nama dari pelacak bug untuk alamat URL tambahan dari 'reported_to'"
 
 #: ../src/plugins/reporter-bugzilla.c:334
 msgid "Restrict access to this group only"
-msgstr ""
+msgstr "Batasi akses hanya untuk grup ini saja"
 
 #: ../src/plugins/reporter-bugzilla.c:335 ../src/plugins/reporter-mailx.c:292
 #: ../src/plugins/reporter-rhtsupport.c:555
 #: ../src/plugins/reporter-systemd-journal.c:255
 #: ../src/plugins/reporter-mantisbt.c:292
 msgid "Debug"
-msgstr ""
+msgstr "Perbaiki bug"
 
 #: ../src/plugins/reporter-bugzilla.c:402
 msgid "Looking for similar problems in bugzilla"
-msgstr ""
+msgstr "Mencari permasalahan yang sama di bugzilla"
 
 #: ../src/plugins/reporter-bugzilla.c:431
 msgid "Failed to get 'REDHAT_BUGZILLA_PRODUCT' from '/etc/os-release'."
-msgstr ""
+msgstr "Gagal mendapat 'REDHAT_BUGZILLA_PRODUCT' dari '/etc/os-release'."
 
 #: ../src/plugins/reporter-bugzilla.c:434
 msgid "Failed to read '/etc/os-release' to get Bugzilla product."
-msgstr ""
+msgstr "Gagal membaca'/etc/os-release' untuk mendapat produk Bugzilla."
 
 #: ../src/plugins/reporter-bugzilla.c:445
 #, c-format
 msgid "Using default product '%s'"
-msgstr ""
+msgstr "Menggunakan produk bawaan '%s'"
 
 #: ../src/plugins/reporter-bugzilla.c:468
 #, c-format
 msgid "Login is not provided by configuration. Please enter your %s login:"
 msgstr ""
+"Informasi login tidak diberikan oleh konfigurasi. Mohon masukkan informasi "
+"login %s anda:"
 
 #: ../src/plugins/reporter-bugzilla.c:476
 #: ../src/plugins/reporter-rhtsupport.c:597
@@ -1620,12 +1690,15 @@ msgid ""
 "Password is not provided by configuration. Please enter the password for "
 "'%s':"
 msgstr ""
+"Kata sandi tidak disediakan oleh konfigurasi. Mohon masukkan kata sandi "
+"untuk '%s':"
 
 #: ../src/plugins/reporter-bugzilla.c:500
 msgid ""
 "Can't get Bugzilla ID because this problem has not yet been reported to "
 "Bugzilla."
 msgstr ""
+"Tidak bisa mendapat ID Bugzilla karena masalah ini belum dilaporkan padanya."
 
 #: ../src/plugins/reporter-bugzilla.c:505
 #, c-format
@@ -1633,22 +1706,24 @@ msgid ""
 "This problem has been reported to Bugzilla '%s' which differs from the "
 "configured Bugzilla '%s'."
 msgstr ""
+"Masalah ini telah dilaporkan ke Bugzilla '%s' yangmana berbeda dari "
+"Bugzilla'%s' yang telah terkonfigurasi."
 
 #: ../src/plugins/reporter-bugzilla.c:509
 #, c-format
 msgid "Malformed url to Bugzilla '%s'."
-msgstr ""
+msgstr "Alamat url salah terbentuk ke Bugzilla '%s'."
 
 #: ../src/plugins/reporter-bugzilla.c:513
 #, c-format
 msgid "Using Bugzilla ID '%s'"
-msgstr ""
+msgstr "Memakai ID Bugzilla '%s'"
 
 #: ../src/plugins/reporter-bugzilla.c:547
 #: ../src/plugins/reporter-bugzilla.c:747
 #: ../src/plugins/reporter-bugzilla.c:943
 msgid "Logging out"
-msgstr ""
+msgstr "Keluar akun"
 
 #: ../src/plugins/reporter-bugzilla.c:579
 #, c-format
@@ -1656,15 +1731,17 @@ msgid ""
 "This problem was already reported to Bugzilla (see '%s'). Do you still want "
 "to create a new bug?"
 msgstr ""
+"Masalah ini telah dilaporkan ke Bugzilla (cek '%s'). Anda masih tetap ingin "
+"membuat bug baru?"
 
 #: ../src/plugins/reporter-bugzilla.c:609
 msgid "Can't determine Bugzilla Product from problem data."
-msgstr ""
+msgstr "Tidak bisa menentukan Produk Bugzilla dari data masalah."
 
 #: ../src/plugins/reporter-bugzilla.c:671
 #: ../src/plugins/reporter-mantisbt.c:506
 msgid "Checking for duplicates"
-msgstr ""
+msgstr "Memeriksa pemutakhiran"
 
 #: ../src/plugins/reporter-bugzilla.c:728
 #, c-format
@@ -1676,70 +1753,78 @@ msgid ""
 "report and close it as DUPLICATE of the original one? Otherwise, the bug "
 "reporting procedure will be terminated."
 msgstr ""
+"Anda telah memohon untuk menjadikan data anda hanya bisa diakses ke grup "
+"tertentu dan bug ini adalah duplikasi dari bug: %s/%u. Dalam keadaan terjadi "
+"duplikasi bug, sebuah komentar baru akan ditambah ke laporan bug asli namun "
+"akses ke komentar tidak bisa dibatasi ke grup tertentu. Maukah anda membuka "
+"laporan bug baru dan menutupnya sebagai DUPLICATE atas yang asli? Jika "
+"tidak, proses laporan bug akan langsung dibatalkan."
 
 #. Create new bug
 #: ../src/plugins/reporter-bugzilla.c:763
 msgid "Creating a new bug"
-msgstr ""
+msgstr "Membuat bug baru"
 
 #: ../src/plugins/reporter-bugzilla.c:782
 msgid "Failed to create a new bug."
-msgstr ""
+msgstr "Gagal membuat bug baru."
 
 #: ../src/plugins/reporter-bugzilla.c:800
 #, c-format
 msgid "Adding extra cc %s to bug report"
-msgstr ""
+msgstr "Menambahkan ekstra cc %s ke laporan bug"
 
 #: ../src/plugins/reporter-bugzilla.c:812
 #, c-format
 msgid "Adding External URL to bug %i"
-msgstr ""
+msgstr "Menambahkan alamat URL luar ke bug %i"
 
 #: ../src/plugins/reporter-bugzilla.c:819
 #, c-format
 msgid "Adding attachments to bug %i"
-msgstr ""
+msgstr "Menambahkan lampiran ke bug %i"
 
 #: ../src/plugins/reporter-bugzilla.c:841
 #, c-format
 msgid "Closing bug %i as duplicate of bug %i"
-msgstr ""
+msgstr "Menutup bug %i sebagai duplikasi atas bug %i"
 
 #: ../src/plugins/reporter-bugzilla.c:853
 #: ../src/plugins/reporter-mantisbt.c:622
 #, c-format
 msgid "Bug is already reported: %i"
-msgstr ""
+msgstr "Bug telah dilaporkan: %i"
 
 #: ../src/plugins/reporter-bugzilla.c:896
 #, c-format
 msgid "Adding %s to CC list"
-msgstr ""
+msgstr "Menambahkan %s ke daftar CC"
 
 #: ../src/plugins/reporter-bugzilla.c:917
 #, c-format
 msgid "Adding new comment to bug %d"
-msgstr ""
+msgstr "Menambahkan komentar baru ke bug %d"
 
 #: ../src/plugins/reporter-bugzilla.c:930
 #: ../src/plugins/reporter-mantisbt.c:672
 msgid "Attaching better backtrace"
-msgstr ""
+msgstr "Melampirkan backtrace yang lebih bagus"
 
 #: ../src/plugins/reporter-bugzilla.c:936
 msgid "Found the same comment in the bug history, not adding a new one"
 msgstr ""
+"Menemukan komentar yang sama di riwayat bug, sehingga yang baru tidak akan "
+"ditambahkan"
 
 #: ../src/plugins/reporter-bugzilla.c:946
 #, c-format
 msgid "Status: %s%s%s %s/show_bug.cgi?id=%u"
-msgstr ""
+msgstr "Status: %s%s%s %s/show_bug.cgi?id=%u"
 
 #: ../src/plugins/reporter-kerneloops.c:105
 #, c-format
 msgid "Submitting oops report to %s"
-msgstr ""
+msgstr "Mengirimkan laporan oops ke %s"
 
 #: ../src/plugins/reporter-kerneloops.c:154
 msgid ""
@@ -1754,6 +1839,16 @@ msgid ""
 "Recognized string parameter: SubmitURL.\n"
 "Parameter can be overridden via $KerneloopsReporter_SubmitURL."
 msgstr ""
+"& [-v] [-c CONFFILE]... -d DIR\n"
+"\n"
+"Melaporkan kernel oops ke situs kerneloops.org (atau yang semisal).\n"
+"\n"
+"Files dengan nama tercantum di $EXCLUDE_FROM_REPORT\n"
+"tidak akan dimasukkan ke tarball.\n"
+"\n"
+"Baris pada CONFFILE harus dalam format 'PARAM = VALUE'.\n"
+"Parameter string yang dikenali: SubmitURL.\n"
+"Parameter bisa ditimpa via $KerneloopsReporter_SubmitURL."
 
 #: ../src/plugins/reporter-kerneloops.c:174
 #: ../src/plugins/reporter-ureport.c:81
@@ -1766,30 +1861,32 @@ msgid ""
 "Email address of %s was not specified. Would you like to do so now? If not, "
 "'%s' is to be used"
 msgstr ""
+"Alamat surel dari %s tidak diberikan. Maukah anda untuk melakukannya "
+"sekarang? Jika tidak, '%s' yang akan digunakan"
 
 #: ../src/plugins/reporter-mailx.c:90
 #, c-format
 msgid "Please, type email address of %s:"
-msgstr ""
+msgstr "Silahkan mengetikkan alamat surel dari %s:"
 
 #: ../src/plugins/reporter-mailx.c:97
 #, c-format
 msgid "Can't continue without email address of %s"
-msgstr ""
+msgstr "Tidak bisa lanjut tanpa alamat surel dari %s"
 
 #: ../src/plugins/reporter-mailx.c:207
 #, c-format
 msgid "Sending a notification email to: %s"
-msgstr ""
+msgstr "Mengirim notifikasi surel ke: %s"
 
 #: ../src/plugins/reporter-mailx.c:209
 msgid "Sending an email..."
-msgstr ""
+msgstr "Mengirim surel..."
 
 #: ../src/plugins/reporter-mailx.c:243
 #, c-format
 msgid "Email was sent to: %s"
-msgstr ""
+msgstr "Surel telah terkirim ke: %s"
 
 #: ../src/plugins/reporter-mailx.c:266
 msgid ""
@@ -1799,18 +1896,23 @@ msgid ""
 "\n"
 "If not specified, CONFFILE defaults to "
 msgstr ""
+"& [-v] -d DIR [-c CONFFILE] [-F FMTFILE]\n"
+"\n"
+"Mengirim konten direktori masalah DIR lewat surel\n"
+"\n"
+"Jika tidak diberikan, memakai value bawaan CONFFILE "
 
 #: ../src/plugins/reporter-mailx.c:289 ../src/plugins/reporter-upload.c:187
 msgid "Config file"
-msgstr ""
+msgstr "File konfigurasi"
 
 #: ../src/plugins/reporter-mailx.c:290
 msgid "Formatting file for an email"
-msgstr ""
+msgstr "Memformat file untuk surel"
 
 #: ../src/plugins/reporter-mailx.c:291
 msgid "Notify only (Do not mark the report as sent)"
-msgstr ""
+msgstr "Berikan notifikasi saja (Jangan tandai laporan sebagai terkirim)"
 
 #: ../src/plugins/reporter-print.c:42
 msgid ""
@@ -1818,64 +1920,69 @@ msgid ""
 "\n"
 "Prints problem information to standard output or FILE"
 msgstr ""
+"& [-v] -d DIR [-o FILE] [-a yes/no] [-r]\n"
+"\n"
+"Cetak informasi masalah ke output standar atau FILE"
 
 #: ../src/plugins/reporter-print.c:57
 msgid "Output file"
-msgstr ""
+msgstr "File output"
 
 #: ../src/plugins/reporter-print.c:58
 msgid "Append to, or overwrite FILE"
-msgstr ""
+msgstr "Tambahkan ke FILE, atau ganti keseluruhan"
 
 #: ../src/plugins/reporter-print.c:59
 msgid "Create reported_to in DIR"
-msgstr ""
+msgstr "Membuat reported_to di DIR"
 
 #: ../src/plugins/reporter-print.c:98
 msgid "Cancelled by user."
-msgstr ""
+msgstr "Dibatalkan oleh pengguna."
 
 #: ../src/plugins/reporter-print.c:108
 #, c-format
 msgid "Can't open '%s' for writing. Please select another file:"
-msgstr ""
+msgstr "Tidak bisa membuka '%s' untuk ditulis. Silahkan pilih file lain:"
 
 #: ../src/plugins/reporter-print.c:153
 #, c-format
 msgid "The report was appended to %s"
-msgstr ""
+msgstr "Laporan telah ditambahkan ke %s"
 
 #: ../src/plugins/reporter-print.c:153
 #, c-format
 msgid "The report was stored to %s"
-msgstr ""
+msgstr "Laporan telah disimpan ke %s"
 
 #: ../src/plugins/reporter-rhtsupport.c:280
 #: ../src/plugins/reporter-ureport.c:311
 msgid "Failed to generate microreport from the problem data"
-msgstr ""
+msgstr "Gagal membuat laporan micro dari data masalah"
 
 #: ../src/plugins/reporter-rhtsupport.c:301
 #: ../src/plugins/reporter-ureport.c:340
 #, c-format
 msgid "Server responded with an error: '%s'"
-msgstr ""
+msgstr "Server merespon dengan kesalahan: '%s'"
 
 #: ../src/plugins/reporter-rhtsupport.c:361
 msgid "Do you still want to create a RHTSupport ticket?"
-msgstr ""
+msgstr "Apakah anda tetap mau membuat tiket RHTSupport?"
 
 #: ../src/plugins/reporter-rhtsupport.c:409
 msgid "Invalid password or login. Please enter your Red Hat login:"
 msgstr ""
+"Informasi kata sandi atau login salah. Silahkan masukkan informasi login Red "
+"Hat anda:"
 
 #: ../src/plugins/reporter-rhtsupport.c:473
 msgid "Please enter customer case number to which you want to attach the data:"
-msgstr ""
+msgstr "Silahkan masukkan nomor kasus pelanggan yang mau dilampirkan ke data:"
 
 #: ../src/plugins/reporter-rhtsupport.c:479
 msgid "Can't continue without Red Hat Support case number"
-msgstr ""
+msgstr "Tidak bisa melanjutkan tanpa nomor kasus Red Hat Support"
 
 #: ../src/plugins/reporter-rhtsupport.c:506
 msgid ""

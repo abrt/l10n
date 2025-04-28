@@ -6,13 +6,14 @@
 # Andika Triwidada <andika@gmail.com>, 2020, 2025.
 # Didik Supriadi <didiksupriadi41@gmail.com>, 2021.
 # Parasian Panjaitan <ssparasianpanjaitan@gmail.com>, 2021.
+# Muhammad Difagama Ivanka <imdifagama@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-09 10:42+0100\n"
-"PO-Revision-Date: 2025-04-09 15:53+0000\n"
-"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"PO-Revision-Date: 2025-04-28 03:50+0000\n"
+"Last-Translator: Muhammad Difagama Ivanka <imdifagama@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/abrt/"
 "libreport/id/>\n"
 "Language: id\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.11\n"
 
 #: ../src/cli/cli.c:66
 msgid ""
@@ -687,33 +688,33 @@ msgstr "'%s' bukan file biasa"
 
 #: ../src/gui-wizard-gtk/wizard.c:2901
 msgid "You are trying to copy a file onto itself"
-msgstr ""
+msgstr "Anda mencoba salin sebuah file ke file itu sendiri"
 
 #: ../src/gui-wizard-gtk/wizard.c:2907
 #, c-format
 msgid "Can't copy '%s': %s"
-msgstr ""
+msgstr "Tidak bisa menyalin'%s': %s"
 
 #: ../src/gui-wizard-gtk/wizard.c:2921
 #, c-format
 msgid "Item '%s' already exists and is not modifiable"
-msgstr ""
+msgstr "Item '%s' sudah ada dan tidak dapat diubah"
 
 #: ../src/gui-wizard-gtk/wizard.c:3087
 msgid "I have experienced this problem for the first time"
-msgstr ""
+msgstr "Saya pernah mengalami masalah ini untuk pertama kalinya"
 
 #: ../src/gui-wizard-gtk/wizard.c:3090
 msgid "I can reproduce this problem"
-msgstr ""
+msgstr "Saya bisa memunculkan lagi masalah ini"
 
 #: ../src/gui-wizard-gtk/wizard.c:3093
 msgid "This problem occurs repeatedly"
-msgstr ""
+msgstr "Masalah ini terjadi berulangkali"
 
 #: ../src/gui-wizard-gtk/wizard.c:3106
 msgid "Include"
-msgstr ""
+msgstr "Termasuk"
 
 #: ../src/gui-wizard-gtk/wizard.c:3117
 msgid "Name"
@@ -721,49 +722,49 @@ msgstr "Nama"
 
 #: ../src/gui-wizard-gtk/wizard.c:3127
 msgid "Value"
-msgstr ""
+msgstr "Nilai"
 
 #: ../src/gui-wizard-gtk/wizard.c:3162
 msgid "Problem description"
-msgstr ""
+msgstr "Deskripsi Masalah"
 
 #: ../src/gui-wizard-gtk/wizard.c:3163
 msgid "Select how to report this problem"
-msgstr ""
+msgstr "Pilih cara untuk melaporkan masalah ini"
 
 #: ../src/gui-wizard-gtk/wizard.c:3164
 msgid "Provide additional information"
-msgstr ""
+msgstr "Sediakan informasi tambahan"
 
 #: ../src/gui-wizard-gtk/wizard.c:3165
 msgid "Review the data"
-msgstr ""
+msgstr "Tinjau datanya"
 
 #: ../src/gui-wizard-gtk/wizard.c:3166
 msgid "Confirm data to report"
-msgstr ""
+msgstr "Konfirmasi data untuk dilaporkan"
 
 #: ../src/gui-wizard-gtk/wizard.c:3167
 msgid "Processing"
-msgstr ""
+msgstr "Diproses"
 
 #: ../src/gui-wizard-gtk/wizard.c:3168
 msgid "Processing done"
-msgstr ""
+msgstr "Proses telah selesai"
 
 #: ../src/gui-wizard-gtk/wizard.c:3208
 msgid "_Stop"
-msgstr ""
+msgstr "_Berhenti"
 
 #. else gtk_widget_hide won't work
 #: ../src/gui-wizard-gtk/wizard.c:3211
 msgid "Repeat"
-msgstr ""
+msgstr "Ulangi"
 
 #. else gtk_widget_hide won't work
 #: ../src/gui-wizard-gtk/wizard.c:3213
 msgid "_Forward"
-msgstr ""
+msgstr "_Teruskan"
 
 #. else gtk_widget_hide won't work
 #: ../src/gui-wizard-gtk/wizard.c:3216 ../src/gui-wizard-gtk/wizard.glade.h:9
@@ -772,21 +773,23 @@ msgstr "Rincian"
 
 #: ../src/gui-wizard-gtk/wizard.c:3263
 msgid "Restrict access to the report"
-msgstr ""
+msgstr "Batasi akses ke laporan tersebut"
 
 #: ../src/gui-wizard-gtk/wizard.c:3268
 msgid "Learn more about restricted access in the configuration"
-msgstr ""
+msgstr "Pelajari lebih lanjut terkait akses terbatas di konfigurasinya"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:1
 msgid ""
 "Please review the data before it gets reported. Depending on reporter "
 "chosen, it may end up publicly visible."
 msgstr ""
+"Harap tinjau datanya sebelum dilaporkan. Tergantung yang terpilih oleh "
+"reporter, ia mungkin berakhir terlihat secara publik."
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:2
 msgid "Sensitive words"
-msgstr ""
+msgstr "Perkataan sensitif"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:3
 msgid "Custom"
@@ -795,14 +798,15 @@ msgstr "Ubahan"
 #: ../src/gui-wizard-gtk/wizard.glade.h:4
 msgid "Clear the search bar to see the list of security sensitive words."
 msgstr ""
+"Hapus bilah pencari untuk melihat list dari perkataan keamanan sensitif."
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:5
 msgid "file"
-msgstr ""
+msgstr "berkas"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:6
 msgid "data"
-msgstr ""
+msgstr "data"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:7
 msgid "Search"
@@ -815,6 +819,10 @@ msgid ""
 "collected data, and to choose where the problem should be reported. Click "
 "'Forward' to proceed."
 msgstr ""
+"Pada layar berikut, anda akan diminta mendeskripsikan tentang bagaimana "
+"masalah bisa terjadi, untuk memilih bagaimana cara menganalisis masalah itu ("
+"jika perlu), mengulas data yang dikumpulkan, dan untuk memilih di mana "
+"masalah itu harus dilaporkan. Tekan 'Teruskan' untuk memproses."
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:10
 msgid ""
@@ -822,46 +830,53 @@ msgid ""
 "additional comments useful for diagnosing the problem? Please use English if "
 "possible."
 msgstr ""
+"Bagaimana masalah ini bisa terjadi (langkah demi langkah)? Bagaimana bisa "
+"dibuat ulang? Adakah tambahan komentar berguna untuk mendiagnosa masalah "
+"itu? Harap menggunakan bahasa Inggris jika memungkinkan."
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:11
 msgid "How reproducible is this problem?"
-msgstr ""
+msgstr "Seberapa mungkin masalah ini dibuat ulang?"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:12
 msgid "How it can be reproduced (one step per line)?"
-msgstr ""
+msgstr "Seberapa mungkin ia bisa dibuat ulang (1 langkah setiap baris)?"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:13
 msgid ""
 "Please add a comprehensive description of the problem you have. This is a "
 "very long place holder."
 msgstr ""
+"Silahkan tambahkan sebuah deskripsi menyeluruh atas masalah yang anda "
+"hadapi. Ini adalah place holder yang sangat panjang."
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:14
 msgid "You need to fill the how to before you can proceed..."
-msgstr ""
+msgstr "Anda perlu mengisi tentang bagaimana caranya sebelum bisa diproses..."
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:15
 msgid ""
 "<b>Your comments are not private.</b> They may be included into publicly "
 "visible problem reports."
 msgstr ""
+"<b>Komentar anda tidaklah privat.</b>Semuanya mungkin dimasukkan ke laporan "
+"masalah yang terlihat untuk publik."
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:16
 msgid "I don't know what caused this problem"
-msgstr ""
+msgstr "Saya tidak tahu apa penyebab masalah ini"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:17
 msgid "Size:"
-msgstr ""
+msgstr "Ukuran:"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:18
 msgid "Attach a file"
-msgstr ""
+msgstr "Lampirkan sebuah file"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:19
 msgid "I reviewed the data and _agree with submitting it"
-msgstr ""
+msgstr "Saya telah meninjau datanya dan _setuju untuk mengirimkannya"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:20
 msgid ""
@@ -869,18 +884,22 @@ msgid ""
 "data (such as usernames and passwords). Backtrace, command line, environment "
 "variables are the typical items in need of examining."
 msgstr ""
+"Jika anda sedang melaporkan ke sebuah server jarak jauh, pastikan anda telah "
+"menghapus semua data pribadi (seperti username dan kata sandi). Backtrace, "
+"command line, environment variables adalah hal-hal yang perlu untuk "
+"diperiksa."
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:21
 msgid "Processing did not start yet"
-msgstr ""
+msgstr "Proses belum dimulai sama sekali"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:22
 msgid "Show log"
-msgstr ""
+msgstr "Tunjukkan log"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:23
 msgid "Reporting has finished. You can close this window now."
-msgstr ""
+msgstr "Pelaporan telah selesai. Anda dapat keluar dari window ini sekarang."
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:24
 msgid ""
@@ -888,6 +907,9 @@ msgid ""
 "additional information, or provide a better problem description and repeat "
 "reporting process, press 'Forward'."
 msgstr ""
+"Jika anda ingin melaporkan masalah tersebut ke tujuan yang berbeda, maka "
+"kumpulkan informasi tambahan, atau sediakan deskripsi masalah yang lebih "
+"baik serta ulangi proses pelaporannya, lalu tekan 'Teruskan'."
 
 #: ../src/include/internal_libreport.h:1246
 msgid "Be verbose"
@@ -905,32 +927,32 @@ msgstr "Direktori masalah"
 #: ../src/lib/abrt_sock.c:161
 #, c-format
 msgid "Can't delete: '%s'"
-msgstr ""
+msgstr "Tidak bisa hapus: '%s'"
 
 #: ../src/lib/abrt_sock.c:197
 msgid "locked by another process"
-msgstr ""
+msgstr "terkunci oleh proses lain"
 
 #: ../src/lib/abrt_sock.c:206
 msgid "permission denied"
-msgstr ""
+msgstr "Izin ditolak"
 
 #: ../src/lib/abrt_sock.c:209
 msgid "not a problem directory"
-msgstr ""
+msgstr "bukan direktori masalah"
 
 #: ../src/lib/abrt_sock.c:218
 #, c-format
 msgid "Can't delete '%s': %s"
-msgstr ""
+msgstr "Tidak bisa hapus '%s':'%s'"
 
 #: ../src/lib/client.c:67 ../src/lib/client.c:99 ../src/lib/client.c:156
 msgid "y"
-msgstr ""
+msgstr "ok"
 
 #: ../src/lib/client.c:68 ../src/lib/client.c:100 ../src/lib/client.c:157
 msgid "N"
-msgstr ""
+msgstr "tidak"
 
 #: ../src/lib/client.c:101 ../src/lib/client.c:158
 msgid "f"
@@ -943,98 +965,98 @@ msgstr ""
 #: ../src/lib/create_dump_dir.c:32
 #, c-format
 msgid "uid value is not valid: '%s'"
-msgstr ""
+msgstr "nilai uid tidak valid: '%s'"
 
 #: ../src/lib/create_dump_dir.c:51
 #, c-format
 msgid "'%s' is not correct file name"
-msgstr ""
+msgstr "'%s' bukan nama file yang benar"
 
 #: ../src/lib/create_dump_dir.c:195
 #, c-format
 msgid "Missing required item: '%s'"
-msgstr ""
+msgstr "Kurang item yang wajib: '%s'"
 
 #: ../src/lib/curl.c:227
 #, c-format
 msgid "Uploaded: %llu of %llu kbytes"
-msgstr ""
+msgstr "Terunggah: %llu of %llu kbytes"
 
 #: ../src/lib/curl.c:636
 msgid "Ignoring URL without scheme and hostname"
-msgstr ""
+msgstr "Mengabaikan URL tanpa skema dan nama host"
 
 #. Do not include the path part of the URL as it can contain sensitive data
 #. * in case of typos
 #: ../src/lib/curl.c:666
 #, c-format
 msgid "Sending %s to %s//%s"
-msgstr ""
+msgstr "Mengirim '%s' ke %s//%s"
 
 #: ../src/lib/curl.c:690
 #, c-format
 msgid "Please enter user name for '%s//%s':"
-msgstr ""
+msgstr "Silahkan masukkan nama pengguna untuk' %s//%s':"
 
 #: ../src/lib/curl.c:696
 #, c-format
 msgid "Please enter password for '%s//%s@%s':"
-msgstr ""
+msgstr "Silahkan masukkan kata sandi untuk '%s//%s@%s':"
 
 #. This ends up a "reporting status message" in abrtd
 #: ../src/lib/curl.c:719
 #, c-format
 msgid "Successfully created %s"
-msgstr ""
+msgstr "Berhasil membuat %s"
 
 #: ../src/lib/dump_dir.c:2481
 msgid "Failed to open TAR writer"
-msgstr ""
+msgstr "Gagal membuka TAR writer"
 
 #: ../src/lib/dump_dir.c:2507
 msgid "Failed to finalize TAR archive"
-msgstr ""
+msgstr "Gagal menyelesaikan arsip TAR"
 
 #: ../src/lib/dump_dir.c:2517
 msgid "Failed to close TAR writer"
-msgstr ""
+msgstr "Gagal keluar dari TAR writer"
 
 #: ../src/lib/dump_dir.c:2527
 #, c-format
 msgid "gzip killed with signal %d"
-msgstr ""
+msgstr "gzip bisa dipaksa keluar dengan sinyal %d"
 
 #: ../src/lib/dump_dir.c:2533
 #, c-format
 msgid "gzip exited with %d"
-msgstr ""
+msgstr "gzip keluar dengan %d"
 
 #: ../src/lib/dump_dir.c:2536
 msgid "gzip process failed"
-msgstr ""
+msgstr "proses gzip gagal"
 
 #: ../src/lib/event_config.c:399
 msgid "Missing mandatory value"
-msgstr ""
+msgstr "Kurang value yang wajib ada"
 
 #: ../src/lib/event_config.c:407
 #, c-format
 msgid "Invalid utf8 character '%c'"
-msgstr ""
+msgstr "Karakter utf8 %c tidak valid"
 
 #: ../src/lib/event_config.c:420
 #, c-format
 msgid "Invalid number '%s'"
-msgstr ""
+msgstr "Nomor '%s' tidak valid"
 
 #: ../src/lib/event_config.c:435
 #, c-format
 msgid "Invalid boolean value '%s'"
-msgstr ""
+msgstr "Value boolean %s tidak valid"
 
 #: ../src/lib/event_config.c:441
 msgid "Unsupported option type"
-msgstr ""
+msgstr "Pilihan opsi tidak didukung"
 
 #: ../src/lib/event_config.c:516
 #, c-format
@@ -1042,26 +1064,34 @@ msgid ""
 "The problem cannot be reported due to an invalid data. '%s' file does not "
 "contain a number."
 msgstr ""
+"Masalah tidak bisa dilaporkan karena ada data tidak valid. File ' %s' tidak "
+"mengandung sebuah angka."
 
 #: ../src/lib/event_config.c:520
 msgid "Please report this problem to ABRT project developers."
-msgstr ""
+msgstr "Tolong laporkan masalah ini ke developer proyek ABRT."
 
 #: ../src/lib/event_config.c:526
 msgid ""
 "The backtrace is incomplete, please make sure you provide the steps to "
 "reproduce."
 msgstr ""
+"Proses backtrace belum selesai, mohon pastikan anda sudah menyediakan "
+"langkah-langkah yang tepat untuk membuat kembali hal itu."
 
 #: ../src/lib/event_config.c:527
 msgid "The backtrace probably can't help developer to diagnose the bug."
 msgstr ""
+"Proses backtrace kemungkinan tidak dapat membantu para developer untuk "
+"mendiagnosa bug yang ada."
 
 #: ../src/lib/event_config.c:533
 msgid ""
 "Reporting is disabled because the generated backtrace has low informational "
 "value."
 msgstr ""
+"Pelaporan dimatikan karena backtrace terbuat memiliki nilai informasi yang "
+"rendah."
 
 #: ../src/lib/event_config.c:537
 #, c-format
@@ -1069,25 +1099,28 @@ msgid ""
 "Please try to install debuginfo manually using the command: \"debuginfo-"
 "install %s\" and try again."
 msgstr ""
+"Silahkan coba instalasi debuginfo secara manual dengan kalimat perintah: "
+"\"debuginfo-install %s\" dan coba lagi."
 
 #: ../src/lib/event_config.c:539
 msgid "A proper debuginfo is probably missing or the coredump is corrupted."
 msgstr ""
+"debuginfo yang tepat kemungkinan hilang atau terjadi kerusakan pada coredump."
 
 #: ../src/lib/iso_date_string.c:50
 #, c-format
 msgid "String doesn't seem to be a date: '%s'"
-msgstr ""
+msgstr "String sepertinya bukan merupakan tanggal: '%s'"
 
 #: ../src/lib/iso_date_string.c:55
 #, c-format
 msgid "The date: '%s' has unrecognized suffix: '%s'"
-msgstr ""
+msgstr "Tanggal:' %s' memiliki imbuhan akhir: '%s' yang tidak dikenali"
 
 #: ../src/lib/iso_date_string.c:60
 #, c-format
 msgid "The date: '%s' is out of UNIX time stamp range"
-msgstr ""
+msgstr "Tanggal: '%s' diluar dari lingkup time stamp UNIX"
 
 #: ../src/lib/ureport.c:400
 #, c-format
@@ -1096,10 +1129,13 @@ msgid ""
 "\n"
 "%s\n"
 msgstr ""
+"Masalah anda sepertinya disebabkan oleh %s\n"
+"\n"
+"%s\n"
 
 #: ../src/lib/ureport.c:403
 msgid "Your problem seems to be caused by one of the following:\n"
-msgstr ""
+msgstr "Masalah anda sepertinya disebabkan dari salah satu dari hal berikut:\n"
 
 #: ../src/lib/ureport.c:575
 #, c-format

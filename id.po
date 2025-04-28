@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-09 10:42+0100\n"
-"PO-Revision-Date: 2025-04-28 03:50+0000\n"
+"PO-Revision-Date: 2025-04-28 04:25+0000\n"
 "Last-Translator: Muhammad Difagama Ivanka <imdifagama@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/abrt/"
 "libreport/id/>\n"
@@ -1140,64 +1140,65 @@ msgstr "Masalah anda sepertinya disebabkan dari salah satu dari hal berikut:\n"
 #: ../src/lib/ureport.c:575
 #, c-format
 msgid "Failed to upload uReport to the server '%s' with curl: %s"
-msgstr ""
+msgstr "Gagal mengunggah uReport ke server '%s' dengan curl: %s"
 
 #: ../src/lib/ureport.c:579
 #, c-format
 msgid "Failed to upload uReport to the server '%s'"
-msgstr ""
+msgstr "Gagal menunggah uReport ke server '%s'"
 
 #: ../src/lib/ureport.c:582
 #, c-format
 msgid "Error: %s"
-msgstr ""
+msgstr "Galat: %s"
 
 #: ../src/lib/ureport.c:589
 #, c-format
 msgid "The URL '%s' does not exist (got error 404 from server)"
-msgstr ""
+msgstr "URL '%s' tidak ada (error 404 dari server)"
 
 #: ../src/lib/ureport.c:595
 #, c-format
 msgid "The server at '%s' encountered an internal error (got error 500)"
-msgstr ""
+msgstr "Server di '%s' mengalami kesalahan internal (error 500)"
 
 #: ../src/lib/ureport.c:601
 #, c-format
 msgid "The server at '%s' currently can't handle the request (got error 503)"
 msgstr ""
+"Server di '%s' untuk saat ini tidak dapat menangani permintaan (error 503)"
 
 #. can't print better error message
 #: ../src/lib/ureport.c:610
 #, c-format
 msgid "Unexpected HTTP response from '%s': %d"
-msgstr ""
+msgstr "Respon HTTP tidak terduga dari '%s':%d"
 
 #: ../src/lib/ureport.c:619
 #, c-format
 msgid "Unable to parse response from ureport server at '%s'"
-msgstr ""
+msgstr "Tidak bisa mengurai respon dari server ureport di '%s'"
 
 #: ../src/lib/ureport.c:629
 #, c-format
 msgid "The response from '%s' has invalid format"
-msgstr ""
+msgstr "Respon dari '%s' memiliki format yang tidak valid"
 
 #. HTTP CODE 202 means that call was successful but the response
 #. has an error message
 #: ../src/lib/ureport.c:635
 #, c-format
 msgid "Type mismatch has been detected in the response from '%s'"
-msgstr ""
+msgstr "Ketidakcocokan tipe terdeteksi dalam respon '%s'"
 
 #: ../src/lib/ureport.c:861 ../src/plugins/reporter-rhtsupport.c:235
 msgid "Failed on submitting the problem"
-msgstr ""
+msgstr "Gagal mengirimkan masalah"
 
 #: ../src/lib/ureport.c:903
 #, c-format
 msgid "The server at '%s' responded with an error: '%s'"
-msgstr ""
+msgstr "Server di '%s' merespon dengan kesalahan: '%s'"
 
 #: ../src/lib/make_descr.c:149 ../src/lib/make_descr.c:160
 msgid "Reported:"
@@ -1209,85 +1210,90 @@ msgstr "tidak bisa dilaporkan"
 
 #: ../src/lib/parse_options.c:63
 msgid "Usage: "
-msgstr ""
+msgstr "Penggunaan: "
 
 #: ../src/lib/problem_data.c:252
 #, c-format
 msgid "Essential element '%s' is missing, can't continue"
-msgstr ""
+msgstr "Elemen penting '%s' tidak ada, maka tidak bisa lanjut"
 
 #: ../src/lib/problem_report.c:517
 #, c-format
 msgid "Can't parse backtrace: %s"
-msgstr ""
+msgstr "Tidak bisa memahami backtrace: %s"
 
 #: ../src/lib/problem_report.c:532
 msgid "Can't generate stacktrace description (no crash thread?)"
-msgstr ""
+msgstr "Tidak bisa membuat deskripsi stacktrace (tidak ada utas yang rusak?)"
 
 #: ../src/lib/report_result.c:265
 #, c-format
 msgid "Ignored invalid ISO date of report result '%s'"
-msgstr ""
+msgstr "Abaikan tanggal ISO tidak valid atas hasil laporan '%s'"
 
 #: ../src/lib/reporters.c:55
 msgid "Note does not contain rating"
-msgstr ""
+msgstr "Catatan tidak mengandung penilaian"
 
 #: ../src/lib/run_event.c:891
 #, c-format
 msgid "('%s' was killed by signal %u)\n"
-msgstr ""
+msgstr "('%s' telah dimatikan paksa oleh sinyal %u)\n"
 
 #: ../src/lib/run_event.c:893
 #, c-format
 msgid "('%s' completed successfully)\n"
-msgstr ""
+msgstr "('%s' telah berhasil selesai)\n"
 
 #: ../src/lib/run_event.c:895
 #, c-format
 msgid "('%s' exited with %u)\n"
-msgstr ""
+msgstr "('%s' keluar dengan %u)\n"
 
 #: ../src/plugins/abrt_rh_support.c:356
 #, c-format
 msgid "Error in case creation at '%s': %s"
-msgstr ""
+msgstr "Kesalahan dalam pembuatan kasus di '%s':%s"
 
 #: ../src/plugins/abrt_rh_support.c:365
 #, c-format
 msgid "Error in case creation at '%s', HTTP code: %d, server says: '%s'"
 msgstr ""
+"Kesalahan dalam pembuatan kasus di '%s', kode HTTP: %d, info server: '%s'"
 
 #: ../src/plugins/abrt_rh_support.c:369
 #, c-format
 msgid "Error in case creation at '%s', HTTP code: %d"
-msgstr ""
+msgstr "Kesalahan dalam pembuatan kasus di '%s', kode HTTP: %d"
 
 #: ../src/plugins/abrt_rh_support.c:420
 #, c-format
 msgid "Error in case creation at '%s': no Location URL, HTTP code: %d"
 msgstr ""
+"Kesalahan dalam pembuatan kasus di '%s': tidak ada Lokasi URL, kode HTTP: %d"
 
 #: ../src/plugins/abrt_rh_support.c:524
 #, c-format
 msgid "Error in comment creation at '%s': %s"
-msgstr ""
+msgstr "Kesalahan dalam pembuatan komentar di '%s':%s"
 
 #: ../src/plugins/abrt_rh_support.c:533
 #, c-format
 msgid "Error in comment creation at '%s', HTTP code: %d, server says: '%s'"
 msgstr ""
+"Kesalahan dalam pembuatan komentar di '%s', kode HTTP: %d, info server: '%s'"
 
 #: ../src/plugins/abrt_rh_support.c:537
 #, c-format
 msgid "Error in comment creation at '%s', HTTP code: %d"
-msgstr ""
+msgstr "Kesalahan dalam pembuatan komentar di '%s', kode HTTP: %d"
 
 #: ../src/plugins/abrt_rh_support.c:583
 #, c-format
 msgid "Error in comment creation at '%s': no Location URL, HTTP code: %d"
 msgstr ""
+"Kesalahan dalam pembuatan komentar di '%s': tidak ada Lokasi URL, kode HTTP: "
+"%d"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:1
 msgid "Bugzilla"

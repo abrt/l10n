@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: crash-catcher@lists.fedoraproject.org\n"
 "POT-Creation-Date: 2020-01-23 15:47+0100\n"
-"PO-Revision-Date: 2025-04-27 13:18+0000\n"
+"PO-Revision-Date: 2025-04-28 15:11+0000\n"
 "Last-Translator: Muhammad Difagama Ivanka <imdifagama@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/abrt/"
 "abrt/id/>\n"
@@ -877,7 +877,7 @@ msgstr ""
 #: ../src/plugins/abrt-action-generate-core-backtrace.c:95
 #, c-format
 msgid "Error: %s"
-msgstr ""
+msgstr "Galat: %s"
 
 #: ../src/plugins/abrt-action-install-debuginfo.in:61
 msgid "Can't open {0}: {1}"

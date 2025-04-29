@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: gnome-abrt 1.2.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-25 10:14-0300\n"
-"PO-Revision-Date: 2025-04-09 15:53+0000\n"
+"PO-Revision-Date: 2025-04-30 00:43+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/abrt/"
 "gnome-abrt/ka/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.11\n"
 
 #: data/ui/oops-menus.ui:7 data/ui/oops-window.ui:79
 msgid "_Report"
@@ -73,7 +73,7 @@ msgstr ""
 
 #: data/ui/oops-window.ui:246
 msgid "Affected Component"
-msgstr ""
+msgstr "შეეხო კომპონენტს"
 
 #: data/ui/oops-window.ui:274
 msgid "Component Version"

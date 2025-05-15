@@ -38,13 +38,14 @@
 # Emilio Herrera <ehespinosa57@gmail.com>, 2020.
 # Facundo <facevedo@disroot.org>, 2020.
 # Javier Francisco <fserrador@gmail.com>, 2025.
+# "Fco. Javier F. Serrador" <fserrador@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: crash-catcher@lists.fedoraproject.org\n"
 "POT-Creation-Date: 2020-01-23 15:47+0100\n"
-"PO-Revision-Date: 2025-04-01 09:13+0000\n"
-"Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
+"PO-Revision-Date: 2025-05-15 17:21+0000\n"
+"Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/abrt/"
 "abrt/es/>\n"
 "Language: es\n"
@@ -52,7 +53,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.11.3\n"
 
 #: ../src/applet/org.freedesktop.problems.applet.desktop.in.h:1
 msgid "Problem Reporting"
@@ -1665,7 +1666,7 @@ msgstr "Lista las caídas encontradas en la salida estándar"
 
 #: ../src/plugins/abrt-dump-journal-xorg.c:193
 msgid "Create new problem directory in DIR for every crash found"
-msgstr "Crea un directorio de problemas en DIR para cada fallo encontrado"
+msgstr "Crea un directorio de problema nuevo en DIR para cada fallo encontrado"
 
 #: ../src/plugins/abrt-dump-journal-xorg.c:202
 msgid "Journal filter e.g. '_COMM=gdm-x-session' (may be given many times)"
@@ -1701,7 +1702,7 @@ msgstr "Prime los datos del cuelgue encontrados en la salida estándar"
 
 #: ../src/plugins/abrt-dump-xorg.c:54
 msgid "Create problem directory in DIR for every crash found"
-msgstr "Crea un directorio de problemas en DIR para cada fallo encontrado"
+msgstr "Crea un directorio de problema en DIR para cada fallo encontrado"
 
 #: ../src/plugins/abrt-dump-xorg.c:108
 msgid "Failed to parse Backtrace from log file"
@@ -1962,7 +1963,7 @@ msgstr ""
 
 #: ../src/plugins/abrt-retrace-client.c:1261
 msgid "retrace server URI"
-msgstr "URL del servidor de rastreo"
+msgstr "URI del servidor de rastreo"
 
 #: ../src/plugins/abrt-retrace-client.c:1263
 msgid "(debug) show received HTTP headers"
@@ -2090,7 +2091,7 @@ msgstr ""
 
 #: ../src/plugins/analyze_RetraceServer.xml.in.h:3
 msgid "Retrace server URI"
-msgstr "URL del servidor de rastreo"
+msgstr "URI del servidor de rastreo"
 
 #: ../src/plugins/analyze_RetraceServer.xml.in.h:4
 msgid "Address of the retrace server"

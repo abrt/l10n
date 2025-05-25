@@ -2,13 +2,14 @@
 # This file is put in the public domain.
 # Weblate <noreply@weblate.org>, 2020.
 # rinalds rizikovs <rinalds2113@gmail.com>, 2023.
+# ℂ𝕠𝕠𝕠𝕝 ​​ <coool@mail.ee>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-abrt 1.2.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-25 10:14-0300\n"
-"PO-Revision-Date: 2023-06-28 09:20+0000\n"
-"Last-Translator: rinalds rizikovs <rinalds2113@gmail.com>\n"
+"PO-Revision-Date: 2025-05-25 09:26+0000\n"
+"Last-Translator: ℂ𝕠𝕠𝕠𝕝 ​​ <coool@mail.ee>\n"
 "Language-Team: Latvian <https://translate.fedoraproject.org/projects/abrt/"
 "gnome-abrt/lv/>\n"
 "Language: lv\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= "
 "19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);\n"
-"X-Generator: Weblate 4.18.1\n"
+"X-Generator: Weblate 5.11.3\n"
 
 #: data/ui/oops-menus.ui:7 data/ui/oops-window.ui:79
 msgid "_Report"
@@ -25,7 +26,7 @@ msgstr "_Ziņot"
 
 #: data/ui/oops-menus.ui:11 data/ui/oops-menus.ui:35
 msgid "_Delete"
-msgstr ""
+msgstr "_Dzēst"
 
 #: data/ui/oops-menus.ui:15
 msgid "D_etails"

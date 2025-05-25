@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: crash-catcher@lists.fedoraproject.org\n"
 "POT-Creation-Date: 2020-01-23 15:47+0100\n"
-"PO-Revision-Date: 2025-04-08 14:53+0000\n"
+"PO-Revision-Date: 2025-05-25 11:21+0000\n"
 "Last-Translator: Malaka Tharumuthu <malakat100@gmail.com>\n"
 "Language-Team: Sinhala <https://translate.fedoraproject.org/projects/abrt/"
 "abrt/si/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.11.3\n"
 
 #: ../src/applet/org.freedesktop.problems.applet.desktop.in.h:1
 msgid "Problem Reporting"
@@ -145,23 +145,23 @@ msgstr ""
 
 #: ../src/configuration-gui/abrt-config-widget.c:496
 msgid "The configuration option above can be configured in"
-msgstr ""
+msgstr "ඉහත වින්‍යාස විකල්පය වින්‍යාසගත කළ හැක්කේ"
 
 #: ../src/configuration-gui/abrt-config-widget.glade.h:1
 msgid "Ask before stealing directory"
-msgstr ""
+msgstr "ෆෝල්ඩරයක් වංචා කිරීමට පෙර අසන්න"
 
 #: ../src/configuration-gui/abrt-config-widget.glade.h:2
 msgid "Automatically send uReport"
-msgstr ""
+msgstr "ස්වයංක්‍රීයව uReport යවන්න"
 
 #: ../src/configuration-gui/abrt-config-widget.glade.h:3
 msgid "Shortened reporting"
-msgstr ""
+msgstr "කෙටි වාර්තාකරණය"
 
 #: ../src/configuration-gui/abrt-config-widget.glade.h:4
 msgid "Silent shortened reporting"
-msgstr ""
+msgstr "නිහඬ කෙටි වාර්තාකරණය"
 
 #: ../src/configuration-gui/abrt-config-widget.glade.h:5
 msgid ""
@@ -172,6 +172,12 @@ msgid ""
 "With option 'Never' the stack trace will be always generated locally. With "
 "option 'Ask' ABRT will always ask the user."
 msgstr ""
+"stack trace එකක් ජනනය කිරීම සඳහා coredump ගොනුව අවශ්‍ය වන අතර, එය කාලය සහ ඉඩ අවශ්‍ය "
+"වන ක්‍රියාවලියක් වේ. ABRT විසින් coredump එකෙන් stack trace එකක් ජනනය කරන සේවාවක් ලබා දේ"
+", නමුත් මෙම සේවාව භාවිතා කිරීමට ඔබට coredump එක අප්ලෝඩ් කිරීමට සිදුවේ. 'Always' විකල්පය "
+"තෝරා ඇත්නම් ABRT සැමවිටම පරිශීලකගෙන් අසන නෑමෙන්, ස්වයංක්‍රීයව coredump එක අප්ලෝඩ් කරයි. "
+"'Never' විකල්පය තෝරා ඇත්නම් stack trace එක සැමවිටම පරිගණකය තුළම ජනනය වේ. 'Ask' විකල්"
+"පය තෝරා ඇත්නම් ABRT සැමවිටම පරිශීලකගෙන් අසයි"
 
 #: ../src/configuration-gui/abrt-config-widget.glade.h:6
 msgid ""
@@ -180,6 +186,9 @@ msgid ""
 "directory. With this option disabled ABRT will move the problem directory "
 "without asking."
 msgstr ""
+"ABRT විසින් ගැටළු දත්ත සංරක්ෂණය කරන්නේ බහාළුම් තුළය. ABRT එකට ලිවිය හැකි බහාළුමක් අවශ්‍ය වන වි"
+"ට, එම බහාළුම පද්ධති ස්ථානයෙන් ඔබගේ ගෘහ බහාළුමට ගෙන යනු ලබයි. මෙම විකල්පය අක්‍රිය කර ඇත්නම් "
+"ABRT විසින් ගැටළු බහාළුම පරිශීලකගෙන් අසන්නේ නැතිවම ගෙන යයි."
 
 #: ../src/configuration-gui/abrt-config-widget.glade.h:7
 msgid ""
@@ -188,6 +197,10 @@ msgid ""
 "uReport is sent at beginning of reporting process. With this option enabled "
 "uReports are sent automatically immediately after problem detection."
 msgstr ""
+"uReport යනු ගැටළුවක සන්ක්ෂිප්ත සහ සම්පූර්ණයෙන් අනනෝන වාර්තාවකි. ගෝලීය ආවේණික ගැටළු ඉක්මනින් "
+"හඳුනාගැනීම සඳහා ABRT විසින් uReport භාවිතා කරයි. පෙරනිමි වින්‍යාසය යටතේ, වාර්තාකරණ ක්‍රියාවලි"
+"ය ආරම්භ වන විටම uReport යවනු ලැබේ. මෙම විකල්පය සක්‍රීය කළ පසු, ගැටළුවක් හඳුනාගත් තැනින් පසු "
+"වහාම uReports ස්වයංක්‍රීයව යවනු ලැබේ."
 
 #: ../src/configuration-gui/abrt-config-widget.glade.h:8
 msgid ""
@@ -195,6 +208,9 @@ msgid ""
 "in problem notification bubble will be interrupted after uReport is sent. "
 "You can always use the default problem browser to make complete report."
 msgstr ""
+"මෙම විකල්පය සක්‍රීය කර ඇති අවස්ථාවේදී, ගැටළුවේ දැනුම්දීම් බුබුළේ ඇති \"Report\" බොත්තම ක්ලික් "
+"කිරීමෙන් ආරම්භ වන වාර්තාකරණ ක්‍රියාවලිය uReport යැවූ පසු නවතනු ලැබේ. ඔබට සෑම විටම පෙරනිමි "
+"ගැටළු බ්‍රවුසරය භාවිතයෙන් පූර්ණ වාර්තාවක් සකස් කළ හැක."
 
 #: ../src/configuration-gui/abrt-config-widget.glade.h:9
 msgid ""

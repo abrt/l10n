@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: libreport 2.11.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-09 10:42+0100\n"
-"PO-Revision-Date: 2025-04-08 14:53+0000\n"
+"PO-Revision-Date: 2025-06-01 14:44+0000\n"
 "Last-Translator: Malaka Tharumuthu <malakat100@gmail.com>\n"
 "Language-Team: Sinhala <https://translate.fedoraproject.org/projects/abrt/"
 "libreport/si/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: ../src/cli/cli.c:66
 msgid ""
@@ -381,7 +381,7 @@ msgstr ""
 
 #: ../src/gtk-helpers/config_dialog.c:368 ../src/gui-wizard-gtk/wizard.c:3206
 msgid "_Close"
-msgstr ""
+msgstr "වසන්න"
 
 #: ../src/gtk-helpers/event_config_dialog.c:140
 msgid "Show password"

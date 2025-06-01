@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: crash-catcher@lists.fedoraproject.org\n"
 "POT-Creation-Date: 2020-01-23 15:47+0100\n"
-"PO-Revision-Date: 2025-05-25 11:21+0000\n"
+"PO-Revision-Date: 2025-06-01 14:44+0000\n"
 "Last-Translator: Malaka Tharumuthu <malakat100@gmail.com>\n"
 "Language-Team: Sinhala <https://translate.fedoraproject.org/projects/abrt/"
 "abrt/si/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.11.3\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: ../src/applet/org.freedesktop.problems.applet.desktop.in.h:1
 msgid "Problem Reporting"
@@ -217,20 +217,24 @@ msgid ""
 " With this option enabled ABRT never shows notifications of reported "
 "problems. Takes effect only if Shortened reporting is enabled."
 msgstr ""
+" මෙම විකල්පය සක්‍රීය කර ඇති විට ABRT විසින් වාර්තා කළ ගැටළු පිළිබඳ දැනුම්දීම් කිසිවිටෙකත් පෙන්වන්නේ "
+"නැහැ. මෙය බලපෑමක් ඇති කරන්නේ කෙටි කළ වාර්තාකිරීම සක්‍රීය කර ඇති විට පමණි."
 
 #: ../src/configuration-gui/abrt-config-widget.glade.h:10
 msgid ""
 " With this option enabled ABRT always create bug ticket with restricted "
 "access if possibly sensitive data are detected."
 msgstr ""
+" මෙම විකල්පය සක්‍රීය කර ඇති විට, සංවේදී දත්ත අනාවරණය වුවහොත්, ABRT සැමවිටම සීමිත ප්‍රවේශයක් සහි"
+"ත දෝෂ ටිකට් පතක් නිර්මාණය කරයි."
 
 #: ../src/configuration-gui/abrt-config-widget.glade.h:11
 msgid "Request private ticket for sensitive information"
-msgstr ""
+msgstr "සංවේදී තොරතුරු සඳහා පුද්ගලික ටිකට්පතක් ඉල්ලන්න"
 
 #: ../src/configuration-gui/abrt-config-widget.glade.h:12
 msgid "Notify incomplete problems"
-msgstr ""
+msgstr "අසම්පූර්ණ ගැටළු පිළිබඳ දැනුම්දෙන්න"
 
 #: ../src/configuration-gui/abrt-config-widget.glade.h:13
 msgid ""
@@ -238,30 +242,32 @@ msgid ""
 "logging out. In order to provide valuable problem reports, ABRT will not "
 "allow you to submit these problems."
 msgstr ""
+"පරිගණකය අගුළුදමන විට හෝ පරිශීලකයා පිටවෙන විට අසම්පූර්ණ ගැටළු හඳුනාගැනේ. වටිනා ගැටළු වාර්තා "
+"සපයනු පිණිස, මෙම ගැටළු ඉදිරිපත් කිරීමට ABRT ඔබට ඉඩ නොදෙනු ඇත."
 
 #: ../src/configuration-gui/abrt-config-widget.glade.h:14
 msgid "Always"
-msgstr ""
+msgstr "සැමවිටම"
 
 #: ../src/configuration-gui/abrt-config-widget.glade.h:15
 msgid "Never"
-msgstr ""
+msgstr "කිසිවිටෙකත් නැහැ"
 
 #: ../src/configuration-gui/abrt-config-widget.glade.h:16
 msgid "Ask"
-msgstr ""
+msgstr "අහන්න"
 
 #: ../src/configuration-gui/abrt-config-widget.glade.h:17
 msgid "Upload coredump for backtrace generation"
-msgstr ""
+msgstr "පසුසන් තැනීම (backtrace) සෑදීම සඳහා coredump එක උඩුගත කරන්න"
 
 #: ../src/configuration-gui/system-config-abrt.c:66
 msgid "_Close"
-msgstr ""
+msgstr "වසන්න"
 
 #: ../src/configuration-gui/system-config-abrt.c:75
 msgid "_Defaults"
-msgstr ""
+msgstr "පෙරනිමි අගයන්"
 
 #: ../src/configuration-gui/system-config-abrt.c:103
 #: ../src/configuration-gui/main.c:36

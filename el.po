@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: crash-catcher@lists.fedoraproject.org\n"
 "POT-Creation-Date: 2020-01-23 15:47+0100\n"
-"PO-Revision-Date: 2025-06-16 11:52+0000\n"
+"PO-Revision-Date: 2025-06-16 16:03+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/abrt/abrt/"
 "el/>\n"
@@ -276,7 +276,7 @@ msgstr ""
 
 #: ../src/daemon/abrt-action-save-package-data.c:470
 msgid "Configuration file"
-msgstr "Αρχείο παραμετροποίησης"
+msgstr "Αρχείο διαμόρφωσης"
 
 #: ../src/daemon/abrt-action-save-package-data.c:471
 msgid "Use this directory as RPM root"
@@ -313,7 +313,7 @@ msgstr "Καταγραφή στο syslog"
 
 #: ../src/daemon/abrt-server.c:1113 ../src/daemon/abrtd.c:754
 msgid "Add program names to log"
-msgstr "Προσθήκη του ονόματος του προγράμματος στο αρχείο καταγραφής"
+msgstr "Προσθήκη ονομάτων προγραμμάτων στο αρχείο καταγραφής"
 
 #: ../src/dbus/abrt-dbus.c:135
 #, c-format
@@ -1155,7 +1155,7 @@ msgstr ""
 #: ../src/plugins/abrt-dump-journal-core.c:572
 #: ../src/plugins/abrt-dump-journal-oops.c:223
 msgid "Print found oopses on standard output"
-msgstr "Η εκτύπωση βρήκε \"ουπς\" στην κανονική επιστροφή. "
+msgstr "Η εκτύπωση βρήκε σφάλματα στην κανονική έξοδο"
 
 #. oopses don't contain any sensitive info, and even
 #. * the old koops app was showing the oopses to all users

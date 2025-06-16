@@ -7,29 +7,30 @@
 # Jiří Moskovčák <jmoskovc@redhat.com>, 2011
 # Kranias Orestis <kraniasorestis@gmail.com>, 2013
 # skaftanis <skaftanis@gmail.com>, 2011
+# Jim Spentzos <jimspentzos2000@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: crash-catcher@lists.fedoraproject.org\n"
 "POT-Creation-Date: 2020-01-23 15:47+0100\n"
-"PO-Revision-Date: 2014-12-21 11:49+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Greek (http://www.transifex.com/projects/p/fedora-abrt/"
-"language/el/)\n"
+"PO-Revision-Date: 2025-06-16 11:52+0000\n"
+"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
+"Language-Team: Greek <https://translate.fedoraproject.org/projects/abrt/abrt/"
+"el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: ../src/applet/org.freedesktop.problems.applet.desktop.in.h:1
 msgid "Problem Reporting"
-msgstr ""
+msgstr "Αναφορά προβλημάτων"
 
 #: ../src/applet/org.freedesktop.problems.applet.desktop.in.h:2
 msgid "View and report application crashes"
-msgstr ""
+msgstr "Προβολή και αναφορά καταρρεύσεων εφαρμογών"
 
 #: ../src/applet/abrt-applet-application.c:157
 msgid "Be verbose"
@@ -41,7 +42,7 @@ msgstr ""
 
 #: ../src/applet/abrt-applet-application.c:534
 msgid "Oops!"
-msgstr ""
+msgstr "Ωχ!"
 
 #: ../src/applet/abrt-applet-application.c:573
 msgid "Report"
@@ -49,7 +50,7 @@ msgstr "Αναφορά"
 
 #: ../src/applet/abrt-applet-application.c:590
 msgid "Restart"
-msgstr ""
+msgstr "Επανεκκίνηση"
 
 #: ../src/applet/abrt-applet-application.c:663
 #, c-format

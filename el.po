@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: gnome-abrt 1.2.9.3.g80d2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-25 10:14-0300\n"
-"PO-Revision-Date: 2025-06-16 11:52+0000\n"
+"PO-Revision-Date: 2025-06-21 14:51+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/abrt/"
 "gnome-abrt/el/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: data/ui/oops-menus.ui:7 data/ui/oops-window.ui:79
 msgid "_Report"
@@ -31,15 +31,15 @@ msgstr "_Διαγραφή"
 
 #: data/ui/oops-menus.ui:15
 msgid "D_etails"
-msgstr ""
+msgstr "Λ_επτομέρειες"
 
 #: data/ui/oops-menus.ui:19
 msgid "_Open problem data directory"
-msgstr ""
+msgstr "Ά_νοιγμα καταλόγου δεδομένων προβλήματος"
 
 #: data/ui/oops-menus.ui:23
 msgid "_Copy problem directory path to clipboard"
-msgstr ""
+msgstr "_Αντιγραφή διαδρομής καταλόγου προβλήματος στο πρόχειρο"
 
 #: data/ui/oops-menus.ui:27
 msgid "_Filter"
@@ -48,67 +48,67 @@ msgstr "_Φίλτρο"
 #. Translators: This is the menu item which displays the About box. Note that "Problem Reporting" is the name of this application.
 #: data/ui/oops-menus.ui:44
 msgid "_About Problem Reporting"
-msgstr ""
+msgstr "_Σχετικά με την Αναφορά προβλημάτων"
 
 #: data/ui/oops-window.ui:28
 msgid "Search"
-msgstr ""
+msgstr "Αναζήτηση"
 
 #: data/ui/oops-window.ui:35
 msgid "Detected Crashes"
-msgstr ""
+msgstr "Εντοπισμένες καταρρεύσεις"
 
 #: data/ui/oops-window.ui:61
 msgid "Delete selected problems"
-msgstr ""
+msgstr "Διαγραφή επιλεγμένων προβλημάτων"
 
 #: data/ui/oops-window.ui:83
 msgid "Submit selected problem"
-msgstr ""
+msgstr "Υποβολή επιλεγμένου προβλήματος"
 
 #: data/ui/oops-window.ui:97
 msgid "Create Report..."
-msgstr ""
+msgstr "Δημιουργία αναφοράς..."
 
 #: data/ui/oops-window.ui:127
 msgid "Search or type @ for crash types"
-msgstr ""
+msgstr "Αναζήτηση ή πληκτρολόγηση «@» για τύπους καταρρεύσεων"
 
 #: data/ui/oops-window.ui:246
 msgid "Affected Component"
-msgstr ""
+msgstr "Επηρεασμένο στοιχείο"
 
 #: data/ui/oops-window.ui:274
 msgid "Component Version"
-msgstr ""
+msgstr "Έκδοση στοιχείου"
 
 #: data/ui/oops-window.ui:302 src/gnome_abrt/views.py:923
 msgid "Reported"
-msgstr ""
+msgstr "Αναφέρθηκε"
 
 #: data/ui/oops-window.ui:342
 msgid "First Detected"
-msgstr ""
+msgstr "Πρώτος εντοπισμός"
 
 #: data/ui/oops-window.ui:369
 msgid "Times Detected"
-msgstr ""
+msgstr "Φορές εντοπισμού"
 
 #: data/ui/oops-window.ui:407
 msgid "No problems detected!"
-msgstr ""
+msgstr "Δεν εντοπίστηκαν προβλήματα!"
 
 #. Translators: This is a description of --verbose command line option
 #. displayed when a user runs: `gnome-abrt --help'
 #: src/gnome-abrt:91
 msgid "Be verbose"
-msgstr ""
+msgstr "Λεπτομερής λειτουργία"
 
 #. Translators: This is a description of --problem command line option
 #. displayed when a user runs: `gnome-abrt --help'
 #: src/gnome-abrt:103
 msgid "Selected problem ID"
-msgstr ""
+msgstr "Αναγνωριστικό επιλεγμένου προβλήματος"
 
 #: src/gnome-abrt:227 src/org.freedesktop.GnomeAbrt.desktop.in:2
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:6
@@ -123,58 +123,66 @@ msgstr "Προβολή και αναφορά καταρρεύσεων εφαρμ
 #: src/org.freedesktop.GnomeAbrt.desktop.in:4
 msgid "abrt;bug reporting;crash logger;"
 msgstr ""
+"abrt;bug reporting;crash logger;αναφορά;πρόβλημα;κατάρρευση;ζήτημα;αναφορά "
+"προβλημάτων;αρχείο;καταγραφή;σφάλμα;"
 
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:7
 msgid "The ABRT Project"
-msgstr ""
+msgstr "Το έργο ABRT"
 
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:11
 msgid ""
 "Collection of software tools designed for collecting, analyzing and "
 "reporting of software issues."
 msgstr ""
+"Συλλογή εργαλείων λογισμικού για τη συγκέντρωση, την ανάλυση και την αναφορά "
+"προβλημάτων λογισμικού."
 
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:15
 msgid ""
 "Its main purpose is to ease the process of reporting an issue and finding a "
 "solution."
 msgstr ""
+"Κύριος σκοπός του είναι η διευκόλυνση της διαδικασίας αναφοράς προβλημάτων "
+"και εύρεσης λύσεων."
 
 #: src/gnome_abrt/dbus_problems.py:113
 #, python-brace-format
 msgid "Can't get interface '{0}' on path '{1}' in bus '{2}': {3}"
 msgstr ""
+"Δεν είναι δυνατή η λήψη της διεπαφής «{0}» στη διαδρομή «{1}» στον δίαυλο "
+"«{2}»: {3}"
 
 #. Translators: These are the problem types displayed in the problem
 #. list under the application name
 #: src/gnome_abrt/views.py:140 src/gnome_abrt/views.py:897
 msgid "Application Crash"
-msgstr ""
+msgstr "Κατάρρευση εφαρμογής"
 
 #: src/gnome_abrt/views.py:142 src/gnome_abrt/views.py:900
 msgid "System Crash"
-msgstr ""
+msgstr "Κατάρρευση συστήματος"
 
 #: src/gnome_abrt/views.py:144 src/gnome_abrt/views.py:903
 msgid "System Failure"
-msgstr ""
+msgstr "Αποτυχία συστήματος"
 
 #: src/gnome_abrt/views.py:146 src/gnome_abrt/views.py:906
 msgid "Misbehavior"
-msgstr ""
+msgstr "Εσφαλμένη συμπεριφορά"
 
 #: src/gnome_abrt/views.py:825
 msgid "Unexpected system error"
-msgstr ""
+msgstr "Απροσδόκητο σφάλμα συστήματος"
 
 #: src/gnome_abrt/views.py:827
 msgid "Fatal system failure"
-msgstr ""
+msgstr "Κρίσιμη αποτυχία συστήματος"
 
 #: src/gnome_abrt/views.py:830
 #, python-brace-format
 msgid "{0} quit unexpectedly"
-msgstr ""
+msgstr "Έγινε απρόσμενος τερματισμός του «{0}»"
 
 #. Translators: If application name is unknown,
 #. display neutral header "'Type' problem has been detected".
@@ -189,33 +197,33 @@ msgstr ""
 #: src/gnome_abrt/views.py:842
 #, python-brace-format
 msgid "{0} problem has been detected"
-msgstr ""
+msgstr "Εντοπίστηκε πρόβλημα {0}"
 
 #: src/gnome_abrt/views.py:846
 msgid "The system has encountered a problem and recovered."
-msgstr ""
+msgstr "Το σύστημα αντιμετώπισε και αποκατέστησε ένα πρόβλημα."
 
 #: src/gnome_abrt/views.py:848
 msgid "The system has encountered a problem and could not continue."
-msgstr ""
+msgstr "Το σύστημα αντιμετώπισε ένα πρόβλημα και δεν μπόρεσε να συνεχίσει."
 
 #: src/gnome_abrt/views.py:850
 msgid "The application encountered a problem and could not continue."
-msgstr ""
+msgstr "Η εφαρμογή αντιμετώπισε ένα πρόβλημα και δεν μπόρεσε να συνεχίσει."
 
 #. Translators: package name not available
 #. Translators: package version not available
 #: src/gnome_abrt/views.py:914 src/gnome_abrt/views.py:916
 msgid "N/A"
-msgstr ""
+msgstr "Μ/Δ"
 
 #: src/gnome_abrt/views.py:925
 msgid "cannot be reported"
-msgstr ""
+msgstr "δεν είναι δυνατή η αναφορά"
 
 #: src/gnome_abrt/views.py:931
 msgid "Reports"
-msgstr ""
+msgstr "Αναφορές"
 
 #: src/gnome_abrt/views.py:936
 msgid ""
@@ -224,6 +232,11 @@ msgid ""
 "Please consider also <b>reporting it</b> to Bugzilla in order to provide "
 "that. Thank you."
 msgstr ""
+"Αυτό το πρόβλημα έχει αναφερθεί, αλλά δεν έχει ανοιχτεί αίτημα στο "
+"<i>Bugzilla</i>. Οι προγραμματιστές μας ενδέχεται να χρειαστούν περισσότερες "
+"πληροφορίες για να διορθώσουν το πρόβλημα.\n"
+"Σκεφτείτε το ενδεχόμενο να κάνετε <b>αναφορά</b> και στο Bugzilla, ώστε να "
+"παρέχετε περισσότερες λεπτομέρειες. Σας ευχαριστούμε."
 
 #. Translators: Displayed after 'Reported' if a problem
 #. has been reported but we don't know where and when.
@@ -237,7 +250,7 @@ msgstr ""
 #. has not been reported.
 #: src/gnome_abrt/views.py:949
 msgid "no"
-msgstr ""
+msgstr "όχι"
 
 #~ msgid "_Preferences"
 #~ msgstr "_Προτιμήσεις"

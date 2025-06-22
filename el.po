@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-09 10:42+0100\n"
-"PO-Revision-Date: 2025-06-21 14:51+0000\n"
+"PO-Revision-Date: 2025-06-22 16:52+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/abrt/"
 "libreport/el/>\n"
@@ -378,7 +378,7 @@ msgstr ""
 
 #: ../src/gtk-helpers/config_dialog.c:368 ../src/gui-wizard-gtk/wizard.c:3206
 msgid "_Close"
-msgstr ""
+msgstr "_Κλείσιμο"
 
 #: ../src/gtk-helpers/event_config_dialog.c:140
 msgid "Show password"
@@ -468,7 +468,7 @@ msgstr ""
 
 #: ../src/gui-wizard-gtk/main.c:109
 msgid "Quit"
-msgstr ""
+msgstr "Έξοδος"
 
 #: ../src/gui-wizard-gtk/main.c:153
 msgid ""
@@ -836,7 +836,7 @@ msgstr "Λεπτομερής λειτουργία"
 #: ../src/plugins/reporter-systemd-journal.c:250
 #: ../src/plugins/reporter-upload.c:186 ../src/plugins/reporter-mantisbt.c:283
 msgid "Problem directory"
-msgstr ""
+msgstr "Κατάλογος προβλήματος"
 
 #: ../src/lib/abrt_sock.c:161
 #, c-format

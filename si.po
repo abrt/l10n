@@ -11,8 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-25 10:14-0300\n"
 "PO-Revision-Date: 2025-06-29 14:42+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Malaka Tharumuthu <malakat100@gmail.com>\n"
 "Language-Team: Sinhala <https://translate.fedoraproject.org/projects/abrt/"
 "gnome-abrt/si/>\n"
 "Language: si\n"
@@ -85,7 +84,7 @@ msgstr "බලපෑ සංරචකය"
 
 #: data/ui/oops-window.ui:274
 msgid "Component Version"
-msgstr ""
+msgstr "සංරචක අනුවාදය"
 
 #: data/ui/oops-window.ui:302 src/gnome_abrt/views.py:923
 msgid "Reported"
@@ -96,10 +95,8 @@ msgid "First Detected"
 msgstr "මුලින්ම හඳුනාගත් දිනය"
 
 #: data/ui/oops-window.ui:369
-#, fuzzy
-#| msgid "First Detected"
 msgid "Times Detected"
-msgstr "මුලින්ම හඳුනාගත් දිනය"
+msgstr "හඳුනාගත් වාර ගණන"
 
 #: data/ui/oops-window.ui:407
 msgid "No problems detected!"
@@ -109,7 +106,7 @@ msgstr "කිසිදු ගැටලුවක් හඳුනාගෙන න
 #. displayed when a user runs: `gnome-abrt --help'
 #: src/gnome-abrt:91
 msgid "Be verbose"
-msgstr ""
+msgstr "විස්තරාත්මක වන්න"
 
 #. Translators: This is a description of --problem command line option
 #. displayed when a user runs: `gnome-abrt --help'
@@ -133,7 +130,7 @@ msgstr "අවසන් කරන්න; දෝෂ වාර්තාකරණ�
 
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:7
 msgid "The ABRT Project"
-msgstr ""
+msgstr "ABRT ව්‍යාපෘතිය"
 
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:11
 msgid ""

@@ -4,13 +4,15 @@
 # Hela Basa <r45xveza@pm.me>, 2021.
 # Malaka Jayasinghe <malakat100@gmail.com>, 2025.
 # Malaka Tharumuthu <malakat100@gmail.com>, 2025.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-abrt\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-25 10:14-0300\n"
-"PO-Revision-Date: 2025-06-29 14:40+0000\n"
-"Last-Translator: Malaka Tharumuthu <malakat100@gmail.com>\n"
+"PO-Revision-Date: 2025-06-29 14:42+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Sinhala <https://translate.fedoraproject.org/projects/abrt/"
 "gnome-abrt/si/>\n"
 "Language: si\n"
@@ -118,12 +120,12 @@ msgstr "තෝරාගත් ප්‍රශ්න හැඳුනුම් අ
 #: src/gnome-abrt:227 src/org.freedesktop.GnomeAbrt.desktop.in:2
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:6
 msgid "Problem Reporting"
-msgstr ""
+msgstr "ගැටළු වාර්තා කිරීම"
 
 #: src/org.freedesktop.GnomeAbrt.desktop.in:3
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:8
 msgid "View and report application crashes"
-msgstr ""
+msgstr "යෙදුම් බිඳ වැටීම් බැලීම සහ වාර්තා කිරීම"
 
 #: src/org.freedesktop.GnomeAbrt.desktop.in:4
 msgid "abrt;bug reporting;crash logger;"

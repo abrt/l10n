@@ -14,9 +14,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: crash-catcher@lists.fedoraproject.org\n"
 "POT-Creation-Date: 2020-01-23 15:47+0100\n"
-"PO-Revision-Date: 2025-06-22 17:14+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-06-29 17:43+0000\n"
+"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/abrt/abrt/"
 "el/>\n"
 "Language: el\n"
@@ -97,18 +96,24 @@ msgid ""
 "We're sorry, it looks like a problem occurred in a component. The problem "
 "has been automatically reported."
 msgstr ""
+"Δυστυχώς, φαίνεται ότι προέκυψε πρόβλημα σε ένα στοιχείο. Έγινε αυτόματη "
+"αναφορά του προβλήματος."
 
 #: ../src/applet/abrt-applet-application.c:705
 msgid ""
 "We're sorry, it looks like a problem occurred in a component. The problem "
 "will be reported when the internet is available."
 msgstr ""
+"Δυστυχώς, φαίνεται ότι προέκυψε πρόβλημα σε ένα στοιχείο. Θα γίνει αναφορά "
+"του προβλήματος μόλις πραγματοποιηθεί σύνδεση στο διαδίκτυο."
 
 #: ../src/applet/abrt-applet-application.c:710
 msgid ""
 "We're sorry, it looks like a problem occurred. If you'd like to help resolve "
 "the issue, please send a report."
 msgstr ""
+"Δυστυχώς, φαίνεται ότι προέκυψε ένα πρόβλημα. Εάν θέλετε να συμβάλετε στην "
+"επίλυση του προβλήματος, στείλτε μια αναφορά."
 
 #. TODO: Terminate child's process?
 #: ../src/applet/abrt-applet-application.c:800 ../src/daemon/abrt-server.c:117
@@ -432,10 +437,8 @@ msgid ""
 msgstr ""
 
 #: ../src/daemon/abrt-upload-watch.c:281
-#, fuzzy
-#| msgid "Do not daemonize"
 msgid "Daemonize"
-msgstr "Μην το κάνεις Daemon"
+msgstr "Μετατροπή σε διεργασία παρασκηνίου"
 
 #: ../src/daemon/abrt-upload-watch.c:282
 msgid "Number of concurrent workers. Default is "
@@ -844,7 +847,7 @@ msgstr ""
 #: ../src/plugins/abrt-action-generate-core-backtrace.c:95
 #, c-format
 msgid "Error: %s"
-msgstr ""
+msgstr "Σφάλμα: %s"
 
 #: ../src/plugins/abrt-action-install-debuginfo.in:61
 msgid "Can't open {0}: {1}"
@@ -1657,10 +1660,8 @@ msgid ""
 msgstr ""
 
 #: ../src/plugins/abrt-retrace-client.c:1261
-#, fuzzy
-#| msgid "Retrace server URL"
 msgid "retrace server URI"
-msgstr "URL του εξυπηρετητή επανανίχνευσης"
+msgstr "URI διακομιστή retrace"
 
 #: ../src/plugins/abrt-retrace-client.c:1263
 msgid "(debug) show received HTTP headers"
@@ -1772,21 +1773,17 @@ msgid ""
 "Cons: coredump you upload contains all the data from the crashed program, "
 "including your private data, if any."
 msgstr ""
-"Ανεβάζει πληροφορίες σφάλματος σε εναν εξυπηρετητή, που παράγει backtrace "
-"και το επιστρέφει.\n"
-"Πλεονεκτήματα: Δεν χρειάζεται κατέβασμα πληροφοριών αποσφαλμάτωσης. Η βάση "
-"δεδομένων πληροφοριών αποσφαλμάτωσης του εξυπηρετητή επανανίχνευσης ειναι "
-"πιο πλήρης. Ο εξυπηρετητής επανανίχνευσης μπορεί να φτιάξει καλύτερα "
-"backtraces.\n"
-"Μειωνεκτήματα: Οι πληροφορίες σφάλματος που ανεβάζετε περιέχουν όλα τα "
-"δεδομένα του σπασμένου προγράμματος, συμπεριλαμβανομένων και των προσωπικών "
-"σας δεδομένων. "
+"Μεταφορτώνει το coredump σε έναν διακομιστή, ο οποίος δημιουργεί ένα "
+"backtrace και το επιστρέφει. Πλεονεκτήματα: δεν απαιτείται λήψη πληροφοριών "
+"αποσφαλμάτωσης. Η βάση δεδομένων αποσφαλμάτωσης του διακομιστή Retrace είναι "
+"πιο πλήρης. Ο διακομιστής Retrace ενδέχεται να δημιουργήσει καλύτερα "
+"backtrace. Μειονεκτήματα: το μεταφορτωμένο coredump περιέχει όλα τα δεδομένα "
+"του προγράμματος που κατέρρευσε, συμπεριλαμβανομένων των τυχόν ιδιωτικών "
+"δεδομένων σας."
 
 #: ../src/plugins/analyze_RetraceServer.xml.in.h:3
-#, fuzzy
-#| msgid "Retrace server URL"
 msgid "Retrace server URI"
-msgstr "URL του εξυπηρετητή επανανίχνευσης"
+msgstr "URL διακομιστή Retrace"
 
 #: ../src/plugins/analyze_RetraceServer.xml.in.h:4
 msgid "Address of the retrace server"
@@ -1984,12 +1981,9 @@ msgid "Start retracing process?"
 msgstr ""
 
 #: ../src/cli/abrtcli/cli/gdb.py:25
-#, fuzzy
-#| msgid "Download debuginfo packages and generate backtrace locally using GDB"
 msgid "install debuginfo packages before launching GDB"
 msgstr ""
-"Κατέβασε πακέτα πληροφοριών αποσφαλμάτωσης και δημιούργησε backtrace "
-"χρησιμοποιώντας τοπικά το GDB"
+"εγκατάσταση πακέτων πληροφοριών αποσφαλμάτωσης πριν από την εκκίνηση του GDB"
 
 #: ../src/cli/abrtcli/cli/gdb.py:38
 msgid "The problem is not of a C/C++ type. Can't run GDB"
@@ -2045,10 +2039,8 @@ msgid "perform retracing locally"
 msgstr ""
 
 #: ../src/cli/abrtcli/cli/retrace.py:26
-#, fuzzy
-#| msgid "Send core dump to remote retrace server for analysis"
 msgid "submit core dump for remote retracing"
-msgstr "Στείλε αναφορά σφάλματος στον απομακρυσμένο εξηπηρετητή για ανάλυση"
+msgstr "υποβολή coredump για απομακρυσμένη ιχνηλάτηση"
 
 #: ../src/cli/abrtcli/cli/retrace.py:29
 msgid "force retracing"

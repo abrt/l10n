@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gnome-abrt\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-25 10:14-0300\n"
-"PO-Revision-Date: 2025-04-07 00:48+0000\n"
+"PO-Revision-Date: 2025-06-29 14:40+0000\n"
 "Last-Translator: Malaka Tharumuthu <malakat100@gmail.com>\n"
 "Language-Team: Sinhala <https://translate.fedoraproject.org/projects/abrt/"
 "gnome-abrt/si/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: data/ui/oops-menus.ui:7 data/ui/oops-window.ui:79
 msgid "_Report"
@@ -55,13 +55,11 @@ msgstr "ගැටළු වාර්තා කිරීම ගැන"
 
 #: data/ui/oops-window.ui:28
 msgid "Search"
-msgstr ""
+msgstr "සොයන්න"
 
 #: data/ui/oops-window.ui:35
-#, fuzzy
-#| msgid "Delete selected problems"
 msgid "Detected Crashes"
-msgstr "තෝරාගත් ගැටළු මකන්න"
+msgstr "හඳුනාගත් දෝෂ"
 
 #: data/ui/oops-window.ui:61
 msgid "Delete selected problems"
@@ -73,15 +71,15 @@ msgstr "තෝරාගත් ගැටලුව ඉදිරිපත් කර
 
 #: data/ui/oops-window.ui:97
 msgid "Create Report..."
-msgstr ""
+msgstr "වාර්තාවක් සාදන්න..."
 
 #: data/ui/oops-window.ui:127
 msgid "Search or type @ for crash types"
-msgstr ""
+msgstr "ගැටළු වර්ග සෙවීම සඳහා @ යොදන්න"
 
 #: data/ui/oops-window.ui:246
 msgid "Affected Component"
-msgstr ""
+msgstr "බලපෑ සංරචකය"
 
 #: data/ui/oops-window.ui:274
 msgid "Component Version"

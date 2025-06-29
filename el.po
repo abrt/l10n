@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-09 10:42+0100\n"
-"PO-Revision-Date: 2025-06-22 17:14+0000\n"
+"PO-Revision-Date: 2025-06-29 17:43+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/abrt/"
 "libreport/el/>\n"
@@ -1051,7 +1051,7 @@ msgstr ""
 #: ../src/lib/ureport.c:582
 #, c-format
 msgid "Error: %s"
-msgstr ""
+msgstr "Σφάλμα: %s"
 
 #: ../src/lib/ureport.c:589
 #, c-format
@@ -1110,7 +1110,7 @@ msgstr "δεν είναι δυνατή η αναφορά"
 
 #: ../src/lib/parse_options.c:63
 msgid "Usage: "
-msgstr ""
+msgstr "Χρήση: "
 
 #: ../src/lib/problem_data.c:252
 #, c-format
@@ -1202,7 +1202,7 @@ msgstr ""
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:3
 #: ../src/plugins/report_Uploader.xml.in.h:6
 msgid "User name"
-msgstr ""
+msgstr "Όνομα χρήστη"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:4
 msgid "Bugzilla account user name"
@@ -1219,7 +1219,7 @@ msgstr ""
 #: ../src/plugins/report_RHTSupport.xml.in.h:5
 #: ../src/plugins/report_Uploader.xml.in.h:8
 msgid "Password"
-msgstr ""
+msgstr "Κωδικός πρόσβασης"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:7
 msgid "Bugzilla account password"

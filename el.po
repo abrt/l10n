@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: crash-catcher@lists.fedoraproject.org\n"
 "POT-Creation-Date: 2020-01-23 15:47+0100\n"
-"PO-Revision-Date: 2025-06-29 17:43+0000\n"
+"PO-Revision-Date: 2025-07-02 01:43+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/abrt/abrt/"
 "el/>\n"
@@ -220,7 +220,7 @@ msgstr ""
 
 #: ../src/configuration-gui/abrt-config-widget.glade.h:12
 msgid "Notify incomplete problems"
-msgstr ""
+msgstr "Ειδοποίηση για ατελή προβλήματα"
 
 #: ../src/configuration-gui/abrt-config-widget.glade.h:13
 msgid ""
@@ -256,7 +256,7 @@ msgstr "_Προεπιλογές"
 #: ../src/configuration-gui/system-config-abrt.c:103
 #: ../src/configuration-gui/main.c:36
 msgid "Problem Reporting Configuration"
-msgstr ""
+msgstr "Διαμόρφωση αναφοράς προβλημάτων"
 
 #: ../src/configuration-gui/main.c:75
 msgid "About System Config ABRT"

@@ -74,7 +74,7 @@ msgstr "Seçili sorunu gönder"
 
 #: data/ui/oops-window.ui:97
 msgid "Create Report..."
-msgstr "Rapor Oluştur..."
+msgstr "Rapor Oluştur"
 
 #: data/ui/oops-window.ui:127
 msgid "Search or type @ for crash types"

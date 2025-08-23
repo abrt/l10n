@@ -14,8 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-25 10:14-0300\n"
 "PO-Revision-Date: 2025-08-24 11:53+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Danni Lundgren <fedoraproject.footsie399@passmail.com>\n"
 "Language-Team: Danish <https://translate.fedoraproject.org/projects/abrt/"
 "gnome-abrt/da/>\n"
 "Language: da\n"
@@ -72,7 +71,7 @@ msgstr "Indsend valgte problem"
 
 #: data/ui/oops-window.ui:97
 msgid "Create Report..."
-msgstr "Opret rapport"
+msgstr "Opret rapport..."
 
 #: data/ui/oops-window.ui:127
 msgid "Search or type @ for crash types"

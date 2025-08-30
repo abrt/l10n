@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: libreport 2.11.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-09 10:42+0100\n"
-"PO-Revision-Date: 2025-06-29 14:42+0000\n"
+"PO-Revision-Date: 2025-08-31 15:53+0000\n"
 "Last-Translator: Malaka Tharumuthu <malakat100@gmail.com>\n"
 "Language-Team: Sinhala <https://translate.fedoraproject.org/projects/abrt/"
 "libreport/si/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.13\n"
 
 #: ../src/cli/cli.c:66
 msgid ""
@@ -471,7 +471,7 @@ msgstr ""
 
 #: ../src/gui-wizard-gtk/main.c:109
 msgid "Quit"
-msgstr ""
+msgstr "ඉවත් වන්න"
 
 #: ../src/gui-wizard-gtk/main.c:153
 msgid ""
@@ -839,7 +839,7 @@ msgstr "විස්තරාත්මක වන්න"
 #: ../src/plugins/reporter-systemd-journal.c:250
 #: ../src/plugins/reporter-upload.c:186 ../src/plugins/reporter-mantisbt.c:283
 msgid "Problem directory"
-msgstr ""
+msgstr "ප්‍රශ්න ගොනුව"
 
 #: ../src/lib/abrt_sock.c:161
 #, c-format
@@ -1653,7 +1653,7 @@ msgstr ""
 #: ../src/plugins/reporter-kerneloops.c:174
 #: ../src/plugins/reporter-ureport.c:81
 msgid "Configuration file"
-msgstr ""
+msgstr "සැකසුම් ගොනුව"
 
 #: ../src/plugins/reporter-mailx.c:83
 #, c-format

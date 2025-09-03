@@ -5,7 +5,7 @@
 # Translators:
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2017. #zanata, 2020.
 # Jan Kuparinen <copper_fin@hotmail.com>, 2020.
-# Ricky Tigg <ricky.tigg@gmail.com>, 2022.
+# Ricky Tigg <ricky.tigg@gmail.com>, 2022, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
 msgstr ""
@@ -13,8 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-25 10:14-0300\n"
 "PO-Revision-Date: 2025-09-04 07:53+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/abrt/"
 "gnome-abrt/fi/>\n"
 "Language: fi\n"
@@ -37,16 +36,12 @@ msgid "D_etails"
 msgstr "_Tiedot"
 
 #: data/ui/oops-menus.ui:19
-#, fuzzy
-#| msgid "_Open the problem data directory"
 msgid "_Open problem data directory"
 msgstr "_Avaa ongelmatietojen kansio"
 
 #: data/ui/oops-menus.ui:23
-#, fuzzy
-#| msgid "_Copy the problem ID to Clipboard"
 msgid "_Copy problem directory path to clipboard"
-msgstr "_Kopioi ongelman tunniste leikepöydälle"
+msgstr "_Kopioi ongelmahakemiston polku leikepöydälle"
 
 #: data/ui/oops-menus.ui:27
 msgid "_Filter"
@@ -62,10 +57,8 @@ msgid "Search"
 msgstr "Haku"
 
 #: data/ui/oops-window.ui:35
-#, fuzzy
-#| msgid "Delete selected problems"
 msgid "Detected Crashes"
-msgstr "Poista valitut ongelmat"
+msgstr "Havaitut kaatumiset"
 
 #: data/ui/oops-window.ui:61
 msgid "Delete selected problems"
@@ -77,19 +70,19 @@ msgstr "Lähetä valittu ongelma"
 
 #: data/ui/oops-window.ui:97
 msgid "Create Report..."
-msgstr ""
+msgstr "Luo raportti..."
 
 #: data/ui/oops-window.ui:127
 msgid "Search or type @ for crash types"
-msgstr ""
+msgstr "Hae tai syötä @ kaatumistyyppejä varten"
 
 #: data/ui/oops-window.ui:246
 msgid "Affected Component"
-msgstr ""
+msgstr "Vaikutuksenalainen komponentti"
 
 #: data/ui/oops-window.ui:274
 msgid "Component Version"
-msgstr ""
+msgstr "Komponentin versio"
 
 #: data/ui/oops-window.ui:302 src/gnome_abrt/views.py:923
 msgid "Reported"
@@ -100,10 +93,8 @@ msgid "First Detected"
 msgstr "Ensimmäinen havainto"
 
 #: data/ui/oops-window.ui:369
-#, fuzzy
-#| msgid "First Detected"
 msgid "Times Detected"
-msgstr "Ensimmäinen havainto"
+msgstr "Havaintokerrat"
 
 #: data/ui/oops-window.ui:407
 msgid "No problems detected!"
@@ -137,7 +128,7 @@ msgstr "abrt;bug reporting;crash logger;bugi;ongelma;kaatuminen;"
 
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:7
 msgid "The ABRT Project"
-msgstr ""
+msgstr "ABRT-projekti"
 
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:11
 msgid ""

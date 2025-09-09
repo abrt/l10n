@@ -589,7 +589,7 @@ msgstr ""
 
 #: ../src/gui-wizard-gtk/wizard.c:1843
 msgid "Processing..."
-msgstr ""
+msgstr "Γίνεται επεξεργασία"
 
 #: ../src/gui-wizard-gtk/wizard.c:1925
 msgid ""

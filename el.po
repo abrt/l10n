@@ -388,7 +388,7 @@ msgstr "_Κλείσιμο"
 
 #: ../src/gtk-helpers/event_config_dialog.c:140
 msgid "Show password"
-msgstr ""
+msgstr "Εμφάνιση κωδικού πρόσβασης"
 
 #: ../src/gtk-helpers/event_config_dialog.c:263
 msgid "Don't store passwords"
@@ -496,7 +496,7 @@ msgstr ""
 
 #: ../src/gui-wizard-gtk/wizard.c:731
 msgid "_Save"
-msgstr ""
+msgstr "Αποθήκευση"
 
 #: ../src/gui-wizard-gtk/wizard.c:874
 msgid ""

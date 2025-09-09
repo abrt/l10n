@@ -2347,7 +2347,7 @@ msgstr ""
 
 #: ../src/plugins/report_Uploader.xml.in.h:14
 msgid "FTP Proxy"
-msgstr ""
+msgstr "Διακομιστής μεσολάβησης _FTP"
 
 #: ../src/plugins/report_Uploader.xml.in.h:15
 msgid "Sets the proxy server to use for FTP"

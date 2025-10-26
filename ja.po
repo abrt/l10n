@@ -11,13 +11,15 @@
 # carrotsoft <www.carrotsoft@gmail.com>, 2011, 2012
 # Yūtenji <yuta@59ry.jp>, 2023, 2025.
 # Marcel Mazur <6m.mazur@gmail.com>, 2025.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-09 10:42+0100\n"
 "PO-Revision-Date: 2025-10-28 12:43+0000\n"
-"Last-Translator: Marcel Mazur <6m.mazur@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/abrt/"
 "libreport/ja/>\n"
 "Language: ja\n"
@@ -787,7 +789,7 @@ msgstr "ファイル"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:6
 msgid "data"
-msgstr ""
+msgstr "データ"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:7
 msgid "Search"

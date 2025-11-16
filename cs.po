@@ -17,14 +17,14 @@
 # Zdenek <chmelarz@gmail.com>, 2018. #zanata
 # Michal Konečný <michal.konecny@packetseekers.eu>, 2020.
 # Krystof Cerny <cleverline1mc@gmail.com>, 2021.
-# Pavel Borecki <pavel.borecki@gmail.com>, 2022, 2023.
+# Pavel Borecki <pavel.borecki@gmail.com>, 2022, 2023, 2025.
 # Jan Kalabza <jan.kalabza@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-09 10:42+0100\n"
-"PO-Revision-Date: 2023-07-24 20:21+0000\n"
+"PO-Revision-Date: 2025-11-17 21:58+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/abrt/"
 "libreport/cs/>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #: ../src/cli/cli.c:66
 msgid ""
@@ -1842,7 +1842,7 @@ msgstr ""
 #: ../src/plugins/reporter-kerneloops.c:174
 #: ../src/plugins/reporter-ureport.c:81
 msgid "Configuration file"
-msgstr "Konfigurační soubor"
+msgstr "Soubor s nastaveními"
 
 #: ../src/plugins/reporter-mailx.c:83
 #, c-format
@@ -2196,7 +2196,7 @@ msgstr "Soubor veřejného klíče SSH"
 
 #: ../src/plugins/reporter-upload.c:190
 msgid "SSH private key file"
-msgstr "Soubor soukromého klíče SSH"
+msgstr "Soubor se soukromým SSH klíčem"
 
 #: ../src/plugins/reporter-upload.c:219
 msgid ""

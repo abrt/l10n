@@ -18,7 +18,7 @@
 # Luca Ciavatta <luca.ciavatta@gmail.com>, 2017. #zanata
 # Luigi Toscano <luigi.toscano@tiscali.it>, 2017. #zanata
 # Agostino Montanaro <telometto@protonmail.com>, 2021.
-# Nathan <nathan95@live.it>, 2023.
+# Nathan <nathan95@live.it>, 2023, 2025.
 # Alessandro Bugliazzini <yattatux@posteo.net>, 2024.
 # Salvatore Cocuzza <info@salvatorecocuzza.it>, 2024, 2025.
 msgid ""
@@ -26,8 +26,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-09 10:42+0100\n"
-"PO-Revision-Date: 2025-04-13 02:40+0000\n"
-"Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
+"PO-Revision-Date: 2025-12-17 06:58+0000\n"
+"Last-Translator: Nathan <nathan95@live.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/abrt/"
 "libreport/it/>\n"
 "Language: it\n"
@@ -35,7 +35,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.15\n"
 
 #: ../src/cli/cli.c:66
 msgid ""
@@ -73,7 +73,7 @@ msgstr "Mostra versione ed esci"
 #: ../src/cli/cli.c:94
 msgid "Noninteractive: don't ask questions, assume 'yes'"
 msgstr ""
-"Noninteractive: nessuna conferma richiesta, assume sempre 'sì' come risposta "
+"Noninteractive: nessuna conferma richiesta, assume sempre 'sì' come risposta"
 
 #: ../src/cli/cli.c:96
 msgid "Log to syslog"

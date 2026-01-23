@@ -5,33 +5,36 @@
 # Translators:
 # Xosé <xosecalvo@gmail.com>, 2013
 # Xosé <xosecalvo@gmail.com>, 2013-2014
+# Alexandre Roman <xandreroman@proton.me>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: crash-catcher@lists.fedoraproject.org\n"
 "POT-Creation-Date: 2020-01-23 15:47+0100\n"
-"PO-Revision-Date: 2014-12-21 11:50+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Galician (http://www.transifex.com/projects/p/fedora-abrt/"
-"language/gl/)\n"
+"PO-Revision-Date: 2026-01-24 08:58+0000\n"
+"Last-Translator: Alexandre Roman <xandreroman@proton.me>\n"
+"Language-Team: Galician <https://translate.fedoraproject.org/projects/abrt/"
+"abrt/gl/>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: ../src/applet/org.freedesktop.problems.applet.desktop.in.h:1
+#, fuzzy
 msgid "Problem Reporting"
-msgstr ""
+msgstr "Informe de problemas"
 
 #: ../src/applet/org.freedesktop.problems.applet.desktop.in.h:2
 msgid "View and report application crashes"
-msgstr ""
+msgstr "Vista e informe de erros de aplicacións"
 
 #: ../src/applet/abrt-applet-application.c:157
+#, fuzzy
 msgid "Be verbose"
-msgstr ""
+msgstr "Ser minucioso"
 
 #: ../src/applet/abrt-applet-application.c:167
 #, fuzzy
@@ -43,11 +46,11 @@ msgid "Applet which notifies user when new problems are detected by ABRT"
 msgstr ""
 "& [-v] [DIR]...\n"
 "\n"
-"Applet que notifica o usuario cando o ABRT detecta problemas novos\n"
+"Applet que notifica o usuario cando o ABRT detecta problemas novos"
 
 #: ../src/applet/abrt-applet-application.c:534
 msgid "Oops!"
-msgstr ""
+msgstr "Ups!"
 
 #: ../src/applet/abrt-applet-application.c:573
 msgid "Report"
@@ -79,6 +82,8 @@ msgid ""
 "We're sorry, it looks like %s crashed. Please contact the developer if you "
 "want to report the issue."
 msgstr ""
+"Sentímolo, parece que %s fallou. Contacte co programador se quere informar "
+"deste problema."
 
 #: ../src/applet/abrt-applet-application.c:682
 #, c-format
@@ -86,18 +91,23 @@ msgid ""
 "We're sorry, it looks like %s crashed. If you'd like to help resolve the "
 "issue, please send a report."
 msgstr ""
+"Sentímolo, parece que %s fallou. Se quixer axudarnos a resolver o problema, "
+"envíenos un informe, por favor."
 
 #: ../src/applet/abrt-applet-application.c:701
 msgid ""
 "We're sorry, it looks like a problem occurred in a component. The problem "
 "has been automatically reported."
 msgstr ""
+"Sentímolo, houbo un problema nun compoñente. Foi comunicado automaticamente."
 
 #: ../src/applet/abrt-applet-application.c:705
 msgid ""
 "We're sorry, it looks like a problem occurred in a component. The problem "
 "will be reported when the internet is available."
 msgstr ""
+"Sentímolo, houbo un problema nun compoñente. Será comunicado cando haxa "
+"conexión a Internet."
 
 #: ../src/applet/abrt-applet-application.c:710
 msgid ""

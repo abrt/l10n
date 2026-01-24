@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-09 10:42+0100\n"
-"PO-Revision-Date: 2026-01-24 08:58+0000\n"
+"PO-Revision-Date: 2026-01-25 16:59+0000\n"
 "Last-Translator: Alexandre Roman <xandreroman@proton.me>\n"
 "Language-Team: Galician <https://translate.fedoraproject.org/projects/abrt/"
 "libreport/gl/>\n"
@@ -779,7 +779,7 @@ msgstr ""
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:7
 msgid "Search"
-msgstr ""
+msgstr "Procura"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:8
 msgid ""

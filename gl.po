@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: crash-catcher@lists.fedoraproject.org\n"
 "POT-Creation-Date: 2020-01-23 15:47+0100\n"
-"PO-Revision-Date: 2026-01-24 08:58+0000\n"
+"PO-Revision-Date: 2026-01-25 16:59+0000\n"
 "Last-Translator: Alexandre Roman <xandreroman@proton.me>\n"
 "Language-Team: Galician <https://translate.fedoraproject.org/projects/abrt/"
 "abrt/gl/>\n"
@@ -58,14 +58,14 @@ msgstr "Informe"
 
 #: ../src/applet/abrt-applet-application.c:590
 msgid "Restart"
-msgstr ""
+msgstr "Reiniciar"
 
 #: ../src/applet/abrt-applet-application.c:663
 #, c-format
 msgid ""
 "We're sorry, it looks like %s crashed. The problem has been automatically "
 "reported."
-msgstr ""
+msgstr "Sentímolo, parece que %s fallou. Foi comunicado automaticamente."
 
 #: ../src/applet/abrt-applet-application.c:668
 #, c-format
@@ -73,6 +73,8 @@ msgid ""
 "We’re sorry, it looks like %s crashed. The problem will be reported when the "
 "internet is available."
 msgstr ""
+"Sentímolo, parece que %s fallou. Será comunicado cando haxa conexión a "
+"Internet."
 
 #: ../src/applet/abrt-applet-application.c:674
 #: ../src/applet/abrt-applet-application.c:688
@@ -114,6 +116,8 @@ msgid ""
 "We're sorry, it looks like a problem occurred. If you'd like to help resolve "
 "the issue, please send a report."
 msgstr ""
+"Sentímolo, houbo un problema nun compoñente. Se quixer axudar a resolvelo, "
+"envíenos un informe, por favor."
 
 #. TODO: Terminate child's process?
 #: ../src/applet/abrt-applet-application.c:800 ../src/daemon/abrt-server.c:117
@@ -148,26 +152,29 @@ msgid ""
 "linked to the value of the setting 'report-technical-problems' from the "
 "schema 'org.gnome.desktop.privacy'."
 msgstr ""
+"Esta opción de configuración foi trasladada a GSettings e a súa activación "
+"está ligada ao valor do parámetro 'report-technical-problems' do esquema "
+"'org.gnome.desktop.privacy'."
 
 #: ../src/configuration-gui/abrt-config-widget.c:496
 msgid "The configuration option above can be configured in"
-msgstr ""
+msgstr "Esta opción de configuración pode ser modificada en"
 
 #: ../src/configuration-gui/abrt-config-widget.glade.h:1
 msgid "Ask before stealing directory"
-msgstr ""
+msgstr "Preguntar antes de alterar o directorio"
 
 #: ../src/configuration-gui/abrt-config-widget.glade.h:2
 msgid "Automatically send uReport"
-msgstr ""
+msgstr "Enviar automaticamente o uReport"
 
 #: ../src/configuration-gui/abrt-config-widget.glade.h:3
 msgid "Shortened reporting"
-msgstr ""
+msgstr "Informe abreviado"
 
 #: ../src/configuration-gui/abrt-config-widget.glade.h:4
 msgid "Silent shortened reporting"
-msgstr ""
+msgstr "Presentación silenciosa de informes abreviados"
 
 #: ../src/configuration-gui/abrt-config-widget.glade.h:5
 msgid ""
@@ -186,6 +193,10 @@ msgid ""
 "directory. With this option disabled ABRT will move the problem directory "
 "without asking."
 msgstr ""
+"A ABRT almacena os datos dos problemas en cartafoles. Cada vez que a ABRT "
+"precise dun cartafol con permisos de escritura, o cartafol será trasladado "
+"desde a localización do sistema ao seu cartafol persoal. Con esta opción "
+"deshabilitada, a ABRT moverá o cartafol do problema sen preguntar."
 
 #: ../src/configuration-gui/abrt-config-widget.glade.h:7
 msgid ""

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: gnome-abrt 1.2.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-25 10:14-0300\n"
-"PO-Revision-Date: 2026-01-24 08:58+0000\n"
+"PO-Revision-Date: 2026-01-25 16:59+0000\n"
 "Last-Translator: Alexandre Roman <xandreroman@proton.me>\n"
 "Language-Team: Galician <https://translate.fedoraproject.org/projects/abrt/"
 "gnome-abrt/gl/>\n"
@@ -46,12 +46,13 @@ msgstr ""
 
 #. Translators: This is the menu item which displays the About box. Note that "Problem Reporting" is the name of this application.
 #: data/ui/oops-menus.ui:44
+#, fuzzy
 msgid "_About Problem Reporting"
-msgstr ""
+msgstr "_Acerca de Informe de problemas"
 
 #: data/ui/oops-window.ui:28
 msgid "Search"
-msgstr ""
+msgstr "Procura"
 
 #: data/ui/oops-window.ui:35
 msgid "Detected Crashes"

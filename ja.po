@@ -12,14 +12,15 @@
 # Yūtenji <yuta@59ry.jp>, 2023, 2025.
 # Marcel Mazur <6m.mazur@gmail.com>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
+# Yoshiaki Ishii <zouforestyoppy@users.noreply.translate.fedoraproject.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-09 10:42+0100\n"
-"PO-Revision-Date: 2025-10-28 12:43+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2026-02-03 07:58+0000\n"
+"Last-Translator: Yoshiaki Ishii "
+"<zouforestyoppy@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/abrt/"
 "libreport/ja/>\n"
 "Language: ja\n"
@@ -27,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.13.3\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: ../src/cli/cli.c:66
 msgid ""
@@ -408,7 +409,7 @@ msgstr "設定(_O)"
 
 #: ../src/gtk-helpers/config_dialog.c:368 ../src/gui-wizard-gtk/wizard.c:3206
 msgid "_Close"
-msgstr "閉じる(_C)"
+msgstr "閉じる (_C)"
 
 #: ../src/gtk-helpers/event_config_dialog.c:140
 msgid "Show password"

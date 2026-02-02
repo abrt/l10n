@@ -9,13 +9,14 @@
 # Muhammad Difagama Ivanka <imdifagama@gmail.com>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 # data informasi <mh1227330@gmail.com>, 2025.
+# Arif Budiman <arifpedia@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-09 10:42+0100\n"
-"PO-Revision-Date: 2025-09-07 18:54+0000\n"
-"Last-Translator: data informasi <mh1227330@gmail.com>\n"
+"PO-Revision-Date: 2026-02-03 07:58+0000\n"
+"Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/abrt/"
 "libreport/id/>\n"
 "Language: id\n"
@@ -23,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.13.2\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: ../src/cli/cli.c:66
 msgid ""
@@ -958,11 +959,11 @@ msgstr "tidak"
 
 #: ../src/lib/client.c:101 ../src/lib/client.c:158
 msgid "f"
-msgstr ""
+msgstr "f"
 
 #: ../src/lib/client.c:159
 msgid "e"
-msgstr ""
+msgstr "e"
 
 #: ../src/lib/create_dump_dir.c:32
 #, c-format
@@ -1996,26 +1997,35 @@ msgid ""
 "\n"
 "If not specified, CONFFILE defaults to "
 msgstr ""
+"\n"
+"& [-v] [-c CONFFILE] [-F FMTFILE] -d DIR\n"
+"atau:\n"
+"& [-v] [-c CONFFILE] [-d DIR] -t[ID] [-u -C UR_CONFFILE] FILE...\n"
+"\n"
+"Melaporkan masalah ke RHTSupport.\n"
+"\n"
+"Jika tidak ditentukan, CONFFILE default ke "
 
 #: ../src/plugins/reporter-rhtsupport.c:550
 msgid "Upload FILEs [to case with this ID]"
-msgstr ""
+msgstr "Unggah FILE [ke kasus dengan ID ini]"
 
 #: ../src/plugins/reporter-rhtsupport.c:552
 msgid "Submit uReport before creating a new case"
-msgstr ""
+msgstr "Kirim uReport sebelum membuat kasus baru"
 
 #: ../src/plugins/reporter-rhtsupport.c:553
 msgid "Configuration file for uReport"
-msgstr ""
+msgstr "File konfigurasi untuk uReport"
 
 #: ../src/plugins/reporter-rhtsupport.c:554
 msgid "Formatting file for a new case"
-msgstr ""
+msgstr "File pemformatan untuk kasus baru"
 
 #: ../src/plugins/reporter-rhtsupport.c:591
 msgid "Login is not provided by configuration. Please enter your RHTS login:"
 msgstr ""
+"Login tidak disediakan oleh konfigurasi. Harap masukkan login RHTS Anda:"
 
 #: ../src/plugins/reporter-rhtsupport.c:647
 #, c-format
@@ -2024,19 +2034,22 @@ msgid ""
 "to the case? Otherwise, you will have to enter the existing Red Hat support "
 "case number."
 msgstr ""
+"Kami menemukan kasus dukungan Red Hat serupa %s. Apakah Anda ingin "
+"melampirkan data ke kasus tersebut? Jika tidak, Anda harus memasukkan nomor "
+"kasus dukungan Red Hat yang ada."
 
 #: ../src/plugins/reporter-rhtsupport.c:676
 #, c-format
 msgid "Attaching '%s' to case '%s'"
-msgstr ""
+msgstr "Melampirkan '%s' ke kasus '%s'"
 
 #: ../src/plugins/reporter-rhtsupport.c:720
 msgid "Sending ABRT crash statistics data"
-msgstr ""
+msgstr "Mengirim data statistik crash ABRT"
 
 #: ../src/plugins/reporter-rhtsupport.c:741
 msgid "Can't create a temporary directory in "
-msgstr ""
+msgstr "Tidak dapat membuat direktori sementara di "
 
 #: ../src/plugins/reporter-rhtsupport.c:766
 msgid ""
@@ -2044,6 +2057,9 @@ msgid ""
 "is unknown. Please ensure you will be able to provide detailed information "
 "to our Support Team. Would you like to continue and open a new support case?"
 msgstr ""
+"Masalah hanya terjadi sekali dan kemampuan untuk mereproduksi masalah tidak "
+"diketahui. Harap pastikan Anda dapat memberikan informasi rinci kepada Tim "
+"Dukungan kami. Apakah Anda ingin melanjutkan dan membuka kasus dukungan baru?"
 
 #: ../src/plugins/reporter-rhtsupport.c:779
 #, c-format
@@ -2051,6 +2067,8 @@ msgid ""
 "The crashed program was released by '%s'. Would you like to report the "
 "problem to Red Hat Support?"
 msgstr ""
+"Program yang crash dirilis oleh '%s'. Apakah Anda ingin melaporkan masalah "
+"ke Dukungan Red Hat?"
 
 #: ../src/plugins/reporter-rhtsupport.c:797
 #, c-format
@@ -2058,6 +2076,8 @@ msgid ""
 "The program '%s' does not appear to be provided by Red Hat. Would you like "
 "to report the problem to Red Hat Support?"
 msgstr ""
+"Program '%s' tampaknya tidak disediakan oleh Red Hat. Apakah Anda ingin "
+"melaporkan masalah ke Dukungan Red Hat?"
 
 #. Gzipping e.g. 0.5gig coredump takes a while. Let user know what we are doing
 #. error msg is already logged by dd_opendir
@@ -2065,53 +2085,53 @@ msgstr ""
 #: ../src/plugins/reporter-rhtsupport.c:861
 #: ../src/plugins/reporter-upload.c:103
 msgid "Compressing data"
-msgstr ""
+msgstr "Mengkompresi data"
 
 #: ../src/plugins/reporter-rhtsupport.c:869
 msgid "Can't create temporary file in "
-msgstr ""
+msgstr "Tidak dapat membuat file sementara di "
 
 #. Check for hints and show them if we have something
 #: ../src/plugins/reporter-rhtsupport.c:880
 msgid "Checking for hints"
-msgstr ""
+msgstr "Memeriksa petunjuk"
 
 #: ../src/plugins/reporter-rhtsupport.c:885
 msgid "Creating a new case"
-msgstr ""
+msgstr "Membuat kasus baru"
 
 #. How can we help user sorting out this problem?
 #: ../src/plugins/reporter-rhtsupport.c:896
 msgid "Can't determine RH Support Product from problem data."
-msgstr ""
+msgstr "Tidak dapat menentukan Produk Dukungan RH dari data masalah."
 
 #: ../src/plugins/reporter-rhtsupport.c:958
 msgid "Linking ABRT crash statistics record with the case"
-msgstr ""
+msgstr "Menghubungkan catatan statistik crash ABRT dengan kasus"
 
 #: ../src/plugins/reporter-rhtsupport.c:971
 #, c-format
 msgid "Linking ABRT crash statistics record with contact email: '%s'"
-msgstr ""
+msgstr "Menghubungkan catatan statistik crash ABRT dengan email kontak: '%s'"
 
 #: ../src/plugins/reporter-rhtsupport.c:995
 #, c-format
 msgid "Adding comment to case '%s'"
-msgstr ""
+msgstr "Menambahkan komentar ke kasus '%s'"
 
 #. Attach the tarball of -d DIR
 #: ../src/plugins/reporter-rhtsupport.c:1013
 #, c-format
 msgid "Attaching problem data to case '%s'"
-msgstr ""
+msgstr "Melampirkan data masalah ke kasus '%s'"
 
 #: ../src/plugins/reporter-rhtsupport-parse.c:202
 msgid "Documentation which might be relevant: "
-msgstr ""
+msgstr "Dokumentasi yang mungkin relevan: "
 
 #: ../src/plugins/reporter-rhtsupport-parse.c:210
 msgid "Updates which possibly help: "
-msgstr ""
+msgstr "Pembaruan yang mungkin membantu: "
 
 #: ../src/plugins/reporter-systemd-journal.c:225
 msgid ""
@@ -2124,39 +2144,47 @@ msgid ""
 "into systemd journal as a message. If MESSAGEID is defined, the tool\n"
 "creates a catalog message as well.\n"
 msgstr ""
+"& [-v] [-d DIR] [-m MESSAGEID] [-F FMTFILE] [-p NONE|ESSENTIAL|FULL] [-s "
+"SYSLOGID]\n"
+"\n"
+"Melaporkan informasi masalah ke journal systemd.\n"
+"\n"
+"Tool membaca direktori masalah DIR dan mengirimkan rincinya\n"
+"ke journal systemd sebagai pesan. Jika MESSAGEID didefinisikan, tool\n"
+"membuat pesan katalog juga.\n"
 
 #: ../src/plugins/reporter-systemd-journal.c:251
 msgid "Catalog message id"
-msgstr ""
+msgstr "Id pesan katalog"
 
 #: ../src/plugins/reporter-systemd-journal.c:252
 msgid "Formatting file for catalog message"
-msgstr ""
+msgstr "File pemformatan untuk pesan katalog"
 
 #: ../src/plugins/reporter-systemd-journal.c:253
 msgid "Dump problem dir into systemd journal fields"
-msgstr ""
+msgstr "Dump direktori masalah ke field journal systemd"
 
 #: ../src/plugins/reporter-systemd-journal.c:254
 msgid "Define SYSLOG_IDENTIFIER systemd journal field"
-msgstr ""
+msgstr "Definisikan field journal systemd SYSLOG_IDENTIFIER"
 
 #: ../src/plugins/reporter-upload.c:29
 msgid "Can't continue without URL"
-msgstr ""
+msgstr "Tidak dapat melanjutkan tanpa URL"
 
 #. Be permissive and nice, ask only once and don't check
 #. the result. User can dismiss this prompt but the upload
 #. may work somehow???
 #: ../src/plugins/reporter-upload.c:51
 msgid "Please enter password for uploading:"
-msgstr ""
+msgstr "Harap masukkan kata sandi untuk mengunggah:"
 
 #. success
 #: ../src/plugins/reporter-upload.c:120
 #, c-format
 msgid "Archive is created: '%s'"
-msgstr ""
+msgstr "Arsip dibuat: '%s'"
 
 #: ../src/plugins/reporter-upload.c:156
 msgid ""
@@ -2165,39 +2193,43 @@ msgid ""
 "Uploads compressed tarball of problem directory DIR to URL.\n"
 "If URL is not specified, creates tarball in "
 msgstr ""
+"& [-v] -d DIR [-c CONFFILE] [-u URL] [-b FILE] [-r FILE]\n"
+"\n"
+"Mengunggah tarball terkompresi dari direktori masalah DIR ke URL.\n"
+"Jika URL tidak ditentukan, membuat tarball di "
 
 #: ../src/plugins/reporter-upload.c:188
 msgid "Base URL to upload to"
-msgstr ""
+msgstr "URL dasar untuk diunggah ke"
 
 #: ../src/plugins/reporter-upload.c:189
 msgid "SSH public key file"
-msgstr ""
+msgstr "File kunci publik SSH"
 
 #: ../src/plugins/reporter-upload.c:190
 msgid "SSH private key file"
-msgstr ""
+msgstr "File kunci privat SSH"
 
 #: ../src/plugins/reporter-upload.c:219
 msgid ""
 "Please enter a URL (scp, ftp, etc.) where the problem data is to be exported:"
-msgstr ""
+msgstr "Harap masukkan URL (scp, ftp, dll.) tempat data masalah akan diekspor:"
 
 #: ../src/plugins/reporter-mantisbt.c:80
 msgid "Please enter your MantisBT login:"
-msgstr ""
+msgstr "Harap masukkan login MantisBT Anda:"
 
 #: ../src/plugins/reporter-mantisbt.c:84
 msgid "Please enter the password for"
-msgstr ""
+msgstr "Harap masukkan kata sandi untuk"
 
 #: ../src/plugins/reporter-mantisbt.c:95
 msgid "Credentials are not provided by configuration."
-msgstr ""
+msgstr "Kredensial tidak disediakan oleh konfigurasi."
 
 #: ../src/plugins/reporter-mantisbt.c:119
 msgid "Invalid password or login."
-msgstr ""
+msgstr "Kata sandi atau login tidak valid."
 
 #: ../src/plugins/reporter-mantisbt.c:211
 msgid ""
@@ -2241,25 +2273,69 @@ msgid ""
 "\n"
 "If not specified, CONFFILE defaults to "
 msgstr ""
+"\n"
+"& [-vf] [-c CONFFILE]... [-F FMTFILE] [-A FMTFILE2] -d DIR\n"
+"atau:\n"
+"& [-v] [-c CONFFILE]... [-d DIR] -t[ID] FILE...\n"
+"atau:\n"
+"& [-v] [-c CONFFILE]... [-d DIR] -t[ID] -w\n"
+"atau:\n"
+"& [-v] [-c CONFFILE]... -h DUPHASH\n"
+"\n"
+"Melaporkan masalah ke MantisBT.\n"
+"\n"
+"Tool membaca DIR. Kemudian mencoba menemukan issue\n"
+"dengan abrt_hash yang sama di field kustom 'abrt_hash'.\n"
+"\n"
+"Jika issue tersebut tidak ditemukan, maka issue baru dibuat. Elemen DIR\n"
+"disimpan dalam issue sebagai bagian dari deskripsi issue atau sebagai "
+"lampiran,\n"
+"tergantung pada tipe dan ukurannya.\n"
+"\n"
+"Jika tidak, jika issue tersebut ditemukan dan ditandai sebagai CLOSED "
+"DUPLICATE,\n"
+"tool mengikuti rantai duplikat hingga menemukan issue non-DUPLICATE.\n"
+"Tool menambahkan komentar baru ke issue yang ditemukan.\n"
+"\n"
+"URL ke issue baru atau yang dimodifikasi dicetak ke stdout dan dicatat "
+"dalam\n"
+"elemen 'reported_to'.\n"
+"\n"
+"Opsi -t mengunggah FILE ke issue yang sudah dibuat di situs MantisBT.\n"
+"ID issue diambil dari direktori yang ditentukan oleh -d DIR.\n"
+"Jika data masalah di DIR tidak pernah dilaporkan ke MantisBT, unggahan akan "
+"gagal.\n"
+"\n"
+"Opsi -tID mengunggah FILE ke issue dengan ID yang ditentukan di situs "
+"MantisBT.\n"
+"-d DIR diabaikan.\n"
+"\n"
+"Opsi -r mengatur url terakhir dari elemen reporter_to yang diawali dengan\n"
+"TRACKER_NAME ke field URL. Opsi ini hanya diterapkan ketika issue baru akan\n"
+"diajukan. Nilai default adalah 'ABRT Server'\n"
+"\n"
+"Jika tidak ditentukan, CONFFILE default ke "
 
 #: ../src/plugins/reporter-mantisbt.c:287
 msgid "Attach FILEs [to issue with this ID]"
-msgstr ""
+msgstr "Lampirkan FILE [ke issue dengan ID ini]"
 
 #: ../src/plugins/reporter-mantisbt.c:326
 #, c-format
 msgid "Can't open problem dir '%s'."
-msgstr ""
+msgstr "Tidak dapat membuka direktori masalah '%s'."
 
 #: ../src/plugins/reporter-mantisbt.c:348
 msgid "Looking for similar problems in MantisBT"
-msgstr ""
+msgstr "Mencari masalah serupa di MantisBT"
 
 #: ../src/plugins/reporter-mantisbt.c:381
 msgid ""
 "Can't get MantisBT ID because this problem has not yet been reported to "
 "MantisBT."
 msgstr ""
+"Tidak dapat mendapatkan ID MantisBT karena masalah ini belum dilaporkan ke "
+"MantisBT."
 
 #: ../src/plugins/reporter-mantisbt.c:386
 #, c-format
@@ -2267,21 +2343,23 @@ msgid ""
 "This problem has been reported to MantisBT '%s' which differs from the "
 "configured MantisBT '%s'."
 msgstr ""
+"Masalah ini telah dilaporkan ke MantisBT '%s' yang berbeda dari MantisBT "
+"yang dikonfigurasi '%s'."
 
 #: ../src/plugins/reporter-mantisbt.c:390
 #, c-format
 msgid "Malformed url to MantisBT '%s'."
-msgstr ""
+msgstr "Url ke MantisBT '%s' salah format."
 
 #: ../src/plugins/reporter-mantisbt.c:394
 #, c-format
 msgid "Using MantisBT ID '%s'"
-msgstr ""
+msgstr "Menggunakan ID MantisBT '%s'"
 
 #: ../src/plugins/reporter-mantisbt.c:402
 #, c-format
 msgid "Attaching file '%s' to issue %s"
-msgstr ""
+msgstr "Melampirkan file '%s' ke issue %s"
 
 #: ../src/plugins/reporter-mantisbt.c:432
 #, c-format
@@ -2289,56 +2367,59 @@ msgid ""
 "This problem was already reported to MantisBT (see '%s'). Do you still want "
 "to create a new issue?"
 msgstr ""
+"Masalah ini sudah dilaporkan ke MantisBT (lihat '%s'). Apakah Anda masih "
+"ingin membuat issue baru?"
 
 #. Create new issue
 #: ../src/plugins/reporter-mantisbt.c:545
 msgid "Creating a new issue"
-msgstr ""
+msgstr "Membuat issue baru"
 
 #: ../src/plugins/reporter-mantisbt.c:550
 #, c-format
 msgid "Invalid format file: %s"
-msgstr ""
+msgstr "File format tidak valid: %s"
 
 #: ../src/plugins/reporter-mantisbt.c:554
 msgid "Failed to format problem data"
-msgstr ""
+msgstr "Gagal memformat data masalah"
 
 #: ../src/plugins/reporter-mantisbt.c:581
 msgid "Adding External URL to issue"
-msgstr ""
+msgstr "Menambahkan URL Eksternal ke issue"
 
 #: ../src/plugins/reporter-mantisbt.c:593
 #, c-format
 msgid "Adding attachments to issue %i"
-msgstr ""
+msgstr "Menambahkan lampiran ke issue %i"
 
 #: ../src/plugins/reporter-mantisbt.c:648
 #, c-format
 msgid "Invalid duplicate format file: '%s"
-msgstr ""
+msgstr "File format duplikat tidak valid: '%s"
 
 #: ../src/plugins/reporter-mantisbt.c:652
 msgid "Failed to format duplicate comment from problem data"
-msgstr ""
+msgstr "Gagal memformat komentar duplikat dari data masalah"
 
 #: ../src/plugins/reporter-mantisbt.c:659
 #, c-format
 msgid "Adding new comment to issue %d"
-msgstr ""
+msgstr "Menambahkan komentar baru ke issue %d"
 
 #: ../src/plugins/reporter-mantisbt.c:695
 msgid "Found the same comment in the issue history, not adding a new one"
 msgstr ""
+"Menemukan komentar yang sama dalam riwayat issue, tidak menambahkan yang baru"
 
 #: ../src/plugins/reporter-mantisbt.c:702
 #, c-format
 msgid "Status: %s%s%s %s/view.php?id=%u"
-msgstr ""
+msgstr "Status: %s%s%s %s/view.php?id=%u"
 
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:1
 msgid "CentOS Bug Tracker"
-msgstr ""
+msgstr "CentOS Bug Tracker"
 
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:2
 #: ../src/workflows/workflow_CentOSCCpp.xml.in.h:1
@@ -2351,299 +2432,314 @@ msgstr ""
 #: ../src/workflows/workflow_CentOSVmcore.xml.in.h:1
 #: ../src/workflows/workflow_CentOSXorg.xml.in.h:1
 msgid "Report to CentOS Bug Tracker"
-msgstr ""
+msgstr "Laporkan ke CentOS Bug Tracker"
 
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:4
 msgid "CentOS Bug Tracker account user name"
-msgstr ""
+msgstr "Nama pengguna akun CentOS Bug Tracker"
 
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:5
 msgid ""
 "You can create bugs.centos.org account &lt;a href=\"https://bugs.centos.org/"
 "signup_page.php\"&gt;here&lt;/a&gt;"
 msgstr ""
+"Anda dapat membuat akun bugs.centos.org &lt;a href=\"https://bugs.centos.org/"
+"signup_page.php\"&gt;di sini&lt;/a&gt;"
 
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:7
 msgid "CentOS Bug Tracker account password"
-msgstr ""
+msgstr "Kata sandi akun CentOS Bug Tracker"
 
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:9
 msgid ""
 "The issue will be accessible only to users with access to 'Private Issues'"
 msgstr ""
+"Issue hanya akan dapat diakses oleh pengguna dengan akses ke 'Private Issues'"
 
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:10
 msgid "CentOS Bug Tracker URL"
-msgstr ""
+msgstr "URL CentOS Bug Tracker"
 
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:11
 msgid "Address of CentOS Bug Tracker server"
-msgstr ""
+msgstr "Alamat server CentOS Bug Tracker"
 
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:14
 msgid "CentOS Bug Tracker project"
-msgstr ""
+msgstr "Proyek CentOS Bug Tracker"
 
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:15
 msgid ""
 "Specify this only if you needed different project than specified in /etc/os-"
 "release"
 msgstr ""
+"Tentukan ini hanya jika Anda memerlukan proyek yang berbeda dari yang "
+"ditentukan dalam /etc/os-release"
 
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:16
 msgid "CentOS Bug Tracker project version"
-msgstr ""
+msgstr "Versi proyek CentOS Bug Tracker"
 
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:17
 msgid ""
 "Specify this only if you needed different project version than specified in /"
 "etc/os-release"
 msgstr ""
+"Tentukan ini hanya jika Anda memerlukan versi proyek yang berbeda dari yang "
+"ditentukan dalam /etc/os-release"
 
 #: ../src/plugins/report_Kerneloops.xml.in.h:1
 msgid "Kerneloops.org"
-msgstr ""
+msgstr "Kerneloops.org"
 
 #: ../src/plugins/report_Kerneloops.xml.in.h:2
 msgid "Send to kernel oops tracker"
-msgstr ""
+msgstr "Kirim ke pelacak oops kernel"
 
 #: ../src/plugins/report_Kerneloops.xml.in.h:3
 msgid "Kerneloops URL"
-msgstr ""
+msgstr "URL Kerneloops"
 
 #: ../src/plugins/report_Kerneloops.xml.in.h:4
 msgid "Oops server url"
-msgstr ""
+msgstr "Url server Oops"
 
 #: ../src/plugins/report_Logger.xml.in.h:1
 msgid "Logger"
-msgstr ""
+msgstr "Logger"
 
 #: ../src/plugins/report_Logger.xml.in.h:2
 msgid "Save as text file"
-msgstr ""
+msgstr "Simpan sebagai file teks"
 
 #: ../src/plugins/report_Logger.xml.in.h:3
 msgid "Log File"
-msgstr ""
+msgstr "File Log"
 
 #: ../src/plugins/report_Logger.xml.in.h:4
 msgid "Name of the logfile"
-msgstr ""
+msgstr "Nama file log"
 
 #: ../src/plugins/report_Logger.xml.in.h:5
 msgid "Append"
-msgstr ""
+msgstr "Tambahkan"
 
 #: ../src/plugins/report_Logger.xml.in.h:6
 msgid "Append new reports or overwrite the old one."
-msgstr ""
+msgstr "Tambahkan laporan baru atau timpa yang lama."
 
 #: ../src/plugins/report_Mailx.xml.in.h:1
-#, fuzzy
 msgid "Mailx"
 msgstr "Mailx"
 
 #: ../src/plugins/report_Mailx.xml.in.h:2
 msgid "Send via email"
-msgstr ""
+msgstr "Kirim melalui email"
 
 #: ../src/plugins/report_Mailx.xml.in.h:3
 msgid "Subject"
-msgstr ""
+msgstr "Subjek"
 
 #: ../src/plugins/report_Mailx.xml.in.h:4
 msgid "Message subject"
-msgstr ""
+msgstr "Subjek pesan"
 
 #: ../src/plugins/report_Mailx.xml.in.h:5
 msgid "Sender"
-msgstr ""
+msgstr "Pengirim"
 
 #: ../src/plugins/report_Mailx.xml.in.h:6
 msgid "Sender's email"
-msgstr ""
+msgstr "Email pengirim"
 
 #: ../src/plugins/report_Mailx.xml.in.h:7
 msgid "Recipient"
-msgstr ""
+msgstr "Penerima"
 
 #: ../src/plugins/report_Mailx.xml.in.h:8
 msgid "Recipient's email"
-msgstr ""
+msgstr "Email penerima"
 
 #: ../src/plugins/report_Mailx.xml.in.h:9
 msgid "Send Binary Data"
-msgstr ""
+msgstr "Kirim Data Biner"
 
 #: ../src/plugins/report_Mailx.xml.in.h:10
 msgid "Send binary files like coredump"
-msgstr ""
+msgstr "Kirim file biner seperti coredump"
 
 #: ../src/plugins/report_RHTSupport.xml.in.h:1
 #: ../src/plugins/report_RHTSupport_AddData.xml.in.h:1
 msgid "Red Hat Customer Support"
-msgstr ""
+msgstr "Dukungan Pelanggan Red Hat"
 
 #: ../src/plugins/report_RHTSupport.xml.in.h:2
 msgid "Report to Red Hat support"
-msgstr ""
+msgstr "Laporkan ke dukungan Red Hat"
 
 #: ../src/plugins/report_RHTSupport.xml.in.h:3
 msgid "Username"
-msgstr ""
+msgstr "Nama Pengguna"
 
 #: ../src/plugins/report_RHTSupport.xml.in.h:4
 msgid "Red Hat customer user name"
-msgstr ""
+msgstr "Nama pengguna pelanggan Red Hat"
 
 #: ../src/plugins/report_RHTSupport.xml.in.h:6
 msgid "Red Hat customer password"
-msgstr ""
+msgstr "Kata sandi pelanggan Red Hat"
 
 #: ../src/plugins/report_RHTSupport.xml.in.h:7
 msgid "Submit uReport"
-msgstr ""
+msgstr "Kirim uReport"
 
 #: ../src/plugins/report_RHTSupport.xml.in.h:8
 msgid ""
 "Submit &lt;a href=\"https://access.redhat.com/articles/642323\"&gt;micro-"
 "report&lt;/a&gt; when creating a new case."
 msgstr ""
+"Kirim &lt;a href=\"https://access.redhat.com/articles/642323\"&gt;micro-"
+"report&lt;/a&gt; saat membuat kasus baru."
 
 #: ../src/plugins/report_RHTSupport.xml.in.h:9
 msgid "RH Portal URL"
-msgstr ""
+msgstr "URL RH Portal"
 
 #: ../src/plugins/report_RHTSupport.xml.in.h:10
 msgid "Address of the Red Hat support portal"
-msgstr ""
+msgstr "Alamat portal dukungan Red Hat"
 
 #: ../src/plugins/report_RHTSupport_AddData.xml.in.h:2
 msgid "Attach the data to existing Red Hat support case"
-msgstr ""
+msgstr "Lampirkan data ke kasus dukungan Red Hat yang ada"
 
 #: ../src/plugins/report_Uploader.xml.in.h:1
 msgid "Report Uploader"
-msgstr ""
+msgstr "Report Uploader"
 
 #: ../src/plugins/report_Uploader.xml.in.h:2
 msgid "Upload as tar.gz file (via FTP/SCP/...)"
-msgstr ""
+msgstr "Unggah sebagai file tar.gz (melalui FTP/SCP/...)"
 
 #: ../src/plugins/report_Uploader.xml.in.h:3
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: ../src/plugins/report_Uploader.xml.in.h:4
 msgid ""
 "Where do you want to upload the tarball with report in form login:"
 "password@url"
 msgstr ""
+"Di mana Anda ingin mengunggah tarball dengan laporan dalam bentuk "
+"login:password@url"
 
 #: ../src/plugins/report_Uploader.xml.in.h:5
 msgid ""
 "Examples:&#xA;ftp://[user[:pass]@]host/dir/[file.tar.gz]&#xA;scp://[user[:"
 "pass]@]host/dir/[file.tar.gz]&#xA;file:///dir/[file.tar.gz]"
 msgstr ""
+"Contoh:&#xA;ftp://[user[:pass]@]host/dir/[file.tar.gz]&#xA;scp://"
+"[user[:pass]@]host/dir/[file.tar.gz]&#xA;file:///dir/[file.tar.gz]"
 
 #: ../src/plugins/report_Uploader.xml.in.h:7
 msgid "Use this field if you do not want to have user name in URL"
 msgstr ""
+"Gunakan field ini jika Anda tidak ingin memiliki nama pengguna dalam URL"
 
 #: ../src/plugins/report_Uploader.xml.in.h:9
 msgid "Use this field if you do not want to have password in URL"
-msgstr ""
+msgstr "Gunakan field ini jika Anda tidak ingin memiliki kata sandi dalam URL"
 
 #: ../src/plugins/report_Uploader.xml.in.h:14
 msgid "FTP Proxy"
-msgstr ""
+msgstr "FTP Proxy"
 
 #: ../src/plugins/report_Uploader.xml.in.h:15
 msgid "Sets the proxy server to use for FTP"
-msgstr ""
+msgstr "Mengatur server proxy untuk digunakan untuk FTP"
 
 #: ../src/plugins/report_Uploader.xml.in.h:16
 msgid "SSH Public key file"
-msgstr ""
+msgstr "File kunci publik SSH"
 
 #: ../src/plugins/report_Uploader.xml.in.h:17
 msgid "Use this field to specify SSH public keyfile"
-msgstr ""
+msgstr "Gunakan field ini untuk menentukan file kunci publik SSH"
 
 #: ../src/plugins/report_Uploader.xml.in.h:18
 msgid "SSH Private key file"
-msgstr ""
+msgstr "File kunci privat SSH"
 
 #: ../src/plugins/report_Uploader.xml.in.h:19
 msgid "Use this field to specify SSH private keyfile"
-msgstr ""
+msgstr "Gunakan field ini untuk menentukan file kunci privat SSH"
 
 #: ../src/plugins/report_uReport.xml.in.h:1
 msgid "uReport"
-msgstr ""
+msgstr "uReport"
 
 #: ../src/plugins/report_uReport.xml.in.h:2
 msgid "Sends ureports to FAF server"
-msgstr ""
+msgstr "Mengirim ureport ke server FAF"
 
 #: ../src/plugins/report_uReport.xml.in.h:3
 msgid "uReport Server URL"
-msgstr ""
+msgstr "URL Server uReport"
 
 #: ../src/plugins/report_uReport.xml.in.h:4
 msgid "Address of uReport webservice"
-msgstr ""
+msgstr "Alamat webservice uReport"
 
 #: ../src/plugins/report_uReport.xml.in.h:5
 msgid "Watch already reported bugs"
-msgstr ""
+msgstr "Pantau bug yang sudah dilaporkan"
 
 #: ../src/plugins/report_uReport.xml.in.h:6
 msgid "Adds your Bugzilla login to CC List of already reported bugs."
-msgstr ""
+msgstr "Menambahkan login Bugzilla Anda ke Daftar CC bug yang sudah dilaporkan."
 
 #: ../src/plugins/report_uReport.xml.in.h:7
 msgid "Report unpackaged problems"
-msgstr ""
+msgstr "Laporkan masalah yang tidak dikemas"
 
 #: ../src/plugins/report_uReport.xml.in.h:8
 msgid "Report problems coming from unpackaged executables."
-msgstr ""
+msgstr "Laporkan masalah yang berasal dari executable yang tidak dikemas."
 
 #: ../src/plugins/report_uReport.xml.in.h:9
 msgid "Contact email address"
-msgstr ""
+msgstr "Alamat email kontak"
 
 #: ../src/plugins/report_uReport.xml.in.h:10
 msgid ""
 "Email address that can be used by ABRT server to inform you about news and "
 "updates"
 msgstr ""
+"Alamat email yang dapat digunakan oleh server ABRT untuk memberi tahu Anda "
+"tentang berita dan pembaruan"
 
 #: ../src/plugins/watch_Bugzilla.xml.in.h:1
 msgid "Watch Bugzilla Bug"
-msgstr ""
+msgstr "Pantau Bug Bugzilla"
 
 #: ../src/plugins/watch_Bugzilla.xml.in.h:2
 msgid "Adds your e-mail to CC List of Bugzilla bug"
-msgstr ""
+msgstr "Menambahkan e-mail Anda ke Daftar CC bug Bugzilla"
 
 #: ../src/plugins/rhbz.c:382
 #, c-format
 msgid "Looks like corrupted xml response, because '%s' member is missing."
-msgstr ""
+msgstr "Tampak seperti respons xml yang rusak, karena anggota '%s' tidak ada."
 
 #: ../src/plugins/rhbz.c:470
 #, c-format
 msgid "Bug %i is CLOSED, but it has no RESOLUTION"
-msgstr ""
+msgstr "Bug %i CLOSED, tetapi tidak memiliki RESOLUTION"
 
 #: ../src/plugins/rhbz.c:478
 #, c-format
 msgid "Bug %i is CLOSED as DUPLICATE, but it has no DUP_ID"
-msgstr ""
+msgstr "Bug %i CLOSED sebagai DUPLICATE, tetapi tidak memiliki DUP_ID"
 
 #: ../src/plugins/rhbz.c:583
 msgid ""
@@ -2651,164 +2747,173 @@ msgid ""
 "please see https://github.com/abrt/abrt/wiki/FAQ#creating-private-bugzilla-"
 "tickets for more info"
 msgstr ""
+"Pembuatan tiket privat telah diminta, tetapi tidak ada grup yang ditentukan, "
+"silakan lihat [https://github.com/abrt/abrt/wiki/FAQ#creating-private-"
+"bugzilla-tickets](https://github.com/abrt/abrt/wiki/FAQ#creating-private-"
+"bugzilla-tickets) untuk informasi lebih lanjut"
 
 #: ../src/plugins/rhbz.c:604
 #, c-format
 msgid "New bug id: %i"
-msgstr ""
+msgstr "Id bug baru: %i"
 
 #: ../src/plugins/rhbz.c:725
 #, c-format
 msgid "Bugzilla couldn't find parent of bug %d"
-msgstr ""
+msgstr "Bugzilla tidak dapat menemukan induk dari bug %d"
 
 #: ../src/plugins/rhbz.c:873
 msgid "Bug.search(quicksearch) return value did not contain member 'bugs'"
-msgstr ""
+msgstr "Nilai kembalian Bug.search(quicksearch) tidak mengandung anggota 'bugs'"
 
 #: ../src/plugins/mantisbt.c:123
 #, c-format
 msgid "MantisBT couldn't find parent of issue %d"
-msgstr ""
+msgstr "MantisBT tidak dapat menemukan induk dari issue %d"
 
 #: ../src/plugins/mantisbt.c:180
 msgid "SOAP: Failed to get child element because of no parent."
-msgstr ""
+msgstr "SOAP: Gagal mendapatkan elemen anak karena tidak ada induk."
 
 #: ../src/plugins/mantisbt.c:189
 msgid "SOAP: Failed to get next element because of no node."
-msgstr ""
+msgstr "SOAP: Gagal mendapatkan elemen berikutnya karena tidak ada node."
 
 #: ../src/plugins/mantisbt.c:198
 msgid "SOAP: Failed to get child node because of no parent."
-msgstr ""
+msgstr "SOAP: Gagal mendapatkan node anak karena tidak ada induk."
 
 #: ../src/plugins/mantisbt.c:219
 msgid "SOAP: Failed to parse xml during creating request."
-msgstr ""
+msgstr "SOAP: Gagal mengurai xml saat membuat permintaan."
 
 #: ../src/plugins/mantisbt.c:227
 msgid "SOAP: Failed to get xml root element."
-msgstr ""
+msgstr "SOAP: Gagal mendapatkan elemen root xml."
 
 #: ../src/plugins/mantisbt.c:240
 msgid ""
 "SOAP: Failed to add a new child node because of no node or no child name."
 msgstr ""
+"SOAP: Gagal menambahkan node anak baru karena tidak ada node atau tidak ada "
+"nama anak."
 
 #: ../src/plugins/mantisbt.c:245
 msgid "SOAP: Failed to create a new xml child item."
-msgstr ""
+msgstr "SOAP: Gagal membuat item anak xml baru."
 
 #: ../src/plugins/mantisbt.c:250
 msgid "SOAP: Failed to create a new property."
-msgstr ""
+msgstr "SOAP: Gagal membuat properti baru."
 
 #: ../src/plugins/mantisbt.c:260
 msgid "SOAP: Failed to add method parametr."
-msgstr ""
+msgstr "SOAP: Gagal menambahkan parameter metode."
 
 #: ../src/plugins/mantisbt.c:289
 msgid "SOAP: Failed to add new issue parametrs."
-msgstr ""
+msgstr "SOAP: Gagal menambahkan parameter issue baru."
 
 #: ../src/plugins/mantisbt.c:292
 msgid ""
 "SOAP: Failed to add new issue parameters because the required items are "
 "missing."
 msgstr ""
+"SOAP: Gagal menambahkan parameter issue baru karena item yang diperlukan "
+"tidak ada."
 
 #: ../src/plugins/mantisbt.c:336
 msgid "SOAP: Failed to create a new property in custom fields."
-msgstr ""
+msgstr "SOAP: Gagal membuat properti baru di field kustom."
 
 #: ../src/plugins/mantisbt.c:354
 msgid ""
 "SOAP: Failed to create SOAP string because of invalid function arguments."
-msgstr ""
+msgstr "SOAP: Gagal membuat string SOAP karena argumen fungsi tidak valid."
 
 #: ../src/plugins/mantisbt.c:361
 msgid "SOAP: Failed to dump xml node."
-msgstr ""
+msgstr "SOAP: Gagal mem-dump node xml."
 
 #: ../src/plugins/mantisbt.c:375
 msgid "SOAP: Failed to print SOAP string."
-msgstr ""
+msgstr "SOAP: Gagal mencetak string SOAP."
 
 #: ../src/plugins/mantisbt.c:382
 msgid "Failed to dump xml node."
-msgstr ""
+msgstr "Gagal mem-dump node xml."
 
 #: ../src/plugins/mantisbt.c:458
 msgid "SOAP: Failed to parse xml (searching value at depth by name)."
 msgstr ""
+"SOAP: Gagal mengurai xml (mencari nilai pada kedalaman berdasarkan nama)."
 
 #: ../src/plugins/mantisbt.c:462 ../src/plugins/mantisbt.c:505
 #: ../src/plugins/mantisbt.c:534
 msgid "SOAP: Failed to create xml text reader."
-msgstr ""
+msgstr "SOAP: Gagal membuat xml text reader."
 
 #: ../src/plugins/mantisbt.c:501
 msgid "SOAP: Failed to parse xml."
-msgstr ""
+msgstr "SOAP: Gagal mengurai xml."
 
 #: ../src/plugins/mantisbt.c:530
 msgid "SOAP: Failed to parse xml (get related to issue)."
-msgstr ""
+msgstr "SOAP: Gagal mengurai xml (mendapatkan yang terkait dengan issue)."
 
 #: ../src/plugins/mantisbt.c:647
 msgid "Url or request isn't specified."
-msgstr ""
+msgstr "Url atau permintaan tidak ditentukan."
 
 #: ../src/plugins/mantisbt.c:675
 #, c-format
 msgid "Error in HTTP POST, HTTP code: 404 (Not found), URL:'%s'"
-msgstr ""
+msgstr "Kesalahan dalam HTTP POST, kode HTTP: 404 (Tidak ditemukan), URL:'%s'"
 
 #: ../src/plugins/mantisbt.c:699
 #, c-format
 msgid "Error in MantisBT request at '%s': %s"
-msgstr ""
+msgstr "Kesalahan dalam permintaan MantisBT di '%s': %s"
 
 #: ../src/plugins/mantisbt.c:701
 #, c-format
 msgid "Error in MantisBT request at '%s'"
-msgstr ""
+msgstr "Kesalahan dalam permintaan MantisBT di '%s'"
 
 #: ../src/plugins/mantisbt.c:743
 #, c-format
 msgid "Failed to attach file: '%s'"
-msgstr ""
+msgstr "Gagal melampirkan file: '%s'"
 
 #: ../src/plugins/mantisbt.c:762
 #, c-format
 msgid "Can't lseek '%s'"
-msgstr ""
+msgstr "Tidak dapat lseek '%s'"
 
 #: ../src/plugins/mantisbt.c:768
 #, c-format
 msgid "Can't upload '%s', it's too large (%llu bytes)"
-msgstr ""
+msgstr "Tidak dapat mengunggah '%s', terlalu besar (%llu byte)"
 
 #: ../src/plugins/mantisbt.c:778
 #, c-format
 msgid "Can't read '%s'"
-msgstr ""
+msgstr "Tidak dapat membaca '%s'"
 
 #: ../src/plugins/mantisbt.c:794
 #, c-format
 msgid "Can't open '%s'"
-msgstr ""
+msgstr "Tidak dapat membuka '%s'"
 
 #: ../src/plugins/mantisbt.c:861
 #, c-format
 msgid "Failed to search MantisBT issue by duphash: '%s'"
-msgstr ""
+msgstr "Gagal mencari issue MantisBT berdasarkan duphash: '%s'"
 
 #: ../src/plugins/mantisbt.c:906
 #, c-format
 msgid "Failed to search MantisBT duplicate issue: '%s'"
-msgstr ""
+msgstr "Gagal mencari issue duplikat MantisBT: '%s'"
 
 #: ../src/plugins/mantisbt.c:934
 #, c-format
@@ -2816,120 +2921,134 @@ msgid ""
 "MantisBT doesn't contain custom field '%s', which is required for full "
 "functionality of the reporter. Do you still want to create a new issue?"
 msgstr ""
+"MantisBT tidak mengandung field kustom '%s', yang diperlukan untuk fungsi "
+"penuh reporter. Apakah Anda masih ingin membuat issue baru?"
 
 #: ../src/plugins/mantisbt.c:958
 #, c-format
 msgid "Failed to get custom fields for '%s' project"
-msgstr ""
+msgstr "Gagal mendapatkan field kustom untuk proyek '%s'"
 
 #: ../src/plugins/mantisbt.c:1002
 #, c-format
 msgid "Failed to create a new issue: '%s'"
-msgstr ""
+msgstr "Gagal membuat issue baru: '%s'"
 
 #: ../src/plugins/mantisbt.c:1028
 #, c-format
 msgid "Failed to get MantisBT issue: '%s'"
-msgstr ""
+msgstr "Gagal mendapatkan issue MantisBT: '%s'"
 
 #: ../src/plugins/mantisbt.c:1042
 #, c-format
 msgid "Issue %i is CLOSED, but it has no RESOLUTION"
-msgstr ""
+msgstr "Issue %i CLOSED, tetapi tidak memiliki RESOLUTION"
 
 #: ../src/plugins/mantisbt.c:1050
 #, c-format
 msgid "Issue %i is CLOSED as DUPLICATE, but it has no DUPLICATE_ID"
-msgstr ""
+msgstr "Issue %i CLOSED sebagai DUPLICATE, tetapi tidak memiliki DUPLICATE_ID"
 
 #: ../src/plugins/mantisbt.c:1087
 #, c-format
 msgid "Failed to add MantisBT issue note: '%s'"
-msgstr ""
+msgstr "Gagal menambahkan catatan issue MantisBT: '%s'"
 
 #: ../src/plugins/mantisbt.c:1101
 msgid "The MantisBT project has not been deretmined."
-msgstr ""
+msgstr "Proyek MantisBT belum ditentukan."
 
 #: ../src/plugins/mantisbt.c:1113
 msgid "Failed to get project id from name"
-msgstr ""
+msgstr "Gagal mendapatkan id proyek dari nama"
 
 #: ../src/plugins/reporter-ureport.c:75
 msgid "Specify server URL"
-msgstr ""
+msgstr "Tentukan URL server"
 
 #: ../src/plugins/reporter-ureport.c:77
 msgid "Allow insecure connection to ureport server"
-msgstr ""
+msgstr "Izinkan koneksi tidak aman ke server ureport"
 
 #: ../src/plugins/reporter-ureport.c:78
 msgid "Use client authentication"
-msgstr ""
+msgstr "Gunakan autentikasi klien"
 
 #: ../src/plugins/reporter-ureport.c:79
 msgid "Use HTTP Authentication"
-msgstr ""
+msgstr "Gunakan Autentikasi HTTP"
 
 #: ../src/plugins/reporter-ureport.c:80
 msgid "Additional files included in 'auth' key"
-msgstr ""
+msgstr "File tambahan yang disertakan dalam kunci 'auth'"
 
 #: ../src/plugins/reporter-ureport.c:83
 msgid "bthash of uReport to attach (conflicts with -A)"
-msgstr ""
+msgstr "bthash dari uReport untuk dilampirkan (bertentangan dengan -A)"
 
 #: ../src/plugins/reporter-ureport.c:85
 msgid "attach to a bthash from reported_to (conflicts with -a)"
-msgstr ""
+msgstr "lampirkan ke bthash dari reported_to (bertentangan dengan -a)"
 
 #: ../src/plugins/reporter-ureport.c:87
 msgid "contact e-mail address (requires -a|-A, conflicts with -E)"
-msgstr ""
+msgstr "alamat e-mail kontak (memerlukan -a|-A, bertentangan dengan -E)"
 
 #: ../src/plugins/reporter-ureport.c:89
 msgid ""
 "contact e-mail address from environment or configuration file (requires -a|-"
 "A, conflicts with -e)"
 msgstr ""
+"alamat e-mail kontak dari environment atau file konfigurasi (memerlukan -a|-"
+"A, bertentangan dengan -e)"
 
 #: ../src/plugins/reporter-ureport.c:91
 msgid "attach RHBZ bug (requires -a|-A, conflicts with -B)"
-msgstr ""
+msgstr "lampirkan bug RHBZ (memerlukan -a|-A, bertentangan dengan -B)"
 
 #: ../src/plugins/reporter-ureport.c:93
 msgid ""
 "attach last RHBZ bug from reported_to (requires -a|-A, conflicts with -b)"
 msgstr ""
+"lampirkan bug RHBZ terakhir dari reported_to (memerlukan -a|-A, bertentangan "
+"dengan -b)"
 
 #: ../src/plugins/reporter-ureport.c:95
 msgid "attach short text (requires -a|-A, conflicts with -D)"
-msgstr ""
+msgstr "lampirkan teks pendek (memerlukan -a|-A, bertentangan dengan -D)"
 
 #: ../src/plugins/reporter-ureport.c:97
 msgid "attach short text from comment (requires -a|-A, conflicts with -d)"
 msgstr ""
+"lampirkan teks pendek dari komentar (memerlukan -a|-A, bertentangan dengan -"
+"d)"
 
 #: ../src/plugins/reporter-ureport.c:101
 msgid "attach value (requires -a|-A and -T, conflicts with -L)"
-msgstr ""
+msgstr "lampirkan nilai (memerlukan -a|-A dan -T, bertentangan dengan -L)"
 
 #: ../src/plugins/reporter-ureport.c:103
 msgid ""
 "attach data of FIELD [URL] of the last report result (requires -a|-A, -r and "
 "-T, conflicts with -l)"
 msgstr ""
+"lampirkan data FIELD [URL] dari hasil laporan terakhir (memerlukan -a|-A, -r "
+"dan -T, bertentangan dengan -l)"
 
 #: ../src/plugins/reporter-ureport.c:106
 msgid ""
 "use REPORT_RESULT_TYPE when looking for FIELD in reported_to (used only with "
 "-L)"
 msgstr ""
+"gunakan REPORT_RESULT_TYPE saat mencari FIELD di reported_to (hanya "
+"digunakan dengan -L)"
 
 #: ../src/plugins/reporter-ureport.c:108
 msgid ""
 "attach DATA as ureport attachment ATTACHMENT_TYPE (used only with -l|-L)"
 msgstr ""
+"lampirkan DATA sebagai lampiran ureport ATTACHMENT_TYPE (hanya digunakan "
+"dengan -l|-L)"
 
 #: ../src/plugins/reporter-ureport.c:113
 msgid ""
@@ -2945,91 +3064,104 @@ msgid ""
 "\n"
 "Reads the default configuration from "
 msgstr ""
+"& [-v] [-c FILE] [-u URL] [-k] [-t SOURCE] [-h CREDENTIALS]\n"
+"  [-A -a bthash -B -b bug-id -E -e email -O -o comment] [-d DIR]\n"
+"  [-A -a bthash -T ATTACHMENT_TYPE -r REPORT_RESULT_TYPE -L RESULT_FIELD] [-"
+"d DIR]\n"
+"  [-A -a bthash -T ATTACHMENT_TYPE -l DATA] [-d DIR]\n"
+"& [-v] [-c FILE] [-u URL] [-k] [-t SOURCE] [-h CREDENTIALS] [-i AUTH_ITEMS] "
+"[-d DIR]\n"
+"\n"
+"Unggah micro report atau tambahkan lampiran ke micro report\n"
+"\n"
+"Membaca konfigurasi default dari "
 
 #: ../src/plugins/reporter-ureport.c:191
 msgid "This problem does not have an uReport assigned."
-msgstr ""
+msgstr "Masalah ini tidak memiliki uReport yang ditetapkan."
 
 #: ../src/plugins/reporter-ureport.c:212
 msgid "This problem has not been reported to Bugzilla."
-msgstr ""
+msgstr "Masalah ini belum dilaporkan ke Bugzilla."
 
 #: ../src/plugins/reporter-ureport.c:218
 #, c-format
 msgid "Unable to find bug ID in bugzilla URL '%s'"
-msgstr ""
+msgstr "Tidak dapat menemukan ID bug dalam URL bugzilla '%s'"
 
 #: ../src/plugins/reporter-ureport.c:223
 #, c-format
 msgid "Unable to parse bug ID from bugzilla URL '%s'"
-msgstr ""
+msgstr "Tidak dapat mengurai ID bug dari URL bugzilla '%s'"
 
 #: ../src/plugins/reporter-ureport.c:230
 msgid "Cannot attach comment from 'comment' file"
-msgstr ""
+msgstr "Tidak dapat melampirkan komentar dari file 'comment'"
 
 #: ../src/plugins/reporter-ureport.c:232
 msgid "'comment' file is empty"
-msgstr ""
+msgstr "File 'comment' kosong"
 
 #: ../src/plugins/reporter-ureport.c:243
 #, c-format
 msgid "This problem has not been reported to '%s'."
-msgstr ""
+msgstr "Masalah ini belum dilaporkan ke '%s'."
 
 #: ../src/plugins/reporter-ureport.c:251
 #, c-format
 msgid "The report result '%s' is missing URL."
-msgstr ""
+msgstr "Hasil laporan '%s' tidak memiliki URL."
 
 #: ../src/plugins/reporter-ureport.c:267
 msgid ""
 "Neither environment variable 'uReport_ContactEmail' nor configuration option "
 "'ContactEmail' is set"
 msgstr ""
+"Baik variabel environment 'uReport_ContactEmail' maupun opsi konfigurasi "
+"'ContactEmail' tidak diatur"
 
 #: ../src/plugins/reporter-ureport.c:273
 msgid "You need to specify bug ID, contact email, comment or all of them"
-msgstr ""
+msgstr "Anda perlu menentukan ID bug, email kontak, komentar atau semuanya"
 
 #: ../src/plugins/reporter-ureport.c:303
 msgid "You need to specify bthash of the uReport to attach."
-msgstr ""
+msgstr "Anda perlu menentukan bthash dari uReport yang akan dilampirkan."
 
 #: ../src/plugins/reporter-ureport.c:332
 msgid "This problem has already been reported."
-msgstr ""
+msgstr "Masalah ini sudah dilaporkan."
 
 #: ../src/report-newt/report-newt.c:55
 msgid "How would you like to report the problem?"
-msgstr ""
+msgstr "Bagaimana Anda ingin melaporkan masalah?"
 
 #: ../src/report-newt/report-newt.c:68 ../src/report-newt/report-newt.c:145
 #: ../src/report-newt/report-newt.c:168 ../src/report-newt/report-newt.c:258
 #: ../src/report-newt/report-newt.c:334 ../src/report-newt/report-newt.c:356
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 #: ../src/report-newt/report-newt.c:68 ../src/report-newt/report-newt.c:145
 msgid "Cancel"
-msgstr ""
+msgstr "Batal"
 
 #: ../src/report-newt/report-newt.c:168 ../src/report-newt/report-newt.c:334
 msgid "Error"
-msgstr ""
+msgstr "Kesalahan"
 
 #: ../src/report-newt/report-newt.c:255
 msgid "Reporting"
-msgstr ""
+msgstr "Melaporkan"
 
 #: ../src/report-newt/report-newt.c:275
 #, c-format
 msgid "--- Running %s ---"
-msgstr ""
+msgstr "--- Menjalankan %s ---"
 
 #: ../src/report-newt/report-newt.c:356
 msgid "No reporters available"
-msgstr ""
+msgstr "Tidak ada reporter yang tersedia"
 
 #: ../src/report-newt/report-newt.c:386
 msgid ""
@@ -3037,75 +3169,78 @@ msgid ""
 "\n"
 "newt tool to report problem saved in specified DIR"
 msgstr ""
+"& [-d] DIR\n"
+"\n"
+"tool newt untuk melaporkan masalah yang disimpan di DIR yang ditentukan"
 
 #: ../src/report-newt/report-newt.c:396
 msgid "Remove DIR after reporting"
-msgstr ""
+msgstr "Hapus DIR setelah pelaporan"
 
 #: ../src/workflows/workflow_AnacondaFedora.xml.in.h:1
 msgid "Report a bug to Fedora maintainers"
-msgstr ""
+msgstr "Laporkan bug ke pengelola Fedora"
 
 #: ../src/workflows/workflow_AnacondaFedora.xml.in.h:2
 msgid "Process the report using the Fedora infrastructure"
-msgstr ""
+msgstr "Proses laporan menggunakan infrastruktur Fedora"
 
 #: ../src/workflows/workflow_AnacondaRHEL.xml.in.h:1
 msgid "Report a bug to Red Hat Customer Portal"
-msgstr ""
+msgstr "Laporkan bug ke Portal Pelanggan Red Hat"
 
 #: ../src/workflows/workflow_AnacondaRHEL.xml.in.h:2
 #: ../src/workflows/workflow_AnacondaRHELBugzilla.xml.in.h:2
 msgid "Process the report using the Red Hat infrastructure"
-msgstr ""
+msgstr "Proses laporan menggunakan infrastruktur Red Hat"
 
 #: ../src/workflows/workflow_AnacondaRHELBugzilla.xml.in.h:1
 msgid "Report a bug to Red Hat Bugzilla"
-msgstr ""
+msgstr "Laporkan bug ke Bugzilla Red Hat"
 
 #: ../src/workflows/workflow_AnacondaUpload.xml.in.h:1
 msgid "Export the problem data for manual reporting"
-msgstr ""
+msgstr "Ekspor data masalah untuk pelaporan manual"
 
 #: ../src/workflows/workflow_AnacondaUpload.xml.in.h:2
 msgid "Upload the data via scp or ftp to a remote destination"
-msgstr ""
+msgstr "Unggah data melalui scp atau ftp ke tujuan jarak jauh"
 
 #: ../src/workflows/workflow_CentOSCCpp.xml.in.h:2
 msgid "Process the C/C++ crash using the CentOS infrastructure"
-msgstr ""
+msgstr "Proses crash C/C++ menggunakan infrastruktur CentOS"
 
 #: ../src/workflows/workflow_CentOSJava.xml.in.h:2
 msgid "Process the Java exception using the CentOS infrastructure"
-msgstr ""
+msgstr "Proses exception Java menggunakan infrastruktur CentOS"
 
 #: ../src/workflows/workflow_CentOSJavaScript.xml.in.h:2
 msgid "Process the JavaScript exception using the CentOS infrastructure"
-msgstr ""
+msgstr "Proses exception JavaScript menggunakan infrastruktur CentOS"
 
 #: ../src/workflows/workflow_CentOSKerneloops.xml.in.h:2
 msgid "Process the kerneloops using the CentOS infrastructure"
-msgstr ""
+msgstr "Proses kerneloops menggunakan infrastruktur CentOS"
 
 #: ../src/workflows/workflow_CentOSLibreport.xml.in.h:2
 msgid "Process the problem using the CentOS infrastructure"
-msgstr ""
+msgstr "Proses masalah menggunakan infrastruktur CentOS"
 
 #: ../src/workflows/workflow_CentOSPython.xml.in.h:2
 msgid "Process the python exception using the CentOS infrastructure"
-msgstr ""
+msgstr "Proses exception python menggunakan infrastruktur CentOS"
 
 #: ../src/workflows/workflow_CentOSPython3.xml.in.h:2
 msgid "Process the python 3 exception using the CentOS infrastructure"
-msgstr ""
+msgstr "Proses exception python 3 menggunakan infrastruktur CentOS"
 
 #: ../src/workflows/workflow_CentOSVmcore.xml.in.h:2
 msgid "Process the kernel crash using the CentOS infrastructure"
-msgstr ""
+msgstr "Proses crash kernel menggunakan infrastruktur CentOS"
 
 #: ../src/workflows/workflow_CentOSXorg.xml.in.h:2
 msgid "Process the X Server problem using the CentOS infrastructure"
-msgstr ""
+msgstr "Proses masalah X Server menggunakan infrastruktur CentOS"
 
 #: ../src/workflows/workflow_FedoraCCpp.xml.in.h:1
 #: ../src/workflows/workflow_FedoraKerneloops.xml.in.h:1
@@ -3117,48 +3252,48 @@ msgstr ""
 #: ../src/workflows/workflow_FedoraJava.xml.in.h:1
 #: ../src/workflows/workflow_FedoraJavaScript.xml.in.h:1
 msgid "Report to Fedora"
-msgstr ""
+msgstr "Laporkan ke Fedora"
 
 #: ../src/workflows/workflow_FedoraCCpp.xml.in.h:2
 msgid "Process the C/C++ crash using the Fedora infrastructure"
-msgstr ""
+msgstr "Proses crash C/C++ menggunakan infrastruktur Fedora"
 
 #: ../src/workflows/workflow_FedoraKerneloops.xml.in.h:2
 msgid "Process the kerneloops using the Fedora infrastructure"
-msgstr ""
+msgstr "Proses kerneloops menggunakan infrastruktur Fedora"
 
 #: ../src/workflows/workflow_FedoraPython.xml.in.h:2
 msgid "Process the python exception using the Fedora infrastructure"
-msgstr ""
+msgstr "Proses exception python menggunakan infrastruktur Fedora"
 
 #: ../src/workflows/workflow_FedoraPython3.xml.in.h:2
 msgid "Process the python 3 exception using the Fedora infrastructure"
-msgstr ""
+msgstr "Proses exception python 3 menggunakan infrastruktur Fedora"
 
 #: ../src/workflows/workflow_FedoraVmcore.xml.in.h:2
 msgid "Process the kernel crash using the Fedora infrastructure"
-msgstr ""
+msgstr "Proses crash kernel menggunakan infrastruktur Fedora"
 
 #: ../src/workflows/workflow_FedoraXorg.xml.in.h:2
 msgid "Process the X Server problem using the Fedora infrastructure"
-msgstr ""
+msgstr "Proses masalah X Server menggunakan infrastruktur Fedora"
 
 #: ../src/workflows/workflow_FedoraLibreport.xml.in.h:2
 msgid "Process the problem using the Fedora infrastructure"
-msgstr ""
+msgstr "Proses masalah menggunakan infrastruktur Fedora"
 
 #: ../src/workflows/workflow_FedoraJava.xml.in.h:2
 msgid "Process the Java exception using the Fedora infrastructure"
-msgstr ""
+msgstr "Proses exception Java menggunakan infrastruktur Fedora"
 
 #: ../src/workflows/workflow_FedoraJavaScript.xml.in.h:2
 msgid "Process the JavaScript exception using the Fedora infrastructure"
-msgstr ""
+msgstr "Proses exception JavaScript menggunakan infrastruktur Fedora"
 
 #: ../src/workflows/workflow_LoggerCCpp.xml.in.h:1
 #: ../src/workflows/workflow_Logger.xml.in.h:1
 msgid "Export the problem data information to a text file"
-msgstr ""
+msgstr "Ekspor informasi data masalah ke file teks"
 
 #: ../src/workflows/workflow_LoggerCCpp.xml.in.h:2
 #: ../src/workflows/workflow_Logger.xml.in.h:2
@@ -3166,36 +3301,38 @@ msgid ""
 "Analyze the problem locally and export the problem data information to a "
 "text file"
 msgstr ""
+"Analisis masalah secara lokal dan ekspor informasi data masalah ke file teks"
 
 #: ../src/workflows/workflow_MailxCCpp.xml.in.h:1
 #: ../src/workflows/workflow_Mailx.xml.in.h:1
 msgid "Send the problem data via email"
-msgstr ""
+msgstr "Kirim data masalah melalui email"
 
 #: ../src/workflows/workflow_MailxCCpp.xml.in.h:2
 #: ../src/workflows/workflow_Mailx.xml.in.h:2
 msgid "Analyze the problem locally and send information via email"
-msgstr ""
+msgstr "Analisis masalah secara lokal dan kirim informasi melalui email"
 
 #: ../src/workflows/workflow_UploadCCpp.xml.in.h:1
 #: ../src/workflows/workflow_Upload.xml.in.h:1
 msgid "Upload the problem data to a server"
-msgstr ""
+msgstr "Unggah data masalah ke server"
 
 #: ../src/workflows/workflow_UploadCCpp.xml.in.h:2
 #: ../src/workflows/workflow_Upload.xml.in.h:2
 msgid "Analyze the problem locally and upload the data via scp or ftp"
-msgstr ""
+msgstr "Analisis masalah secara lokal dan unggah data melalui scp atau ftp"
 
 #: ../src/workflows/workflow_uReport.xml.in.h:1
 msgid "Submit anonymous crash report"
-msgstr ""
+msgstr "Kirim laporan crash anonim"
 
 #: ../src/workflows/workflow_uReport.xml.in.h:2
 msgid ""
 "Submit anonymous crash report - I do not want to be contacted by Red Hat "
 "Support"
 msgstr ""
+"Kirim laporan crash anonim - Saya tidak ingin dihubungi oleh Dukungan Red Hat"
 
 #: ../src/workflows/workflow_RHELCCpp.xml.in.h:1
 #: ../src/workflows/workflow_RHELKerneloops.xml.in.h:1
@@ -3206,7 +3343,7 @@ msgstr ""
 #: ../src/workflows/workflow_RHELJava.xml.in.h:1
 #: ../src/workflows/workflow_RHELJavaScript.xml.in.h:1
 msgid "Ask Red Hat Support for help"
-msgstr ""
+msgstr "Minta bantuan Dukungan Red Hat"
 
 #: ../src/workflows/workflow_RHELCCpp.xml.in.h:2
 #: ../src/workflows/workflow_RHELKerneloops.xml.in.h:2
@@ -3220,6 +3357,7 @@ msgid ""
 "Create new Red Hat Support case - I would like to be contacted by Red Hat "
 "Support"
 msgstr ""
+"Buat kasus Dukungan Red Hat baru - Saya ingin dihubungi oleh Dukungan Red Hat"
 
 #: ../src/workflows/workflow_RHELAddDataCCpp.xml.in.h:1
 #: ../src/workflows/workflow_RHELAddDataJava.xml.in.h:1
@@ -3230,7 +3368,7 @@ msgstr ""
 #: ../src/workflows/workflow_RHELAddDataxorg.xml.in.h:1
 #: ../src/workflows/workflow_RHELAddDataJavaScript.xml.in.h:1
 msgid "Attach crash data to an existing Red Hat support case"
-msgstr ""
+msgstr "Lampirkan data crash ke kasus dukungan Red Hat yang ada"
 
 #: ../src/workflows/workflow_RHELAddDataCCpp.xml.in.h:2
 #: ../src/workflows/workflow_RHELAddDataJava.xml.in.h:2
@@ -3241,7 +3379,7 @@ msgstr ""
 #: ../src/workflows/workflow_RHELAddDataxorg.xml.in.h:2
 #: ../src/workflows/workflow_RHELAddDataJavaScript.xml.in.h:2
 msgid "Provide Red Hat Support with crash details"
-msgstr ""
+msgstr "Berikan detail crash kepada Dukungan Red Hat"
 
 #: ../src/workflows/workflow_RHELBugzillaCCpp.xml.in.h:1
 #: ../src/workflows/workflow_RHELBugzillaKerneloops.xml.in.h:1
@@ -3252,36 +3390,36 @@ msgstr ""
 #: ../src/workflows/workflow_RHELBugzillaJava.xml.in.h:1
 #: ../src/workflows/workflow_RHELBugzillaJavaScript.xml.in.h:1
 msgid "Report to Red Hat Bugzilla"
-msgstr ""
+msgstr "Laporkan ke Bugzilla Red Hat"
 
 #: ../src/workflows/workflow_RHELBugzillaCCpp.xml.in.h:2
 msgid "Process the C/C++ crash using the Red Hat infrastructure"
-msgstr ""
+msgstr "Proses crash C/C++ menggunakan infrastruktur Red Hat"
 
 #: ../src/workflows/workflow_RHELBugzillaKerneloops.xml.in.h:2
 msgid "Process the kerneloops using the Red Hat infrastructure"
-msgstr ""
+msgstr "Proses kerneloops menggunakan infrastruktur Red Hat"
 
 #: ../src/workflows/workflow_RHELBugzillaPython.xml.in.h:2
 msgid "Process the python exception using the Red Hat infrastructure"
-msgstr ""
+msgstr "Proses exception python menggunakan infrastruktur Red Hat"
 
 #: ../src/workflows/workflow_RHELBugzillaVmcore.xml.in.h:2
 msgid "Process the kernel crash using the Red Hat infrastructure"
-msgstr ""
+msgstr "Proses crash kernel menggunakan infrastruktur Red Hat"
 
 #: ../src/workflows/workflow_RHELBugzillaXorg.xml.in.h:2
 msgid "Process the X Server problem using the Red Hat infrastructure"
-msgstr ""
+msgstr "Proses masalah X Server menggunakan infrastruktur Red Hat"
 
 #: ../src/workflows/workflow_RHELBugzillaLibreport.xml.in.h:2
 msgid "Process the problem using the Red Hat infrastructure"
-msgstr ""
+msgstr "Proses masalah menggunakan infrastruktur Red Hat"
 
 #: ../src/workflows/workflow_RHELBugzillaJava.xml.in.h:2
 msgid "Process the Java exception using the Red Hat infrastructure"
-msgstr ""
+msgstr "Proses exception Java menggunakan infrastruktur Red Hat"
 
 #: ../src/workflows/workflow_RHELBugzillaJavaScript.xml.in.h:2
 msgid "Process the JavaScript exception using the Red Hat infrastructure"
-msgstr ""
+msgstr "Proses exception JavaScript menggunakan infrastruktur Red Hat"

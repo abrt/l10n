@@ -4,13 +4,13 @@
 #
 # Translators:
 # Bruce Cowan <bruce@bcowan.me.uk>, 2011
-# Andi Chandler <andi@gowling.com>, 2023, 2025.
+# Andi Chandler <andi@gowling.com>, 2023, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-09 10:42+0100\n"
-"PO-Revision-Date: 2025-12-31 16:58+0000\n"
+"PO-Revision-Date: 2026-03-02 14:58+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) <https://translate.fedoraproject.org/"
 "projects/abrt/libreport/en_GB/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 5.16.1\n"
 
 #: ../src/cli/cli.c:66
 msgid ""
@@ -389,7 +389,7 @@ msgstr ""
 
 #: ../src/gtk-helpers/config_dialog.c:368 ../src/gui-wizard-gtk/wizard.c:3206
 msgid "_Close"
-msgstr ""
+msgstr "_Close"
 
 #: ../src/gtk-helpers/event_config_dialog.c:140
 msgid "Show password"
@@ -479,7 +479,7 @@ msgstr ""
 
 #: ../src/gui-wizard-gtk/main.c:109
 msgid "Quit"
-msgstr ""
+msgstr "Quit"
 
 #: ../src/gui-wizard-gtk/main.c:153
 msgid ""

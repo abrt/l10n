@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Languages add-on <noreply-addon-languages@weblate.org>, 2025.
-# ButterflyOfFire <butterflyoffire@users.noreply.translate.fedoraproject.org>, 2025.
+# ButterflyOfFire <butterflyoffire@users.noreply.translate.fedoraproject.org>, 2025, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 msgid ""
 msgstr ""
@@ -10,8 +10,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-09 10:42+0100\n"
 "PO-Revision-Date: 2026-04-14 09:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: ButterflyOfFire "
+"<butterflyoffire@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Kabyle <https://translate.fedoraproject.org/projects/abrt/"
 "libreport/kab/>\n"
 "Language: kab\n"
@@ -79,7 +79,7 @@ msgstr ""
 
 #: ../src/cli/cli-report.c:156
 msgid "# Architecture"
-msgstr ""
+msgstr "# Tasegda"
 
 #: ../src/cli/cli-report.c:157
 msgid "# Command line"
@@ -278,7 +278,7 @@ msgstr ""
 #: ../src/client-python/reportclient/debuginfo.py:427
 #, python-brace-format
 msgid "Removing {0}"
-msgstr ""
+msgstr "Tukksa n {0}"
 
 #: ../src/client-python/reportclient/debuginfo.py:431
 #, python-brace-format
@@ -338,11 +338,11 @@ msgstr ""
 #.
 #: ../src/gtk-helpers/ask_dialogs.c:87
 msgid "_No"
-msgstr ""
+msgstr "_Uhu"
 
 #: ../src/gtk-helpers/ask_dialogs.c:88
 msgid "_Yes"
-msgstr ""
+msgstr "_Ih"
 
 #: ../src/gtk-helpers/ask_dialogs.c:94
 msgid "Don't ask me again"
@@ -355,7 +355,7 @@ msgstr ""
 
 #: ../src/gtk-helpers/config_dialog.c:338
 msgid "Configuration"
-msgstr ""
+msgstr "Tawila"
 
 #. we can't use this, because we want the workflows first and hashtable
 #. * doesn't return the items in the order they were added
@@ -383,7 +383,7 @@ msgstr "Mdel (_C)"
 
 #: ../src/gtk-helpers/event_config_dialog.c:140
 msgid "Show password"
-msgstr ""
+msgstr "Sken-d awal n uɛeddi"
 
 #: ../src/gtk-helpers/event_config_dialog.c:263
 msgid "Don't store passwords"
@@ -491,7 +491,7 @@ msgstr ""
 
 #: ../src/gui-wizard-gtk/wizard.c:731
 msgid "_Save"
-msgstr ""
+msgstr "Se_kles"
 
 #: ../src/gui-wizard-gtk/wizard.c:874
 msgid ""
@@ -615,7 +615,7 @@ msgstr ""
 
 #: ../src/gui-wizard-gtk/wizard.c:2866
 msgid "_Open"
-msgstr ""
+msgstr "L_di"
 
 #: ../src/gui-wizard-gtk/wizard.c:2888
 #, c-format
@@ -654,11 +654,11 @@ msgstr ""
 
 #: ../src/gui-wizard-gtk/wizard.c:3117
 msgid "Name"
-msgstr ""
+msgstr "Isem"
 
 #: ../src/gui-wizard-gtk/wizard.c:3127
 msgid "Value"
-msgstr ""
+msgstr "Azal"
 
 #: ../src/gui-wizard-gtk/wizard.c:3162
 msgid "Problem description"
@@ -705,7 +705,7 @@ msgstr ""
 #. else gtk_widget_hide won't work
 #: ../src/gui-wizard-gtk/wizard.c:3216 ../src/gui-wizard-gtk/wizard.glade.h:9
 msgid "Details"
-msgstr ""
+msgstr "Talqayt"
 
 #: ../src/gui-wizard-gtk/wizard.c:3263
 msgid "Restrict access to the report"
@@ -727,7 +727,7 @@ msgstr ""
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:3
 msgid "Custom"
-msgstr ""
+msgstr "Udmawan"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:4
 msgid "Clear the search bar to see the list of security sensitive words."
@@ -735,15 +735,15 @@ msgstr ""
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:5
 msgid "file"
-msgstr ""
+msgstr "afaylu"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:6
 msgid "data"
-msgstr ""
+msgstr "isefka"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:7
 msgid "Search"
-msgstr ""
+msgstr "Nadi"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:8
 msgid ""
@@ -790,7 +790,7 @@ msgstr ""
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:17
 msgid "Size:"
-msgstr ""
+msgstr "Tiddi:"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:18
 msgid "Attach a file"
@@ -863,11 +863,11 @@ msgstr ""
 
 #: ../src/lib/client.c:67 ../src/lib/client.c:99 ../src/lib/client.c:156
 msgid "y"
-msgstr ""
+msgstr "i"
 
 #: ../src/lib/client.c:68 ../src/lib/client.c:100 ../src/lib/client.c:157
 msgid "N"
-msgstr ""
+msgstr "U"
 
 #: ../src/lib/client.c:101 ../src/lib/client.c:158
 msgid "f"
@@ -1202,7 +1202,7 @@ msgstr ""
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:3
 #: ../src/plugins/report_Uploader.xml.in.h:6
 msgid "User name"
-msgstr ""
+msgstr "Isem n useqdac"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:4
 msgid "Bugzilla account user name"
@@ -1651,7 +1651,7 @@ msgstr ""
 #: ../src/plugins/reporter-kerneloops.c:174
 #: ../src/plugins/reporter-ureport.c:81
 msgid "Configuration file"
-msgstr ""
+msgstr "Afaylu n tawila"
 
 #: ../src/plugins/reporter-mailx.c:83
 #, c-format
@@ -1695,7 +1695,7 @@ msgstr ""
 
 #: ../src/plugins/reporter-mailx.c:289 ../src/plugins/reporter-upload.c:187
 msgid "Config file"
-msgstr ""
+msgstr "Afaylu n tawila"
 
 #: ../src/plugins/reporter-mailx.c:290
 msgid "Formatting file for an email"
@@ -1714,7 +1714,7 @@ msgstr ""
 
 #: ../src/plugins/reporter-print.c:57
 msgid "Output file"
-msgstr ""
+msgstr "Afaylu n tuffɣa"
 
 #: ../src/plugins/reporter-print.c:58
 msgid "Append to, or overwrite FILE"
@@ -2187,7 +2187,7 @@ msgstr ""
 
 #: ../src/plugins/report_Kerneloops.xml.in.h:1
 msgid "Kerneloops.org"
-msgstr ""
+msgstr "Kerneloops.org"
 
 #: ../src/plugins/report_Kerneloops.xml.in.h:2
 msgid "Send to kernel oops tracker"
@@ -2227,7 +2227,7 @@ msgstr ""
 
 #: ../src/plugins/report_Mailx.xml.in.h:1
 msgid "Mailx"
-msgstr ""
+msgstr "Mailx"
 
 #: ../src/plugins/report_Mailx.xml.in.h:2
 msgid "Send via email"
@@ -2243,7 +2243,7 @@ msgstr ""
 
 #: ../src/plugins/report_Mailx.xml.in.h:5
 msgid "Sender"
-msgstr ""
+msgstr "Amazan"
 
 #: ../src/plugins/report_Mailx.xml.in.h:6
 msgid "Sender's email"
@@ -2276,7 +2276,7 @@ msgstr ""
 
 #: ../src/plugins/report_RHTSupport.xml.in.h:3
 msgid "Username"
-msgstr "Isem n useqdac :"
+msgstr "Isem n useqdac"
 
 #: ../src/plugins/report_RHTSupport.xml.in.h:4
 msgid "Red Hat customer user name"
@@ -2796,11 +2796,11 @@ msgstr ""
 
 #: ../src/report-newt/report-newt.c:68 ../src/report-newt/report-newt.c:145
 msgid "Cancel"
-msgstr ""
+msgstr "Semmet"
 
 #: ../src/report-newt/report-newt.c:168 ../src/report-newt/report-newt.c:334
 msgid "Error"
-msgstr ""
+msgstr "Tuccḍa"
 
 #: ../src/report-newt/report-newt.c:255
 msgid "Reporting"

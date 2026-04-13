@@ -6,13 +6,15 @@
 # Kjartan Maraas <kmaraas@gnome.org>, 2011
 # Agostino Montanaro <telometto@protonmail.com>, 2021.
 # Sverre Magnus Vikan <sverre.vikan@gmail.com>, 2025.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-09 10:42+0100\n"
-"PO-Revision-Date: 2025-12-22 13:52+0000\n"
-"Last-Translator: Sverre Magnus Vikan <sverre.vikan@gmail.com>\n"
+"PO-Revision-Date: 2026-04-14 09:58+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Norwegian Bokmål <https://translate.fedoraproject.org/"
 "projects/abrt/libreport/nb_NO/>\n"
 "Language: nb\n"
@@ -20,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: ../src/cli/cli.c:66
 msgid ""
@@ -750,7 +752,7 @@ msgstr ""
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:7
 msgid "Search"
-msgstr ""
+msgstr "Søk"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:8
 msgid ""

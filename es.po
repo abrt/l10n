@@ -24,13 +24,14 @@
 # Emilio Herrera <ehespinosa57@gmail.com>, 2020.
 # N M <nm@users.noreply.translate.fedoraproject.org>, 2024.
 # Javier Francisco <fserrador@gmail.com>, 2025.
+# "Fco. Javier F. Serrador" <fserrador@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-09 10:42+0100\n"
-"PO-Revision-Date: 2025-04-12 00:46+0000\n"
-"Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
+"PO-Revision-Date: 2026-04-14 09:58+0000\n"
+"Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/abrt/"
 "libreport/es/>\n"
 "Language: es\n"
@@ -38,7 +39,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: ../src/cli/cli.c:66
 msgid ""
@@ -1750,7 +1751,7 @@ msgstr ""
 #: ../src/plugins/reporter-bugzilla.c:509
 #, c-format
 msgid "Malformed url to Bugzilla '%s'."
-msgstr "URL inválida para Bugzilla '%s'."
+msgstr "Url inválida para Bugzilla '%s'."
 
 #: ../src/plugins/reporter-bugzilla.c:513
 #, c-format
@@ -2552,7 +2553,7 @@ msgstr "URL de Kerneloops"
 
 #: ../src/plugins/report_Kerneloops.xml.in.h:4
 msgid "Oops server url"
-msgstr "URL de servidor Oops"
+msgstr "Oh, oh, la url de servidor"
 
 #: ../src/plugins/report_Logger.xml.in.h:1
 msgid "Logger"
@@ -2806,7 +2807,7 @@ msgstr ""
 #: ../src/plugins/rhbz.c:604
 #, c-format
 msgid "New bug id: %i"
-msgstr "ID del nuevo error: %i"
+msgstr "Id del nuevo error: %i"
 
 #: ../src/plugins/rhbz.c:725
 #, c-format
@@ -2923,7 +2924,7 @@ msgstr ""
 
 #: ../src/plugins/mantisbt.c:647
 msgid "Url or request isn't specified."
-msgstr "No se indica URL ni petición."
+msgstr "No se indica url ni petición."
 
 #: ../src/plugins/mantisbt.c:675
 #, c-format

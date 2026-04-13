@@ -38,14 +38,14 @@
 # Emilio Herrera <ehespinosa57@gmail.com>, 2020, 2026.
 # Facundo <facevedo@disroot.org>, 2020.
 # Javier Francisco <fserrador@gmail.com>, 2025.
-# "Fco. Javier F. Serrador" <fserrador@gmail.com>, 2025.
+# "Fco. Javier F. Serrador" <fserrador@gmail.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: crash-catcher@lists.fedoraproject.org\n"
 "POT-Creation-Date: 2020-01-23 15:47+0100\n"
-"PO-Revision-Date: 2026-04-09 14:59+0000\n"
-"Last-Translator: Emilio Herrera <ehespinosa57@gmail.com>\n"
+"PO-Revision-Date: 2026-04-14 09:58+0000\n"
+"Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/abrt/"
 "abrt/es/>\n"
 "Language: es\n"
@@ -823,7 +823,7 @@ msgstr "Analizando el archivo de volcado '%s'"
 #: ../src/plugins/abrt-action-analyze-core.in:105
 #, c-format
 msgid "Missing build id: %s"
-msgstr "Falta la ID de construcción: %s"
+msgstr "Falta la id de construcción: %s"
 
 #: ../src/plugins/abrt-action-analyze-core.in:137
 #, c-format

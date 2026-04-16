@@ -8,22 +8,23 @@
 # Marko Kostic <marko.m.kostic@gmail.com>, 2016. #zanata
 # Marko Kostic <marko.m.kostic@gmail.com>, 2018. #zanata
 # Marko Kostic <marko.m.kostic@gmail.com>, 2019. #zanata
+# "Марко Костић (Marko Kostić)" <marko.m.kostic@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: crash-catcher@lists.fedoraproject.org\n"
 "POT-Creation-Date: 2020-01-23 15:47+0100\n"
-"PO-Revision-Date: 2019-03-04 09:28+0000\n"
-"Last-Translator: Marko Kostic <marko.m.kostic@gmail.com>\n"
-"Language-Team: Serbian (http://www.transifex.com/projects/p/fedora-abrt/"
-"language/sr/)\n"
+"PO-Revision-Date: 2026-04-16 18:41+0000\n"
+"Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
+"Language-Team: Serbian <https://translate.fedoraproject.org/projects/abrt/"
+"abrt/sr/>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.17\n"
 
 #: ../src/applet/org.freedesktop.problems.applet.desktop.in.h:1
 msgid "Problem Reporting"
@@ -35,7 +36,7 @@ msgstr "Види и пријави пад програма"
 
 #: ../src/applet/abrt-applet-application.c:157
 msgid "Be verbose"
-msgstr ""
+msgstr "Бива опширан"
 
 #: ../src/applet/abrt-applet-application.c:167
 #, fuzzy
@@ -304,7 +305,7 @@ msgstr "О програму"
 
 #: ../src/configuration-gui/main.c:106
 msgid "Quit"
-msgstr "Излаз"
+msgstr "Изађи"
 
 #: ../src/daemon/abrt-action-save-package-data.c:456
 msgid ""
@@ -366,11 +367,11 @@ msgstr "Користи NUM као uid клијента"
 #: ../src/plugins/abrt-dump-journal-xorg.c:191
 #: ../src/plugins/abrt-dump-xorg.c:52
 msgid "Log to syslog"
-msgstr "Записник у syslog"
+msgstr "Пиши у системски дневник"
 
 #: ../src/daemon/abrt-server.c:1113 ../src/daemon/abrtd.c:754
 msgid "Add program names to log"
-msgstr "Додај имена програма у записник"
+msgstr "Додај називе програма у дневник"
 
 #: ../src/dbus/abrt-dbus.c:135
 #, c-format
@@ -1733,7 +1734,7 @@ msgstr ""
 #: ../src/plugins/abrt-retrace-client.c:230
 #: ../src/plugins/abrt-retrace-client.c:234
 msgid "Can't create temporary file in "
-msgstr "Не могу направити привремену датотеку у "
+msgstr "Не могу да направим привремену датотеку у "
 
 #: ../src/plugins/abrt-retrace-client.c:322
 #: ../src/plugins/abrt-retrace-client.c:498

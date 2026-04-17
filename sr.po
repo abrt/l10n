@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: gnome-abrt 1.2.9.3.g80d2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-25 10:14-0300\n"
-"PO-Revision-Date: 2026-04-16 18:42+0000\n"
+"PO-Revision-Date: 2026-04-18 06:59+0000\n"
 "Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/abrt/"
 "gnome-abrt/sr/>\n"
@@ -35,16 +35,12 @@ msgid "D_etails"
 msgstr "Пој_единости"
 
 #: data/ui/oops-menus.ui:19
-#, fuzzy
-#| msgid "_Open the problem data directory"
 msgid "_Open problem data directory"
-msgstr "_Отвори фасциклу са подацима проблема"
+msgstr "_Отвори директоријум са подацима о проблему"
 
 #: data/ui/oops-menus.ui:23
-#, fuzzy
-#| msgid "_Copy the problem ID to Clipboard"
 msgid "_Copy problem directory path to clipboard"
-msgstr "_Копирај ИБ проблема у оставу"
+msgstr "_Копирај путању директоријума са проблемом у оставу"
 
 #: data/ui/oops-menus.ui:27
 msgid "_Filter"
@@ -53,17 +49,15 @@ msgstr "_Филтер"
 #. Translators: This is the menu item which displays the About box. Note that "Problem Reporting" is the name of this application.
 #: data/ui/oops-menus.ui:44
 msgid "_About Problem Reporting"
-msgstr ""
+msgstr "_О Пријављивању проблема"
 
 #: data/ui/oops-window.ui:28
 msgid "Search"
 msgstr "Претрага"
 
 #: data/ui/oops-window.ui:35
-#, fuzzy
-#| msgid "Delete selected problems"
 msgid "Detected Crashes"
-msgstr "Обриши изабране проблеме"
+msgstr "Откривени падови"
 
 #: data/ui/oops-window.ui:61
 msgid "Delete selected problems"
@@ -75,19 +69,19 @@ msgstr "Поднеси изабрани проблем"
 
 #: data/ui/oops-window.ui:97
 msgid "Create Report..."
-msgstr ""
+msgstr "Направи извештај..."
 
 #: data/ui/oops-window.ui:127
 msgid "Search or type @ for crash types"
-msgstr ""
+msgstr "Тражите или унесите @ за врсте падова"
 
 #: data/ui/oops-window.ui:246
 msgid "Affected Component"
-msgstr ""
+msgstr "Погођени део"
 
 #: data/ui/oops-window.ui:274
 msgid "Component Version"
-msgstr ""
+msgstr "Издање дела"
 
 #: data/ui/oops-window.ui:302 src/gnome_abrt/views.py:923
 msgid "Reported"
@@ -98,10 +92,8 @@ msgid "First Detected"
 msgstr "Први пут уочено"
 
 #: data/ui/oops-window.ui:369
-#, fuzzy
-#| msgid "First Detected"
 msgid "Times Detected"
-msgstr "Први пут уочено"
+msgstr "Пута откривено"
 
 #: data/ui/oops-window.ui:407
 msgid "No problems detected!"
@@ -137,7 +129,7 @@ msgstr ""
 
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:7
 msgid "The ABRT Project"
-msgstr ""
+msgstr "Пројекат АБРТ"
 
 #: src/org.freedesktop.GnomeAbrt.appdata.xml.in:11
 msgid ""

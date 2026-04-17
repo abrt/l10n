@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: crash-catcher@lists.fedoraproject.org\n"
 "POT-Creation-Date: 2020-01-23 15:47+0100\n"
-"PO-Revision-Date: 2026-04-17 06:02+0000\n"
+"PO-Revision-Date: 2026-04-18 06:59+0000\n"
 "Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/abrt/"
 "abrt/sr/>\n"
@@ -32,11 +32,11 @@ msgstr "Пријављивање проблема"
 
 #: ../src/applet/org.freedesktop.problems.applet.desktop.in.h:2
 msgid "View and report application crashes"
-msgstr "Види и пријави пад програма"
+msgstr "Види и пријави програмски пад"
 
 #: ../src/applet/abrt-applet-application.c:157
 msgid "Be verbose"
-msgstr "Буди опширан"
+msgstr "Бива опширан"
 
 #: ../src/applet/abrt-applet-application.c:167
 msgid "Applet which notifies user when new problems are detected by ABRT"

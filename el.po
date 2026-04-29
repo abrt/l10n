@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Jim Spentzos <jimspentzos2000@gmail.com>, 2025.
+# Jim Spentzos <jimspentzos2000@gmail.com>, 2025, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-09 10:42+0100\n"
-"PO-Revision-Date: 2025-10-25 16:25+0000\n"
+"PO-Revision-Date: 2026-04-30 23:59+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/abrt/"
 "libreport/el/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13.3\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: ../src/cli/cli.c:66
 msgid ""
@@ -224,7 +224,7 @@ msgstr ""
 #. This takes some time, let user know what we are doing
 #: ../src/client-python/reportclient/debuginfo.py:310
 msgid "Setting up repositories"
-msgstr ""
+msgstr "Ρύθμιση αποθετηρίων"
 
 #: ../src/client-python/reportclient/debuginfo.py:313
 msgid "Looking for needed packages in repositories"
@@ -238,7 +238,7 @@ msgstr ""
 #: ../src/client-python/reportclient/debuginfo.py:350
 #, python-brace-format
 msgid "Packages to download: {0}"
-msgstr ""
+msgstr "Πακέτα προς λήψη: {0}"
 
 #: ../src/client-python/reportclient/debuginfo.py:352
 #, python-brace-format
@@ -373,7 +373,7 @@ msgstr "Διαμόρφωση"
 #: ../src/gtk-helpers/config_dialog.c:358
 #: ../src/gtk-helpers/config_dialog.c:417
 msgid "Workflows"
-msgstr ""
+msgstr "Ροές εργασίας"
 
 #: ../src/gtk-helpers/config_dialog.c:360
 #: ../src/gtk-helpers/config_dialog.c:362
@@ -413,12 +413,12 @@ msgstr ""
 #: ../src/gtk-helpers/workflow_config_dialog.c:90
 #: ../src/gui-wizard-gtk/wizard.c:732 ../src/gui-wizard-gtk/wizard.c:2865
 msgid "_Cancel"
-msgstr ""
+msgstr "_Ακύρωση"
 
 #: ../src/gtk-helpers/event_config_dialog.c:342
 #: ../src/gtk-helpers/workflow_config_dialog.c:92
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #: ../src/gtk-helpers/secrets.c:171
 #, c-format
@@ -690,7 +690,7 @@ msgstr ""
 
 #: ../src/gui-wizard-gtk/wizard.c:3167
 msgid "Processing"
-msgstr ""
+msgstr "Επεξεργασία"
 
 #: ../src/gui-wizard-gtk/wizard.c:3168
 msgid "Processing done"

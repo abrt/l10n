@@ -4,7 +4,7 @@
 #
 # Translators:
 # Arif Tri Waluyo <arifiauo@fedoraproject.org>, 2012
-# eko ikhyar <ikhyar.com@gmail.com>, 2013
+# eko ikhyar <ikhyar.com@gmail.com>, 2013, 2026.
 # Jiří Moskovčák <jmoskovc@redhat.com>, 2011
 # Muhammad Panji <sumodirjo@gmail.com>, 2012
 # Prima Yogi Loviniltra <jurankc0d3@gmail.com>, 2012
@@ -19,8 +19,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: crash-catcher@lists.fedoraproject.org\n"
 "POT-Creation-Date: 2020-01-23 15:47+0100\n"
-"PO-Revision-Date: 2026-02-03 07:58+0000\n"
-"Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
+"PO-Revision-Date: 2026-05-17 17:00+0000\n"
+"Last-Translator: eko ikhyar <ikhyar.com@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/abrt/"
 "abrt/id/>\n"
 "Language: id\n"
@@ -28,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: ../src/applet/org.freedesktop.problems.applet.desktop.in.h:1
 msgid "Problem Reporting"
@@ -2236,10 +2236,8 @@ msgid "Start retracing process?"
 msgstr "Mulai proses retracing?"
 
 #: ../src/cli/abrtcli/cli/gdb.py:25
-#, fuzzy
-#| msgid "Download debuginfo packages and generate backtrace locally using GDB"
 msgid "install debuginfo packages before launching GDB"
-msgstr "Unduh paket debuginfo dan menghasilkan backtrace lokal menggunakan GDB"
+msgstr "pasang paket debuginfo sebelum menggunakan GDB"
 
 #: ../src/cli/abrtcli/cli/gdb.py:38
 msgid "The problem is not of a C/C++ type. Can't run GDB"
@@ -2275,10 +2273,8 @@ msgid "Removed"
 msgstr "Dihapus"
 
 #: ../src/cli/abrtcli/cli/report.py:23
-#, fuzzy
-#| msgid "Shortened reporting"
 msgid "remove after reporting"
-msgstr "Pelaporan yang diperpendek"
+msgstr "hapus setelah melaporkan"
 
 #: ../src/cli/abrtcli/cli/report.py:25
 msgid "ignore unreportable state"
@@ -2299,10 +2295,8 @@ msgid "perform retracing locally"
 msgstr "lakukan retracing secara lokal"
 
 #: ../src/cli/abrtcli/cli/retrace.py:26
-#, fuzzy
-#| msgid "Send core dump to remote retrace server for analysis"
 msgid "submit core dump for remote retracing"
-msgstr "Kirim core dump untuk retrace remote server untuk analisis"
+msgstr "Kirim core dump untuk retrace remote"
 
 #: ../src/cli/abrtcli/cli/retrace.py:29
 msgid "force retracing"

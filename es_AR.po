@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: crash-catcher@lists.fedoraproject.org\n"
 "POT-Creation-Date: 2020-01-23 15:47+0100\n"
-"PO-Revision-Date: 2026-10-12 22:14+0000\n"
+"PO-Revision-Date: 2026-10-13 23:18+0000\n"
 "Last-Translator: Fernando Velo <seacat.linux@gmail.com>\n"
 "Language-Team: Spanish (Argentina) <https://translate.fedoraproject.org/"
 "projects/abrt/abrt/es_AR/>\n"
@@ -660,7 +660,7 @@ msgstr "'{0}' procesado correctamente"
 #. Let user know what's going on
 #: ../src/lib/hooklib.c:259
 msgid "Generating backtrace"
-msgstr ""
+msgstr "Genenrando rastreo inverso"
 
 #: ../src/lib/problem_api_dbus.c:42
 #, c-format
@@ -793,6 +793,11 @@ msgid ""
 "your computer. ABRT will not allow you to create a report in a bug tracking "
 "system but you can contact kernel maintainers via e-mail."
 msgstr ""
+"El rastreo inverso no contiene suficientes marcos de función relevantes para "
+"ser reportado. Es molesto, pero no necesariamente indica un problema con su "
+"computadora. ABRT no le permitirá crear un informe en un sistema de "
+"seguimiento de errores, pero puede contactar a los responsables del kernel "
+"por correo electrónico."
 
 #: ../src/plugins/abrt-action-analyze-xorg.c:74
 msgid ""
@@ -800,11 +805,14 @@ msgid ""
 "\n"
 "Calculates and saves UUID and DUPHASH for xorg problem directory DIR"
 msgstr ""
+"& [-v] -d DIR\n"
+"\n"
+"Calcula y guarda UUID y DUPHASH para el directorio de problemas de xorg DIR"
 
 #: ../src/plugins/abrt-action-analyze-xorg.c:143
 #, c-format
 msgid "Module '%s' was loaded - won't report this crash"
-msgstr ""
+msgstr "El módulo '%s' se cargó; no se informará de este fallo"
 
 #: ../src/plugins/abrt-action-analyze-python.c:44
 msgid ""
@@ -812,71 +820,79 @@ msgid ""
 "\n"
 "Calculates and saves UUID and DUPHASH of python crash dumps"
 msgstr ""
+"& [-v] -d DIR\n"
+"\n"
+"Calcula y guarda el UUID y el DUPHASH de los volcados de memoria de Python"
 
 #: ../src/plugins/abrt-action-analyze-vmcore.in:47
 msgid "Usage: {0} [-v[v]] [--core=VMCORE]"
-msgstr ""
+msgstr "Us0: {0} [-v[v]] [--core=VMCORE]"
 
 #: ../src/plugins/abrt-action-analyze-vmcore.in:74
 msgid "File {0} doesn't exist"
-msgstr ""
+msgstr "El archivo {0} no existe"
 
 #: ../src/plugins/abrt-action-analyze-vmcore.in:77
 msgid "Extracting the oops text from core"
-msgstr ""
+msgstr "Extrayendo el texto ups desde el núcleo"
 
 #: ../src/plugins/abrt-action-analyze-vmcore.in:82
 msgid ""
 "Can't process {0}:\n"
 "{1}"
 msgstr ""
+"No se puede procesar {0}:\n"
+"{1}"
 
 #: ../src/plugins/abrt-action-analyze-vmcore.in:90
 msgid "Can't extract the oops message: '{0}'"
-msgstr ""
+msgstr "No se puede extraer el mensaje ups: '{0}'"
 
 #: ../src/plugins/abrt-action-analyze-vmcore.in:93
 msgid "Oops text extracted successfully"
-msgstr ""
+msgstr "Texto ups extraído correctamente"
 
 #: ../src/plugins/abrt-action-check-oops-for-hw-error.in:100
 msgid ""
 "The kernel log indicates that hardware errors were detected.\n"
 "This is most likely not a software problem.\n"
 msgstr ""
+"El registro del kernel indica que se detectaron errores de hardware.\n"
+"Lo más probable es que no se trate de un problema de software.\n"
 
 #: ../src/plugins/abrt-action-find-bodhi-update:73
 #: ../src/plugins/abrt-action-find-bodhi-update:106
 msgid "Problem directory error: {0}"
-msgstr ""
+msgstr "Error en el directorio del problema: {0}"
 
 #: ../src/plugins/abrt-action-find-bodhi-update:92
 msgid "cannot open problem directory '{0}'"
-msgstr ""
+msgstr "No se puede abrir el directorio del problema '{0}'"
 
 #: ../src/plugins/abrt-action-find-bodhi-update:121
 msgid "Using product '{0}' from /etc/os-release."
-msgstr ""
+msgstr "Utilizando el producto '{0}' de /etc/os-release."
 
 #: ../src/plugins/abrt-action-find-bodhi-update:123
 msgid "Using product {0}."
-msgstr ""
+msgstr "Utilizando el producto {0}."
 
 #: ../src/plugins/abrt-action-find-bodhi-update:125
 msgid "Using product version {0}."
-msgstr ""
+msgstr "Utilizando la versión del producto {0}."
 
 #: ../src/plugins/abrt-action-find-bodhi-update:137
 msgid "Duplicate bugzilla bug '#{0}' was found"
-msgstr ""
+msgstr "Se encontró un error duplicado en Bugzilla '#{0}'"
 
 #: ../src/plugins/abrt-action-find-bodhi-update:139
 msgid "There is no bugzilla bug with 'abrt_hash:{0}'"
-msgstr ""
+msgstr "No existe ningún error en Bugzilla relacionado con 'abrt_hash:{0}'"
 
 #: ../src/plugins/abrt-action-find-bodhi-update:144
 msgid "Warning: abrt-bodhi do not support Product version 'Rawhide'"
 msgstr ""
+"Advertencia: abrt-bodhi no es compatible con la versión de producto 'Rawhide'"
 
 #: ../src/plugins/abrt-action-generate-backtrace.c:42
 msgid ""
@@ -884,14 +900,18 @@ msgid ""
 "\n"
 "Analyzes coredump in problem directory DIR, generates and saves backtrace"
 msgstr ""
+"& [opciones] -d DIR\n"
+"\n"
+"Analiza coredump en el directorio del problema DIR, genera y guarda el "
+"rastreo inverso"
 
 #: ../src/plugins/abrt-action-generate-backtrace.c:56
 msgid "Additional debuginfo directories"
-msgstr ""
+msgstr "Directorios de debuginfo adicionales"
 
 #: ../src/plugins/abrt-action-generate-backtrace.c:57
 msgid "Kill gdb if it runs for more than NUM seconds"
-msgstr ""
+msgstr "Finaliza el proceso de gdb si se ejecuta durante más de NUM segundos"
 
 #. Don't be completely silent. gdb run takes a few seconds,
 #. * it is useful to let user know it (maybe) worked.
@@ -899,7 +919,7 @@ msgstr ""
 #: ../src/plugins/abrt-action-generate-backtrace.c:103
 #, c-format
 msgid "Backtrace is generated and saved, %u bytes"
-msgstr ""
+msgstr "Se genera y guarda el rastreo inverso, %u bytes"
 
 #: ../src/plugins/abrt-action-generate-core-backtrace.c:40
 msgid ""

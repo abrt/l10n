@@ -489,7 +489,7 @@ msgstr ""
 
 #: ../src/daemon/abrt-auto-reporting.c:277
 msgid "Invalid number of arguments"
-msgstr ""
+msgstr "Vigane arv argumente"
 
 #: ../src/daemon/abrt-auto-reporting.c:296
 #, c-format
@@ -532,7 +532,7 @@ msgstr ""
 #: ../src/daemon/abrt-handle-upload.in:166
 #: ../src/daemon/abrt-handle-upload.in:169
 msgid "Not a directory: '{0}'"
-msgstr ""
+msgstr "See pole kaust"
 
 #: ../src/daemon/abrt-handle-upload.in:172
 msgid "Skipping: '{0}' (starts with slash)"

@@ -4,14 +4,15 @@
 # H A <contact+fedora@hen.ee>, 2022.
 # Henri Aunin <contact+fedora@hen.ee>, 2025.
 # Priit Jõerüüt <jrtkbfdr@users.noreply.translate.fedoraproject.org>, 2026.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: libreport 2.11.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-09 10:42+0100\n"
 "PO-Revision-Date: 2026-10-18 13:18+0000\n"
-"Last-Translator: Priit Jõerüüt "
-"<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/abrt/"
 "libreport/et/>\n"
 "Language: et\n"
@@ -1051,7 +1052,7 @@ msgstr ""
 #: ../src/lib/ureport.c:582
 #, c-format
 msgid "Error: %s"
-msgstr ""
+msgstr "Viga: %s"
 
 #: ../src/lib/ureport.c:589
 #, c-format

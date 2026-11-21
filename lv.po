@@ -4,22 +4,22 @@
 #
 # Translators:
 # Kristaps, 2012
+# Rihards Prieditis <rprieditis@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-09 10:42+0100\n"
-"PO-Revision-Date: 2015-01-08 07:04+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Latvian (http://www.transifex.com/projects/p/libreport/"
-"language/lv/)\n"
+"PO-Revision-Date: 2026-11-22 14:18+0000\n"
+"Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
+"Language-Team: Latvian <https://translate.fedoraproject.org/projects/abrt/"
+"libreport/lv/>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
-"2);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: ../src/cli/cli.c:66
 msgid ""
@@ -28,106 +28,112 @@ msgid ""
 "   or: & [-vspy] -d PROBLEM_DIR\n"
 "   or: & [-vspy] -x PROBLEM_DIR"
 msgstr ""
+"& [-vsp] -L[PRIEDĒKLIS] [PROBLĒMAS_DIREKTORIJA]\n"
+"   vai: & [-vspy] -e NOTIKUMS PROBLĒMAS_DIREKTORIJA\n"
+"   vai: & [-vspy] -d PROBLĒMAS_DIREKTORIJA\n"
+"   vai: & [-vspy] -x PROBLĒMAS_DIREKTORIJA"
 
 #. short_name long_name  value    parameter_name  help
 #: ../src/cli/cli.c:89
 msgid "List possible events [which start with PREFIX]"
-msgstr ""
+msgstr "Uzskaitīt iespējamos notikumus [kas sākas ar PRIEDĒKLIS]"
 
 #: ../src/cli/cli.c:90 ../src/gui-wizard-gtk/main.c:170
 msgid "Run only these events"
-msgstr ""
+msgstr "Izpildīt tikai šos notikumus"
 
 #: ../src/cli/cli.c:91 ../src/gui-wizard-gtk/main.c:169
 msgid "Remove PROBLEM_DIR after reporting"
-msgstr ""
+msgstr "Pēc ziņošanas noņemt PROBLĒMAS_DIREKTORIJA"
 
 #: ../src/cli/cli.c:92
 msgid "Expert mode"
-msgstr ""
+msgstr "Eksperta režīms"
 
 #: ../src/cli/cli.c:93 ../src/report-newt/report-newt.c:397
 msgid "Display version and exit"
-msgstr ""
+msgstr "Parādīt versiju un iziet"
 
 #: ../src/cli/cli.c:94
 msgid "Noninteractive: don't ask questions, assume 'yes'"
-msgstr ""
+msgstr "Neinteraktīvi: neuzdot jautājumus, pieņemt 'jā'"
 
 #: ../src/cli/cli.c:96
 msgid "Log to syslog"
-msgstr ""
+msgstr "Žurnalēt syslog"
 
 #: ../src/cli/cli.c:97 ../src/gui-wizard-gtk/main.c:168
 msgid "Add program names to log"
-msgstr ""
+msgstr "Pievienot žurnālam programmu nosaukumus"
 
 #: ../src/cli/cli-report.c:132
 #, c-format
 msgid "# This field is read only\n"
-msgstr ""
+msgstr "# Šis lauks ir tikai lasāms\n"
 
 #: ../src/cli/cli-report.c:152
 msgid "# Describe the circumstances of this crash below"
-msgstr ""
+msgstr "# Zemāk aprakstiet šīs avārijas apstākļus"
 
 #: ../src/cli/cli-report.c:154
 msgid ""
 "# Backtrace\n"
 "# Check that it does not contain any sensitive data (passwords, etc.)"
 msgstr ""
+"# Atpakaļsekojums\n"
+"# Pārbaudiet, vai tajā nav sensitīvu datu (paroļu u. c.)"
 
 #: ../src/cli/cli-report.c:156
 msgid "# Architecture"
-msgstr ""
+msgstr "# Arhitektūra"
 
 #: ../src/cli/cli-report.c:157
 msgid "# Command line"
-msgstr ""
+msgstr "# Komandrinda"
 
 #: ../src/cli/cli-report.c:158
 msgid "# Component"
-msgstr ""
+msgstr "# Komponents"
 
 #: ../src/cli/cli-report.c:159
 msgid "# Core dump"
-msgstr ""
+msgstr "# Kodola izmete"
 
 #: ../src/cli/cli-report.c:160
 msgid "# Executable"
-msgstr ""
+msgstr "# Izpildāmais fails"
 
 #: ../src/cli/cli-report.c:161
 msgid "# Kernel version"
-msgstr ""
+msgstr "# Kodola versija"
 
 #: ../src/cli/cli-report.c:162
 msgid "# Package"
-msgstr ""
+msgstr "# Pakotne"
 
 #: ../src/cli/cli-report.c:163
 msgid "# Reason of crash"
-msgstr ""
+msgstr "# Avārijas iemesls"
 
 #: ../src/cli/cli-report.c:170
 msgid "# os-release configuration file from root dir"
-msgstr ""
+msgstr "# os-release konfigurācijas fails no saknes direktorijas"
 
 #: ../src/cli/cli-report.c:175
 msgid "# Release string of the operating system from root dir"
-msgstr ""
+msgstr "# Operētājsistēmas laidiena virkne no saknes direktorijas"
 
 #: ../src/cli/cli-report.c:183
 msgid "# os-release configuration file"
-msgstr ""
+msgstr "# os-release konfigurācijas fails"
 
 #: ../src/cli/cli-report.c:188
 msgid "# Release string of the operating system"
-msgstr ""
+msgstr "# Operētājsistēmas laidiena virkne"
 
 #: ../src/cli/cli-report.c:319
 msgid "Cannot run vi: $TERM, $VISUAL and $EDITOR are not set"
-msgstr ""
+msgstr "Nevar palaist vi: $TERM, $VISUAL un $EDITOR nav iestatīti"
 
 #: ../src/cli/cli-report.c:403
 msgid ""
@@ -135,22 +141,24 @@ msgid ""
 "The report has been updated"
 msgstr ""
 "\n"
-"Ziņojums ir ticis atjaunināts"
+"Ziņojums ir atjaunināts"
 
 #: ../src/cli/cli-report.c:405
 msgid ""
 "\n"
 "No changes were detected in the report"
 msgstr ""
+"\n"
+"Ziņojumā netika konstatētas izmaiņas"
 
 #: ../src/cli/cli-report.c:466
 msgid "Your input is not valid, because of:"
-msgstr ""
+msgstr "Jūsu ievade nav derīga šādu iemeslu dēļ:"
 
 #: ../src/cli/cli-report.c:470
 #, c-format
 msgid "Bad value for '%s': %s"
-msgstr ""
+msgstr "Nederīga '%s' vērtība: %s"
 
 #: ../src/cli/cli-report.c:671
 #, c-format
@@ -158,114 +166,120 @@ msgid ""
 "Event '%s' requires permission to send possibly sensitive data. Do you want "
 "to continue?"
 msgstr ""
+"Notikumam '%s' vajadzīga atļauja nosūtīt, iespējams, sensitīvus datus. Vai "
+"vēlaties turpināt?"
 
 #: ../src/cli/cli-report.c:718
 msgid "You have chosen number out of range"
-msgstr ""
+msgstr "Izvēlētais numurs ir ārpus diapazona"
 
 #: ../src/cli/cli-report.c:723
 msgid "Invalid input, exiting."
-msgstr ""
+msgstr "Nederīga ievade, beidz darbu."
 
 #: ../src/cli/cli-report.c:744
 msgid "Select an event to run: "
-msgstr ""
+msgstr "Izvēlieties izpildāmo notikumu: "
 
 #: ../src/cli/cli-report.c:878
 msgid "Select a workflow to run: "
-msgstr ""
+msgstr "Izvēlieties izpildāmo darbplūsmu: "
 
 #: ../src/client-python/reportclient/debuginfo.py:100
 #, python-brace-format
 msgid "Extracting cpio from {0}"
-msgstr ""
+msgstr "Izvelk cpio no {0}"
 
 #: ../src/client-python/reportclient/debuginfo.py:105
 #, python-brace-format
 msgid "Can't write to '{0}': {1}"
-msgstr ""
+msgstr "Nevar rakstīt '{0}': {1}"
 
 #: ../src/client-python/reportclient/debuginfo.py:116
 #, python-brace-format
 msgid "Can't extract package '{0}'"
-msgstr ""
+msgstr "Nevar izvilkt pakotni '{0}'"
 
 #: ../src/client-python/reportclient/debuginfo.py:124
 #, python-brace-format
 msgid "Caching files from {0} made from {1}"
-msgstr ""
+msgstr "Kešo failus no {0}, kas izveidoti no {1}"
 
 #: ../src/client-python/reportclient/debuginfo.py:148
 #, python-brace-format
 msgid "Can't extract files from '{0}'. For more information see '{1}'"
-msgstr ""
+msgstr "Nevar izvilkt failus no '{0}'. Sīkāku informāciju skatiet '{1}'"
 
 #: ../src/client-python/reportclient/debuginfo.py:163
 #, python-brace-format
 msgid "Can't remove '{0}': {1}"
-msgstr ""
+msgstr "Nevar noņemt '{0}': {1}"
 
 #: ../src/client-python/reportclient/debuginfo.py:205
 #: ../src/client-python/reportclient/debuginfo.py:214
 #, python-brace-format
 msgid "Downloading ({0} of {1}) {2}: {3:3}%"
-msgstr ""
+msgstr "Lejupielādē ({0} no {1}) {2}: {3:3}%"
 
 #: ../src/client-python/reportclient/debuginfo.py:306
 msgid "Initializing package manager"
-msgstr ""
+msgstr "Inicializē pakotņu pārvaldnieku"
 
 #. This takes some time, let user know what we are doing
 #: ../src/client-python/reportclient/debuginfo.py:310
 msgid "Setting up repositories"
-msgstr ""
+msgstr "Iestata repozitorijus"
 
 #: ../src/client-python/reportclient/debuginfo.py:313
 msgid "Looking for needed packages in repositories"
-msgstr ""
+msgstr "Meklē vajadzīgās pakotnes repozitorijos"
 
 #: ../src/client-python/reportclient/debuginfo.py:347
 #, python-brace-format
 msgid "Can't find packages for {0} debuginfo files"
-msgstr ""
+msgstr "Nevar atrast pakotnes {0} debuginfo failiem"
 
 #: ../src/client-python/reportclient/debuginfo.py:350
 #, python-brace-format
 msgid "Packages to download: {0}"
-msgstr "Pakotnes, kuras lejuplādēt: {0}"
+msgstr "Lejupielādējamās pakotnes: {0}"
 
 #: ../src/client-python/reportclient/debuginfo.py:352
 #, python-brace-format
 msgid "Downloading {0:.2f}Mb, installed size: {1:.2f}Mb. Continue?"
-msgstr ""
+msgstr "Lejupielādē {0:.2f} MB, instalētais izmērs: {1:.2f} MB. Turpināt?"
 
 #: ../src/client-python/reportclient/debuginfo.py:357
 #: ../src/client-python/reportclient/debuginfo.py:369
 #: ../src/client-python/reportclient/debuginfo.py:380
 msgid "Download cancelled by user"
-msgstr ""
+msgstr "Lietotājs atcēla lejupielādi"
 
 #: ../src/client-python/reportclient/debuginfo.py:364
 #, python-brace-format
 msgid ""
 "Warning: Not enough free space in tmp dir '{0}' ({1:.2f}Mb left). Continue?"
 msgstr ""
+"Brīdinājums: pagaidu direktorijā '{0}' nepietiek brīvas vietas (atlikuši "
+"{1:.2f} MB). Turpināt?"
 
 #: ../src/client-python/reportclient/debuginfo.py:375
 #, python-brace-format
 msgid ""
 "Warning: Not enough free space in cache dir '{0}' ({1:.2f}Mb left). Continue?"
 msgstr ""
+"Brīdinājums: kešatmiņas direktorijā '{0}' nepietiek brīvas vietas (atlikuši "
+"{1:.2f} MB). Turpināt?"
 
 #: ../src/client-python/reportclient/debuginfo.py:398
 #, python-brace-format
 msgid "Downloading package {0} failed"
-msgstr ""
+msgstr "Pakotnes {0} lejupielāde neizdevās"
 
 #. recursively delete the temp dir on failure
 #: ../src/client-python/reportclient/debuginfo.py:405
 msgid "Unpacking failed, aborting download..."
-msgstr ""
+msgstr "Atpakošana neizdevās, lejupielāde tiek pārtraukta..."
 
 #: ../src/client-python/reportclient/debuginfo.py:410
 #, python-brace-format
@@ -273,6 +287,8 @@ msgid ""
 "'{0}' must be owned by abrt. Please run '# chown -R abrt.abrt {0}' to fix "
 "the issue."
 msgstr ""
+"'{0}' īpašniekam jābūt abrt. Lai to novērstu, izpildiet '# chown -R "
+"abrt.abrt {0}'."
 
 #. Was: "All downloaded packages have been extracted, removing..."
 #. but it was appearing even if no packages were in fact extracted
@@ -280,84 +296,85 @@ msgstr ""
 #: ../src/client-python/reportclient/debuginfo.py:427
 #, python-brace-format
 msgid "Removing {0}"
-msgstr ""
+msgstr "Noņem {0}"
 
 #: ../src/client-python/reportclient/debuginfo.py:431
 #, python-brace-format
 msgid "Can't remove {0}, probably contains an error log"
-msgstr ""
+msgstr "Nevar noņemt {0}, iespējams, tas satur kļūdu žurnālu"
 
 #: ../src/client-python/reportclient/dnfdebuginfo.py:89
 msgid "Error reading repository configuration: '{0!s}'"
-msgstr ""
+msgstr "Kļūda, nolasot repozitoriju konfigurāciju: '{0!s}'"
 
 #: ../src/client-python/reportclient/dnfdebuginfo.py:106
 msgid "Error setting up repositories: '{0!s}'"
-msgstr ""
+msgstr "Kļūda, iestatot repozitorijus: '{0!s}'"
 
 #: ../src/client-python/reportclient/yumdebuginfo.py:66
 msgid ""
 "Problem '{0!s}' occured while downloading from mirror: '{1!s}'. Trying next "
 "one"
 msgstr ""
+"Lejupielādējot no spoguļa, radās problēma '{0!s}': '{1!s}'. Mēģina nākamo"
 
 #: ../src/client-python/reportclient/yumdebuginfo.py:100
 msgid "Error initializing yum (YumBase.doConfigSetup): '{0!s}'"
-msgstr ""
+msgstr "Kļūda, inicializējot yum (YumBase.doConfigSetup): '{0!s}'"
 
 #: ../src/client-python/reportclient/yumdebuginfo.py:107
 msgid "Error: can't make cachedir, exiting"
-msgstr ""
+msgstr "Kļūda: nevar izveidot kešatmiņas direktoriju, beidz darbu"
 
 #: ../src/client-python/reportclient/yumdebuginfo.py:116
 msgid "Can't disable repository '{0!s}': {1!s}"
-msgstr ""
+msgstr "Nevar atspējot repozitoriju '{0!s}': {1!s}"
 
 #: ../src/client-python/reportclient/yumdebuginfo.py:135
 msgid "Can't disable async download, the output might contain artifacts!"
-msgstr ""
+msgstr "Nevar atspējot asinhrono lejupielādi, izvadē var būt artefakti!"
 
 #: ../src/client-python/reportclient/yumdebuginfo.py:137
 #, python-brace-format
 msgid "Can't setup {0}: {1}, disabling"
-msgstr ""
+msgstr "Nevar iestatīt {0}: {1}, tiek atspējots"
 
 #: ../src/client-python/reportclient/yumdebuginfo.py:147
 msgid "Error retrieving metadata: '{0!s}'"
-msgstr ""
+msgstr "Kļūda, iegūstot metadatus: '{0!s}'"
 
 #: ../src/client-python/reportclient/yumdebuginfo.py:160
 msgid "Error retrieving filelists: '{0!s}'"
-msgstr ""
+msgstr "Kļūda, iegūstot failu sarakstus: '{0!s}'"
 
 #: ../src/client-python/reportclient/yumdebuginfo.py:204
 #, python-brace-format
 msgid "Cannot copy file '{0}': {1}"
-msgstr ""
+msgstr "Nevar nokopēt failu '{0}': {1}"
 
 #. Follow GTK3's yes-no-buttons order:
 #. * [No] [Yes]
 #.
 #: ../src/gtk-helpers/ask_dialogs.c:87
 msgid "_No"
-msgstr ""
+msgstr "_Nē"
 
 #: ../src/gtk-helpers/ask_dialogs.c:88
 msgid "_Yes"
-msgstr ""
+msgstr "_Jā"
 
 #: ../src/gtk-helpers/ask_dialogs.c:94
 msgid "Don't ask me again"
-msgstr ""
+msgstr "Vairs nejautāt"
 
 #. if event has no xml description
 #: ../src/gtk-helpers/config_dialog.c:182
 msgid "No description available"
-msgstr ""
+msgstr "Apraksts nav pieejams"
 
 #: ../src/gtk-helpers/config_dialog.c:338
 msgid "Configuration"
-msgstr ""
+msgstr "Konfigurācija"
 
 #. we can't use this, because we want the workflows first and hashtable
 #. * doesn't return the items in the order they were added
@@ -367,25 +384,25 @@ msgstr ""
 #: ../src/gtk-helpers/config_dialog.c:358
 #: ../src/gtk-helpers/config_dialog.c:417
 msgid "Workflows"
-msgstr ""
+msgstr "Darbplūsmas"
 
 #: ../src/gtk-helpers/config_dialog.c:360
 #: ../src/gtk-helpers/config_dialog.c:362
 #: ../src/gtk-helpers/config_dialog.c:420
 msgid "Events"
-msgstr ""
+msgstr "Notikumi"
 
 #: ../src/gtk-helpers/config_dialog.c:366
 msgid "C_onfigure"
-msgstr ""
+msgstr "_Konfigurēt"
 
 #: ../src/gtk-helpers/config_dialog.c:368 ../src/gui-wizard-gtk/wizard.c:3206
 msgid "_Close"
-msgstr ""
+msgstr "_Aizvērt"
 
 #: ../src/gtk-helpers/event_config_dialog.c:140
 msgid "Show password"
-msgstr "Parādīt paroli"
+msgstr "Rādīt paroli"
 
 #: ../src/gtk-helpers/event_config_dialog.c:263
 msgid "Don't store passwords"
@@ -393,85 +410,92 @@ msgstr "Nesaglabāt paroles"
 
 #: ../src/gtk-helpers/event_config_dialog.c:273
 msgid "Basic"
-msgstr ""
+msgstr "Pamata"
 
 #: ../src/gtk-helpers/event_config_dialog.c:281
 msgid "Advanced"
-msgstr "Paplašināts"
+msgstr "Papildu"
 
 #: ../src/gtk-helpers/event_config_dialog.c:297
 msgid "Secret Service is not available, your settings won't be saved!"
 msgstr ""
+"Noslēpumu pakalpojums (Secret Service) nav pieejams, jūsu iestatījumi netiks "
+"saglabāti!"
 
 #: ../src/gtk-helpers/event_config_dialog.c:340
 #: ../src/gtk-helpers/workflow_config_dialog.c:90
 #: ../src/gui-wizard-gtk/wizard.c:732 ../src/gui-wizard-gtk/wizard.c:2865
 msgid "_Cancel"
-msgstr ""
+msgstr "_Atcelt"
 
 #: ../src/gtk-helpers/event_config_dialog.c:342
 #: ../src/gtk-helpers/workflow_config_dialog.c:92
 msgid "_OK"
-msgstr ""
+msgstr "_Labi"
 
 #: ../src/gtk-helpers/secrets.c:171
 #, c-format
 msgid "Can't connect over DBus to name '%s' path '%s' interface '%s': %s"
 msgstr ""
+"Nevar savienoties caur DBus ar nosaukumu '%s', ceļu '%s', saskarni '%s': %s"
 
 #: ../src/gtk-helpers/secrets.c:191
 #, c-format
 msgid "Can't call method '%s' over DBus on path '%s' interface '%s': %s"
-msgstr ""
+msgstr "Nevar izsaukt metodi '%s' caur DBus ceļā '%s', saskarnē '%s': %s"
 
 #: ../src/gtk-helpers/secrets.c:549
 msgid ""
 "A timeout was reached while waiting for a prompt result from the DBus Secret "
 "Service."
 msgstr ""
+"Gaidot uzaicinājuma rezultātu no DBus noslēpumu pakalpojuma, iestājās "
+"noildze."
 
 #: ../src/gtk-helpers/secrets.c:552
 msgid ""
 "Do you want to stop waiting and continue in reporting without properly "
 "loaded configuration?"
 msgstr ""
+"Vai vēlaties beigt gaidīt un turpināt ziņošanu bez pareizi ielādētas "
+"konfigurācijas?"
 
 #: ../src/gtk-helpers/secrets.c:862
 #, c-format
 msgid "D-Bus Secrets Service ReadAlias('%s') method failed: %s"
-msgstr ""
+msgstr "D-Bus noslēpumu pakalpojuma metode ReadAlias('%s') neizdevās: %s"
 
 #. if the error wasn't about invalid properties we have an another problem
 #: ../src/gtk-helpers/secrets.c:1104
 #, c-format
 msgid "Can't create a secret item for event '%s': %s"
-msgstr ""
+msgstr "Nevar izveidot noslēpuma vienumu notikumam '%s': %s"
 
 #: ../src/gtk-helpers/secrets.c:1286
 #, c-format
 msgid "can't get secret value of '%s': %s"
-msgstr ""
+msgstr "nevar iegūt '%s' noslēpuma vērtību: %s"
 
 #: ../src/gtk-helpers/problem_details_widget.c:198
 #, c-format
 msgid "$DATA_DIRECTORY/%s (binary file, %s)"
-msgstr ""
+msgstr "$DATA_DIRECTORY/%s (binārs fails, %s)"
 
 #: ../src/gtk-helpers/problem_details_dialog.c:30
 msgid "Problem details"
-msgstr ""
+msgstr "Problēmas informācija"
 
 #: ../src/gtk-helpers/problem_details_dialog.c:33
 msgid "OK"
-msgstr ""
+msgstr "Labi"
 
 #: ../src/gui-wizard-gtk/main.c:106
 msgid "Preferences"
-msgstr ""
+msgstr "Iestatījumi"
 
 #: ../src/gui-wizard-gtk/main.c:109
 msgid "Quit"
-msgstr ""
+msgstr "Iziet"
 
 #: ../src/gui-wizard-gtk/main.c:153
 msgid ""
@@ -479,6 +503,10 @@ msgid ""
 "\n"
 "GUI tool to analyze and report problem saved in specified PROBLEM_DIR"
 msgstr ""
+"& [-vpdx] [-e NOTIKUMS]... [-g GUI_FAILS] PROBLĒMAS_DIREKTORIJA\n"
+"\n"
+"Grafisks rīks norādītajā PROBLĒMAS_DIREKTORIJA saglabātās problēmas analīzei "
+"un ziņošanai par to"
 
 #: ../src/gui-wizard-gtk/wizard.c:340
 #, c-format
@@ -486,14 +514,16 @@ msgid ""
 "Need writable directory, but '%s' is not writable. Move it to '%s' and "
 "operate on the moved data?"
 msgstr ""
+"Vajadzīga rakstāma direktorija, bet '%s' nav rakstāma. Vai pārvietot to uz "
+"'%s' un strādāt ar pārvietotajiem datiem?"
 
 #: ../src/gui-wizard-gtk/wizard.c:723
 msgid "View/edit a text file"
-msgstr ""
+msgstr "Skatīt/rediģēt teksta failu"
 
 #: ../src/gui-wizard-gtk/wizard.c:731
 msgid "_Save"
-msgstr ""
+msgstr "_Saglabāt"
 
 #: ../src/gui-wizard-gtk/wizard.c:874
 msgid ""
@@ -501,25 +531,29 @@ msgid ""
 "please provide a comprehensive description of the problem you have "
 "encountered."
 msgstr ""
+"Tā kā avārijas, kuras nezina, kā atkārtot, var būt grūti diagnosticēt, "
+"lūdzu, sniedziet izsmeļošu radušās problēmas aprakstu."
 
 #: ../src/gui-wizard-gtk/wizard.c:881
 msgid ""
 "Please provide a short description of the problem and please include the "
 "steps you have used to reproduce the problem."
 msgstr ""
+"Lūdzu, sniedziet īsu problēmas aprakstu un iekļaujiet soļus, ar kuriem "
+"problēmu var atkārtot."
 
 #: ../src/gui-wizard-gtk/wizard.c:888
 msgid "Please provide the steps you have used to reproduce the problem."
-msgstr ""
+msgstr "Lūdzu, norādiet soļus, ar kuriem problēmu var atkārtot."
 
 #: ../src/gui-wizard-gtk/wizard.c:1009
 msgid "(click here to view/edit)"
-msgstr ""
+msgstr "(noklikšķiniet, lai skatītu/rediģētu)"
 
 #: ../src/gui-wizard-gtk/wizard.c:1021
 #, c-format
 msgid "(binary file, %llu bytes)"
-msgstr ""
+msgstr "(binārs fails, baiti: %llu)"
 
 #: ../src/gui-wizard-gtk/wizard.c:1121 ../src/report-newt/report-newt.c:332
 msgid "(no description)"
@@ -528,11 +562,11 @@ msgstr "(nav apraksta)"
 #: ../src/gui-wizard-gtk/wizard.c:1129
 #, c-format
 msgid "%llu bytes, %u files"
-msgstr ""
+msgstr "baiti: %llu, faili: %u"
 
 #: ../src/gui-wizard-gtk/wizard.c:1381
 msgid "Processing was canceled"
-msgstr ""
+msgstr "Apstrāde tika atcelta"
 
 #: ../src/gui-wizard-gtk/wizard.c:1561
 msgid ""
@@ -542,6 +576,11 @@ msgid ""
 "\t▫ <b>corrupted problem data</b>\n"
 "\t▫ <b>invalid configuration</b>"
 msgstr ""
+"Problēmas apstrāde neizdevās. Tam var būt daudz iemeslu, taču trīs biežākie "
+"ir:\n"
+"\t▫ <b>tīkla savienojuma problēmas</b>\n"
+"\t▫ <b>bojāti problēmas dati</b>\n"
+"\t▫ <b>nederīga konfigurācija</b>"
 
 #: ../src/gui-wizard-gtk/wizard.c:1567
 msgid ""
@@ -550,31 +589,35 @@ msgid ""
 "in the application menu and after applying the configuration changes click "
 "<b>Repeat</b> button."
 msgstr ""
+"Ja vēlaties atjaunināt konfigurāciju un mēģināt ziņot vēlreiz, lūdzu, "
+"lietotnes izvēlnē atveriet vienumu <b>Iestatījumi</b>\n"
+"un pēc konfigurācijas izmaiņu lietošanas noklikšķiniet uz pogas <b>Atkārtot</"
+"b>."
 
 #: ../src/gui-wizard-gtk/wizard.c:1689
 msgid "Processing was interrupted because the problem is not reportable."
-msgstr ""
+msgstr "Apstrāde tika pārtraukta, jo par šo problēmu nevar ziņot."
 
 #: ../src/gui-wizard-gtk/wizard.c:1699 ../src/gui-wizard-gtk/wizard.c:1773
 msgid "Processing failed."
-msgstr "Apstrādāšana neizdevusies."
+msgstr "Apstrāde neizdevās."
 
 #. No next event, go to progress page and finish.
 #: ../src/gui-wizard-gtk/wizard.c:1706 ../src/gui-wizard-gtk/wizard.c:2594
 msgid "Processing finished."
-msgstr "Apstrādāšana pabeigta."
+msgstr "Apstrāde pabeigta."
 
 #: ../src/gui-wizard-gtk/wizard.c:1707
 msgid "Processing finished, please proceed to the next step."
-msgstr ""
+msgstr "Apstrāde pabeigta, lūdzu, pārejiet pie nākamā soļa."
 
 #: ../src/gui-wizard-gtk/wizard.c:1770
 msgid "No commands could be found for processsing the crashdump.\n"
-msgstr ""
+msgstr "Netika atrasta neviena komanda kodola izmetes apstrādei.\n"
 
 #: ../src/gui-wizard-gtk/wizard.c:1785
 msgid "Processing interrupted: can't continue without writable directory."
-msgstr ""
+msgstr "Apstrāde pārtraukta: bez rakstāmas direktorijas nevar turpināt."
 
 #: ../src/gui-wizard-gtk/wizard.c:1808
 #, c-format
@@ -583,6 +626,9 @@ msgid ""
 "No matching actions found for this event.\n"
 "\n"
 msgstr ""
+"--- Izlaiž %s ---\n"
+"Šim notikumam netika atrasta neviena atbilstoša darbība.\n"
+"\n"
 
 #: ../src/gui-wizard-gtk/wizard.c:1843
 msgid "Processing..."
@@ -593,15 +639,17 @@ msgid ""
 "Possible sensitive data detected, feel free to edit the report and remove "
 "them."
 msgstr ""
+"Konstatēti, iespējams, sensitīvi dati — varat rediģēt ziņojumu un tos noņemt."
 
 #: ../src/gui-wizard-gtk/wizard.c:1968
 msgid "Cannot check backtrace rating because of invalid event name"
 msgstr ""
+"Nevar pārbaudīt atpakaļsekojuma vērtējumu, jo notikuma nosaukums nav derīgs"
 
 #: ../src/gui-wizard-gtk/wizard.c:2418
 #, c-format
 msgid "Failed to save file '%s'"
-msgstr ""
+msgstr "Neizdevās saglabāt failu '%s'"
 
 #: ../src/gui-wizard-gtk/wizard.c:2619
 #, c-format
@@ -609,46 +657,49 @@ msgid ""
 "Event '%s' requires permission to send possibly sensitive data.\n"
 "Do you want to continue?"
 msgstr ""
+"Notikumam '%s' vajadzīga atļauja nosūtīt, iespējams, sensitīvus datus.\n"
+"Vai vēlaties turpināt?"
 
 #: ../src/gui-wizard-gtk/wizard.c:2665
 #, c-format
 msgid "This problem should not be reported (it is likely a known problem). %s"
 msgstr ""
+"Par šo problēmu nevajadzētu ziņot (visticamāk, tā ir zināma problēma). %s"
 
 #: ../src/gui-wizard-gtk/wizard.c:2866
 msgid "_Open"
-msgstr ""
+msgstr "_Atvērt"
 
 #: ../src/gui-wizard-gtk/wizard.c:2888
 #, c-format
 msgid "'%s' is not an ordinary file"
-msgstr ""
+msgstr "'%s' nav parasts fails"
 
 #: ../src/gui-wizard-gtk/wizard.c:2901
 msgid "You are trying to copy a file onto itself"
-msgstr ""
+msgstr "Jūs mēģināt kopēt failu pašu uz sevi"
 
 #: ../src/gui-wizard-gtk/wizard.c:2907
 #, c-format
 msgid "Can't copy '%s': %s"
-msgstr ""
+msgstr "Nevar nokopēt '%s': %s"
 
 #: ../src/gui-wizard-gtk/wizard.c:2921
 #, c-format
 msgid "Item '%s' already exists and is not modifiable"
-msgstr ""
+msgstr "Vienums '%s' jau eksistē un nav maināms"
 
 #: ../src/gui-wizard-gtk/wizard.c:3087
 msgid "I have experienced this problem for the first time"
-msgstr ""
+msgstr "Šo problēmu piedzīvoju pirmo reizi"
 
 #: ../src/gui-wizard-gtk/wizard.c:3090
 msgid "I can reproduce this problem"
-msgstr ""
+msgstr "Varu šo problēmu atkārtot"
 
 #: ../src/gui-wizard-gtk/wizard.c:3093
 msgid "This problem occurs repeatedly"
-msgstr ""
+msgstr "Šī problēma atkārtojas"
 
 #: ../src/gui-wizard-gtk/wizard.c:3106
 msgid "Include"
@@ -668,84 +719,88 @@ msgstr "Problēmas apraksts"
 
 #: ../src/gui-wizard-gtk/wizard.c:3163
 msgid "Select how to report this problem"
-msgstr ""
+msgstr "Izvēlieties, kā ziņot par šo problēmu"
 
 #: ../src/gui-wizard-gtk/wizard.c:3164
 msgid "Provide additional information"
-msgstr ""
+msgstr "Sniegt papildu informāciju"
 
 #: ../src/gui-wizard-gtk/wizard.c:3165
 msgid "Review the data"
-msgstr ""
+msgstr "Pārskatīt datus"
 
 #: ../src/gui-wizard-gtk/wizard.c:3166
 msgid "Confirm data to report"
-msgstr ""
+msgstr "Apstiprināt ziņojamos datus"
 
 #: ../src/gui-wizard-gtk/wizard.c:3167
 msgid "Processing"
-msgstr ""
+msgstr "Apstrāde"
 
 #: ../src/gui-wizard-gtk/wizard.c:3168
 msgid "Processing done"
-msgstr "Apstrādāšana pabeigta"
+msgstr "Apstrāde pabeigta"
 
 #: ../src/gui-wizard-gtk/wizard.c:3208
 msgid "_Stop"
-msgstr ""
+msgstr "_Apturēt"
 
 #. else gtk_widget_hide won't work
 #: ../src/gui-wizard-gtk/wizard.c:3211
 msgid "Repeat"
-msgstr ""
+msgstr "Atkārtot"
 
 #. else gtk_widget_hide won't work
 #: ../src/gui-wizard-gtk/wizard.c:3213
 msgid "_Forward"
-msgstr ""
+msgstr "_Uz priekšu"
 
 #. else gtk_widget_hide won't work
 #: ../src/gui-wizard-gtk/wizard.c:3216 ../src/gui-wizard-gtk/wizard.glade.h:9
 msgid "Details"
-msgstr ""
+msgstr "Informācija"
 
 #: ../src/gui-wizard-gtk/wizard.c:3263
 msgid "Restrict access to the report"
-msgstr ""
+msgstr "Ierobežot piekļuvi ziņojumam"
 
 #: ../src/gui-wizard-gtk/wizard.c:3268
 msgid "Learn more about restricted access in the configuration"
-msgstr ""
+msgstr "Uzziniet vairāk par ierobežoto piekļuvi konfigurācijā"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:1
 msgid ""
 "Please review the data before it gets reported. Depending on reporter "
 "chosen, it may end up publicly visible."
 msgstr ""
+"Lūdzu, pārskatiet datus, pirms tie tiek nosūtīti. Atkarībā no izvēlētā "
+"ziņotāja tie var kļūt publiski redzami."
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:2
 msgid "Sensitive words"
-msgstr ""
+msgstr "Sensitīvi vārdi"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:3
 msgid "Custom"
-msgstr ""
+msgstr "Pielāgoti"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:4
 msgid "Clear the search bar to see the list of security sensitive words."
 msgstr ""
+"Notīriet meklēšanas joslu, lai redzētu drošības ziņā sensitīvo vārdu "
+"sarakstu."
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:5
 msgid "file"
-msgstr ""
+msgstr "fails"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:6
 msgid "data"
-msgstr ""
+msgstr "dati"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:7
 msgid "Search"
-msgstr ""
+msgstr "Meklēt"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:8
 msgid ""
@@ -754,6 +809,9 @@ msgid ""
 "collected data, and to choose where the problem should be reported. Click "
 "'Forward' to proceed."
 msgstr ""
+"Nākamajos ekrānos jums lūgs aprakstīt, kā problēma radās, izvēlēties, kā "
+"problēmu analizēt (ja vajadzīgs), pārskatīt savāktos datus un izvēlēties, "
+"kur par problēmu ziņot. Lai turpinātu, noklikšķiniet uz „Uz priekšu”."
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:10
 msgid ""
@@ -761,46 +819,52 @@ msgid ""
 "additional comments useful for diagnosing the problem? Please use English if "
 "possible."
 msgstr ""
+"Kā šī problēma radās (soli pa solim)? Kā to var atkārtot? Vai ir citi "
+"komentāri, kas noderētu problēmas diagnosticēšanai? Ja iespējams, lūdzu, "
+"rakstiet angliski."
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:11
 msgid "How reproducible is this problem?"
-msgstr ""
+msgstr "Cik viegli šo problēmu atkārtot?"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:12
 msgid "How it can be reproduced (one step per line)?"
-msgstr ""
+msgstr "Kā to var atkārtot (pa vienam solim rindā)?"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:13
 msgid ""
 "Please add a comprehensive description of the problem you have. This is a "
 "very long place holder."
 msgstr ""
+"Lūdzu, pievienojiet izsmeļošu problēmas aprakstu. Šis ir ļoti garš vietturis."
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:14
 msgid "You need to fill the how to before you can proceed..."
-msgstr ""
+msgstr "Pirms turpināt, jāaizpilda, kā problēmu atkārtot..."
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:15
 msgid ""
 "<b>Your comments are not private.</b> They may be included into publicly "
 "visible problem reports."
 msgstr ""
+"<b>Jūsu komentāri nav privāti.</b> Tie var tikt iekļauti publiski redzamos "
+"problēmu ziņojumos."
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:16
 msgid "I don't know what caused this problem"
-msgstr ""
+msgstr "Nezinu, kas izraisīja šo problēmu"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:17
 msgid "Size:"
-msgstr ""
+msgstr "Izmērs:"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:18
 msgid "Attach a file"
-msgstr "Pievienot datni"
+msgstr "Pievienot failu"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:19
 msgid "I reviewed the data and _agree with submitting it"
-msgstr ""
+msgstr "Esmu pārskatījis datus un _piekrītu to iesniegšanai"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:20
 msgid ""
@@ -808,18 +872,21 @@ msgid ""
 "data (such as usernames and passwords). Backtrace, command line, environment "
 "variables are the typical items in need of examining."
 msgstr ""
+"Ja ziņojat attālam serverim, pārliecinieties, ka visi privātie dati ir "
+"noņemti (piemēram, lietotājvārdus un paroles). Parasti jāpārbauda "
+"atpakaļsekojums, komandrinda un vides mainīgie."
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:21
 msgid "Processing did not start yet"
-msgstr "Apstrādāšana vēl netika sākta"
+msgstr "Apstrāde vēl nav sākta"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:22
 msgid "Show log"
-msgstr ""
+msgstr "Rādīt žurnālu"
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:23
 msgid "Reporting has finished. You can close this window now."
-msgstr ""
+msgstr "Ziņošana pabeigta. Tagad varat aizvērt šo logu."
 
 #: ../src/gui-wizard-gtk/wizard.glade.h:24
 msgid ""
@@ -827,10 +894,13 @@ msgid ""
 "additional information, or provide a better problem description and repeat "
 "reporting process, press 'Forward'."
 msgstr ""
+"Ja vēlaties ziņot par problēmu citam adresātam, savākt papildu informāciju "
+"vai sniegt labāku problēmas aprakstu un atkārtot ziņošanu, nospiediet „Uz "
+"priekšu”."
 
 #: ../src/include/internal_libreport.h:1246
 msgid "Be verbose"
-msgstr ""
+msgstr "Detalizēta izvade"
 
 #: ../src/include/internal_libreport.h:1247
 #: ../src/plugins/reporter-bugzilla.c:323
@@ -839,29 +909,29 @@ msgstr ""
 #: ../src/plugins/reporter-systemd-journal.c:250
 #: ../src/plugins/reporter-upload.c:186 ../src/plugins/reporter-mantisbt.c:283
 msgid "Problem directory"
-msgstr ""
+msgstr "Problēmas direktorija"
 
 #: ../src/lib/abrt_sock.c:161
 #, c-format
 msgid "Can't delete: '%s'"
-msgstr ""
+msgstr "Nevar dzēst: '%s'"
 
 #: ../src/lib/abrt_sock.c:197
 msgid "locked by another process"
-msgstr ""
+msgstr "bloķējis cits process"
 
 #: ../src/lib/abrt_sock.c:206
 msgid "permission denied"
-msgstr ""
+msgstr "atļauja liegta"
 
 #: ../src/lib/abrt_sock.c:209
 msgid "not a problem directory"
-msgstr ""
+msgstr "nav problēmas direktorija"
 
 #: ../src/lib/abrt_sock.c:218
 #, c-format
 msgid "Can't delete '%s': %s"
-msgstr ""
+msgstr "Nevar dzēst '%s': %s"
 
 #: ../src/lib/client.c:67 ../src/lib/client.c:99 ../src/lib/client.c:156
 msgid "y"
@@ -877,130 +947,135 @@ msgstr "f"
 
 #: ../src/lib/client.c:159
 msgid "e"
-msgstr ""
+msgstr "e"
 
 #: ../src/lib/create_dump_dir.c:32
 #, c-format
 msgid "uid value is not valid: '%s'"
-msgstr ""
+msgstr "uid vērtība nav derīga: '%s'"
 
 #: ../src/lib/create_dump_dir.c:51
 #, c-format
 msgid "'%s' is not correct file name"
-msgstr ""
+msgstr "'%s' nav pareizs faila nosaukums"
 
 #: ../src/lib/create_dump_dir.c:195
 #, c-format
 msgid "Missing required item: '%s'"
-msgstr ""
+msgstr "Trūkst obligāta vienuma: '%s'"
 
 #: ../src/lib/curl.c:227
 #, c-format
 msgid "Uploaded: %llu of %llu kbytes"
-msgstr ""
+msgstr "Augšupielādēts: %llu no %llu kbaitiem"
 
 #: ../src/lib/curl.c:636
 msgid "Ignoring URL without scheme and hostname"
-msgstr ""
+msgstr "Tiek ignorēts URL bez shēmas un resursdatora nosaukuma"
 
 #. Do not include the path part of the URL as it can contain sensitive data
 #. * in case of typos
 #: ../src/lib/curl.c:666
 #, c-format
 msgid "Sending %s to %s//%s"
-msgstr ""
+msgstr "Sūta %s uz %s//%s"
 
 #: ../src/lib/curl.c:690
 #, c-format
 msgid "Please enter user name for '%s//%s':"
-msgstr ""
+msgstr "Lūdzu, ievadiet lietotājvārdu vietnei '%s//%s':"
 
 #: ../src/lib/curl.c:696
 #, c-format
 msgid "Please enter password for '%s//%s@%s':"
-msgstr ""
+msgstr "Lūdzu, ievadiet paroli vietnei '%s//%s@%s':"
 
 #. This ends up a "reporting status message" in abrtd
 #: ../src/lib/curl.c:719
 #, c-format
 msgid "Successfully created %s"
-msgstr ""
+msgstr "Veiksmīgi izveidots %s"
 
 #: ../src/lib/dump_dir.c:2481
 msgid "Failed to open TAR writer"
-msgstr ""
+msgstr "Neizdevās atvērt TAR rakstītāju"
 
 #: ../src/lib/dump_dir.c:2507
 msgid "Failed to finalize TAR archive"
-msgstr ""
+msgstr "Neizdevās pabeigt TAR arhīvu"
 
 #: ../src/lib/dump_dir.c:2517
 msgid "Failed to close TAR writer"
-msgstr ""
+msgstr "Neizdevās aizvērt TAR rakstītāju"
 
 #: ../src/lib/dump_dir.c:2527
 #, c-format
 msgid "gzip killed with signal %d"
-msgstr ""
+msgstr "gzip nobeigts ar signālu %d"
 
 #: ../src/lib/dump_dir.c:2533
 #, c-format
 msgid "gzip exited with %d"
-msgstr ""
+msgstr "gzip beidza darbu ar kodu %d"
 
 #: ../src/lib/dump_dir.c:2536
 msgid "gzip process failed"
-msgstr ""
+msgstr "gzip process neizdevās"
 
 #: ../src/lib/event_config.c:399
 msgid "Missing mandatory value"
-msgstr ""
+msgstr "Trūkst obligātas vērtības"
 
 #: ../src/lib/event_config.c:407
 #, c-format
 msgid "Invalid utf8 character '%c'"
-msgstr ""
+msgstr "Nederīga utf8 rakstzīme '%c'"
 
 #: ../src/lib/event_config.c:420
 #, c-format
 msgid "Invalid number '%s'"
-msgstr ""
+msgstr "Nederīgs skaitlis '%s'"
 
 #: ../src/lib/event_config.c:435
 #, c-format
 msgid "Invalid boolean value '%s'"
-msgstr ""
+msgstr "Nederīga Būla vērtība '%s'"
 
 #: ../src/lib/event_config.c:441
 msgid "Unsupported option type"
-msgstr ""
+msgstr "Neatbalstīts opcijas tips"
 
 #: ../src/lib/event_config.c:516
 #, c-format
 msgid ""
 "The problem cannot be reported due to an invalid data. '%s' file does not "
 "contain a number."
-msgstr ""
+msgstr "Par problēmu nevar ziņot nederīgu datu dēļ. Fails '%s' nesatur skaitli."
 
 #: ../src/lib/event_config.c:520
 msgid "Please report this problem to ABRT project developers."
-msgstr ""
+msgstr "Lūdzu, ziņojiet par šo problēmu ABRT projekta izstrādātājiem."
 
 #: ../src/lib/event_config.c:526
 msgid ""
 "The backtrace is incomplete, please make sure you provide the steps to "
 "reproduce."
 msgstr ""
+"Atpakaļsekojums ir nepilnīgs, lūdzu, noteikti norādiet soļus problēmas "
+"atkārtošanai."
 
 #: ../src/lib/event_config.c:527
 msgid "The backtrace probably can't help developer to diagnose the bug."
 msgstr ""
+"Atpakaļsekojums, visticamāk, nepalīdzēs izstrādātājam diagnosticēt kļūdu."
 
 #: ../src/lib/event_config.c:533
 msgid ""
 "Reporting is disabled because the generated backtrace has low informational "
 "value."
 msgstr ""
+"Ziņošana ir atspējota, jo izveidotajam atpakaļsekojumam ir zema informatīvā "
+"vērtība."
 
 #: ../src/lib/event_config.c:537
 #, c-format
@@ -1008,25 +1083,27 @@ msgid ""
 "Please try to install debuginfo manually using the command: \"debuginfo-"
 "install %s\" and try again."
 msgstr ""
+"Lūdzu, mēģiniet instalēt debuginfo manuāli ar komandu \"debuginfo-install "
+"%s\" un mēģiniet vēlreiz."
 
 #: ../src/lib/event_config.c:539
 msgid "A proper debuginfo is probably missing or the coredump is corrupted."
-msgstr ""
+msgstr "Visticamāk, trūkst atbilstoša debuginfo vai kodola izmete ir bojāta."
 
 #: ../src/lib/iso_date_string.c:50
 #, c-format
 msgid "String doesn't seem to be a date: '%s'"
-msgstr ""
+msgstr "Virkne, šķiet, nav datums: '%s'"
 
 #: ../src/lib/iso_date_string.c:55
 #, c-format
 msgid "The date: '%s' has unrecognized suffix: '%s'"
-msgstr ""
+msgstr "Datumam '%s' ir neatpazīts piedēklis: '%s'"
 
 #: ../src/lib/iso_date_string.c:60
 #, c-format
 msgid "The date: '%s' is out of UNIX time stamp range"
-msgstr ""
+msgstr "Datums '%s' ir ārpus UNIX laikspiedolu diapazona"
 
 #: ../src/lib/ureport.c:400
 #, c-format
@@ -1035,170 +1112,175 @@ msgid ""
 "\n"
 "%s\n"
 msgstr ""
+"Šķiet, ka jūsu problēmu izraisa %s\n"
+"\n"
+"%s\n"
 
 #: ../src/lib/ureport.c:403
 msgid "Your problem seems to be caused by one of the following:\n"
-msgstr ""
+msgstr "Šķiet, ka jūsu problēmu izraisa kāds no šiem:\n"
 
 #: ../src/lib/ureport.c:575
 #, c-format
 msgid "Failed to upload uReport to the server '%s' with curl: %s"
-msgstr ""
+msgstr "Neizdevās augšupielādēt uReport serverī '%s' ar curl: %s"
 
 #: ../src/lib/ureport.c:579
 #, c-format
 msgid "Failed to upload uReport to the server '%s'"
-msgstr ""
+msgstr "Neizdevās augšupielādēt uReport serverī '%s'"
 
 #: ../src/lib/ureport.c:582
 #, c-format
 msgid "Error: %s"
-msgstr ""
+msgstr "Kļūda: %s"
 
 #: ../src/lib/ureport.c:589
 #, c-format
 msgid "The URL '%s' does not exist (got error 404 from server)"
-msgstr ""
+msgstr "URL '%s' neeksistē (no servera saņemta kļūda 404)"
 
 #: ../src/lib/ureport.c:595
 #, c-format
 msgid "The server at '%s' encountered an internal error (got error 500)"
-msgstr ""
+msgstr "Serverī '%s' radās iekšēja kļūda (saņemta kļūda 500)"
 
 #: ../src/lib/ureport.c:601
 #, c-format
 msgid "The server at '%s' currently can't handle the request (got error 503)"
-msgstr ""
+msgstr "Serveris '%s' pašlaik nevar apstrādāt pieprasījumu (saņemta kļūda 503)"
 
 #. can't print better error message
 #: ../src/lib/ureport.c:610
 #, c-format
 msgid "Unexpected HTTP response from '%s': %d"
-msgstr ""
+msgstr "Negaidīta HTTP atbilde no '%s': %d"
 
 #: ../src/lib/ureport.c:619
 #, c-format
 msgid "Unable to parse response from ureport server at '%s'"
-msgstr ""
+msgstr "Neizdodas parsēt atbildi no ureport servera '%s'"
 
 #: ../src/lib/ureport.c:629
 #, c-format
 msgid "The response from '%s' has invalid format"
-msgstr ""
+msgstr "Atbildei no '%s' ir nederīgs formāts"
 
 #. HTTP CODE 202 means that call was successful but the response
 #. has an error message
 #: ../src/lib/ureport.c:635
 #, c-format
 msgid "Type mismatch has been detected in the response from '%s'"
-msgstr ""
+msgstr "Atbildē no '%s' konstatēta tipu neatbilstība"
 
 #: ../src/lib/ureport.c:861 ../src/plugins/reporter-rhtsupport.c:235
 msgid "Failed on submitting the problem"
-msgstr ""
+msgstr "Problēmas iesniegšana neizdevās"
 
 #: ../src/lib/ureport.c:903
 #, c-format
 msgid "The server at '%s' responded with an error: '%s'"
-msgstr ""
+msgstr "Serveris '%s' atbildēja ar kļūdu: '%s'"
 
 #: ../src/lib/make_descr.c:149 ../src/lib/make_descr.c:160
 msgid "Reported:"
-msgstr ""
+msgstr "Ziņots:"
 
 #: ../src/lib/make_descr.c:149
 msgid "cannot be reported"
-msgstr ""
+msgstr "par to nevar ziņot"
 
 #: ../src/lib/parse_options.c:63
 msgid "Usage: "
-msgstr ""
+msgstr "Lietošana: "
 
 #: ../src/lib/problem_data.c:252
 #, c-format
 msgid "Essential element '%s' is missing, can't continue"
-msgstr ""
+msgstr "Trūkst būtiska elementa '%s', nevar turpināt"
 
 #: ../src/lib/problem_report.c:517
 #, c-format
 msgid "Can't parse backtrace: %s"
-msgstr ""
+msgstr "Nevar parsēt atpakaļsekojumu: %s"
 
 #: ../src/lib/problem_report.c:532
 msgid "Can't generate stacktrace description (no crash thread?)"
-msgstr ""
+msgstr "Nevar izveidot steka trasējuma aprakstu (nav avārijas pavediena?)"
 
 #: ../src/lib/report_result.c:265
 #, c-format
 msgid "Ignored invalid ISO date of report result '%s'"
-msgstr ""
+msgstr "Ignorēts nederīgs ISO datums ziņojuma rezultātā '%s'"
 
 #: ../src/lib/reporters.c:55
 msgid "Note does not contain rating"
-msgstr ""
+msgstr "Piezīme nesatur vērtējumu"
 
 #: ../src/lib/run_event.c:891
 #, c-format
 msgid "('%s' was killed by signal %u)\n"
-msgstr ""
+msgstr "('%s' tika nobeigts ar signālu %u)\n"
 
 #: ../src/lib/run_event.c:893
 #, c-format
 msgid "('%s' completed successfully)\n"
-msgstr ""
+msgstr "('%s' veiksmīgi pabeigts)\n"
 
 #: ../src/lib/run_event.c:895
 #, c-format
 msgid "('%s' exited with %u)\n"
-msgstr ""
+msgstr "('%s' beidza darbu ar kodu %u)\n"
 
 #: ../src/plugins/abrt_rh_support.c:356
 #, c-format
 msgid "Error in case creation at '%s': %s"
-msgstr ""
+msgstr "Kļūda, veidojot pieteikumu vietnē '%s': %s"
 
 #: ../src/plugins/abrt_rh_support.c:365
 #, c-format
 msgid "Error in case creation at '%s', HTTP code: %d, server says: '%s'"
 msgstr ""
+"Kļūda, veidojot pieteikumu vietnē '%s', HTTP kods: %d, serveris saka: '%s'"
 
 #: ../src/plugins/abrt_rh_support.c:369
 #, c-format
 msgid "Error in case creation at '%s', HTTP code: %d"
-msgstr ""
+msgstr "Kļūda, veidojot pieteikumu vietnē '%s', HTTP kods: %d"
 
 #: ../src/plugins/abrt_rh_support.c:420
 #, c-format
 msgid "Error in case creation at '%s': no Location URL, HTTP code: %d"
-msgstr ""
+msgstr "Kļūda, veidojot pieteikumu vietnē '%s': nav Location URL, HTTP kods: %d"
 
 #: ../src/plugins/abrt_rh_support.c:524
 #, c-format
 msgid "Error in comment creation at '%s': %s"
-msgstr ""
+msgstr "Kļūda, veidojot komentāru vietnē '%s': %s"
 
 #: ../src/plugins/abrt_rh_support.c:533
 #, c-format
 msgid "Error in comment creation at '%s', HTTP code: %d, server says: '%s'"
 msgstr ""
+"Kļūda, veidojot komentāru vietnē '%s', HTTP kods: %d, serveris saka: '%s'"
 
 #: ../src/plugins/abrt_rh_support.c:537
 #, c-format
 msgid "Error in comment creation at '%s', HTTP code: %d"
-msgstr ""
+msgstr "Kļūda, veidojot komentāru vietnē '%s', HTTP kods: %d"
 
 #: ../src/plugins/abrt_rh_support.c:583
 #, c-format
 msgid "Error in comment creation at '%s': no Location URL, HTTP code: %d"
-msgstr ""
+msgstr "Kļūda, veidojot komentāru vietnē '%s': nav Location URL, HTTP kods: %d"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:1
 msgid "Bugzilla"
-msgstr ""
+msgstr "Bugzilla"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:2
 msgid "Report to Bugzilla bug tracker"
-msgstr ""
+msgstr "Ziņot kļūdu sekotājam Bugzilla"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:3
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:3
@@ -1208,13 +1290,15 @@ msgstr "Lietotājvārds"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:4
 msgid "Bugzilla account user name"
-msgstr ""
+msgstr "Bugzilla konta lietotājvārds"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:5
 msgid ""
 "You can create bugzilla.redhat.com account &lt;a href=\"https://bugzilla."
 "redhat.com/createaccount.cgi\"&gt;here&lt;/a&gt;"
 msgstr ""
+"bugzilla.redhat.com kontu varat izveidot &lt;a href=\"https://"
+"bugzilla.redhat.com/createaccount.cgi\"&gt;šeit&lt;/a&gt;"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:6
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:6
@@ -1225,70 +1309,78 @@ msgstr "Parole"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:7
 msgid "Bugzilla account password"
-msgstr ""
+msgstr "Bugzilla konta parole"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:8
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:8
 msgid "Restrict access"
-msgstr ""
+msgstr "Ierobežot piekļuvi"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:9
 msgid ""
 "Restrict access to the created bugzilla ticket allowing only users from "
 "specified groups to view it (see advanced settings for more details)"
 msgstr ""
+"Ierobežot piekļuvi izveidotajam bugzilla pieteikumam, ļaujot to skatīt tikai "
+"norādīto grupu lietotājiem (sīkāk skatiet papildu iestatījumos)"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:10
 msgid "Groups"
-msgstr ""
+msgstr "Grupas"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:11
 msgid ""
 "Restrict the access to specified groups &lt;a href=\"https://github.com/abrt/"
 "abrt/wiki/FAQ#creating-private-bugzilla-tickets\"&gt;?&lt;/a&gt;"
 msgstr ""
+"Ierobežot piekļuvi norādītajām grupām &lt;a href=\"https://github.com/abrt/"
+"abrt/wiki/FAQ#creating-private-bugzilla-tickets\"&gt;?&lt;/a&gt;"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:12
 msgid "Bugzilla URL"
-msgstr ""
+msgstr "Bugzilla URL"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:13
 msgid "Address of Bugzilla server"
-msgstr ""
+msgstr "Bugzilla servera adrese"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:14
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:12
 #: ../src/plugins/report_RHTSupport.xml.in.h:11
 #: ../src/plugins/report_uReport.xml.in.h:11
 msgid "Verify SSL"
-msgstr ""
+msgstr "Pārbaudīt SSL"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:15
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:13
 #: ../src/plugins/report_RHTSupport.xml.in.h:12
 #: ../src/plugins/report_uReport.xml.in.h:12
 msgid "Check SSL key validity"
-msgstr ""
+msgstr "Pārbaudīt SSL atslēgas derīgumu"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:16
 msgid "Bugzilla product"
-msgstr ""
+msgstr "Bugzilla produkts"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:17
 msgid ""
 "Specify this only if you needed different product than specified in /etc/os-"
 "release"
 msgstr ""
+"Norādiet to tikai tad, ja vajadzīgs cits produkts nekā /etc/os-release "
+"norādītais"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:18
 msgid "Bugzilla product version"
-msgstr ""
+msgstr "Bugzilla produkta versija"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:19
 msgid ""
 "Specify this only if you needed different product version than specified in /"
 "etc/os-release"
 msgstr ""
+"Norādiet to tikai tad, ja vajadzīga cita produkta versija nekā /etc/os-"
+"release norādītā"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:20
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:18
@@ -1297,7 +1389,7 @@ msgstr ""
 #: ../src/plugins/report_Uploader.xml.in.h:10
 #: ../src/plugins/report_uReport.xml.in.h:13
 msgid "HTTP Proxy"
-msgstr ""
+msgstr "HTTP starpniekserveris"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:21
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:19
@@ -1306,7 +1398,7 @@ msgstr ""
 #: ../src/plugins/report_Uploader.xml.in.h:11
 #: ../src/plugins/report_uReport.xml.in.h:14
 msgid "Sets the proxy server to use for HTTP"
-msgstr ""
+msgstr "Iestata HTTP izmantojamo starpniekserveri"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:22
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:20
@@ -1315,7 +1407,7 @@ msgstr ""
 #: ../src/plugins/report_Uploader.xml.in.h:12
 #: ../src/plugins/report_uReport.xml.in.h:15
 msgid "HTTPS Proxy"
-msgstr ""
+msgstr "HTTPS starpniekserveris"
 
 #: ../src/plugins/report_Bugzilla.xml.in.in.h:23
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:21
@@ -1324,7 +1416,7 @@ msgstr ""
 #: ../src/plugins/report_Uploader.xml.in.h:13
 #: ../src/plugins/report_uReport.xml.in.h:16
 msgid "Sets the proxy server to use for HTTPS"
-msgstr ""
+msgstr "Iestata HTTPS izmantojamo starpniekserveri"
 
 #: ../src/plugins/report.c:37
 msgid ""
@@ -1338,48 +1430,63 @@ msgid ""
 "\n"
 "Configuration (such as login data) can be supplied via files\n"
 msgstr ""
+"& [-v] --target MĒRĶIS --ticket ID FAILS...\n"
+"\n"
+"Augšupielādē FAILUS norādītajā pieteikumā MĒRĶĪ.\n"
+"\n"
+"Šis rīks paredzēts, lai atvieglotu pakotnes report lietotāju pāreju\n"
+"uz libreport. Atpazītie MĒRĶI ir 'strata' un 'bugzilla';\n"
+"pirmais augšupielādē uz RHTSupport, otrais — uz Bugzilla.\n"
+"\n"
+"Konfigurāciju (piemēram, pieteikšanās datus) var norādīt failos\n"
 
 #: ../src/plugins/report.c:59
 msgid "'strata' or 'bugzilla'"
-msgstr ""
+msgstr "'strata' vai 'bugzilla'"
 
 #: ../src/plugins/report.c:60
 msgid "Ticket/case ID"
-msgstr ""
+msgstr "Pieteikuma/lietas ID"
 
 #: ../src/plugins/reporter-bugzilla.c:183
 msgid ""
 "Warning, private ticket groups already specified as cmdline argument, "
 "ignoring the env variable and configuration"
 msgstr ""
+"Brīdinājums: privātās pieteikumu grupas jau norādītas kā komandrindas "
+"arguments, vides mainīgais un konfigurācija tiek ignorēti"
 
 #: ../src/plugins/reporter-bugzilla.c:194
 #: ../src/plugins/reporter-rhtsupport.c:384
 #: ../src/plugins/reporter-mantisbt.c:55
 msgid "Can't continue without login"
-msgstr ""
+msgstr "Bez pieteikšanās nevar turpināt"
 
 #: ../src/plugins/reporter-bugzilla.c:207
 #: ../src/plugins/reporter-rhtsupport.c:397
 #: ../src/plugins/reporter-mantisbt.c:68
 msgid "Can't continue without password"
-msgstr ""
+msgstr "Bez paroles nevar turpināt"
 
 #: ../src/plugins/reporter-bugzilla.c:216
 #, c-format
 msgid "Logging into Bugzilla at %s"
-msgstr ""
+msgstr "Piesakās Bugzilla vietnē %s"
 
 #: ../src/plugins/reporter-bugzilla.c:223
 #, c-format
 msgid "Invalid password or login. Please enter your %s login:"
 msgstr ""
+"Nederīga parole vai pieteikšanās vārds. Lūdzu, ievadiet savu %s pieteikšanās "
+"vārdu:"
 
 #: ../src/plugins/reporter-bugzilla.c:228
 #: ../src/plugins/reporter-rhtsupport.c:411
 #, c-format
 msgid "Invalid password or login. Please enter the password for '%s':"
 msgstr ""
+"Nederīga parole vai pieteikšanās vārds. Lūdzu, ievadiet paroli lietotājam "
+"'%s':"
 
 #: ../src/plugins/reporter-bugzilla.c:247
 msgid ""
@@ -1426,87 +1533,131 @@ msgid ""
 "\n"
 "If not specified, CONFFILE defaults to "
 msgstr ""
+"\n"
+"& [-vbf] [-g GRUPAS_NOSAUKUMS]... [-c KONF_FAILS]... [-F FORMĀTA_FAILS] [-A "
+"FORMĀTA_FAILS2] -d DIREKTORIJA\n"
+"vai:\n"
+"& [-v] [-c KONF_FAILS]... [-d DIREKTORIJA] -t[ID] FAILS...\n"
+"vai:\n"
+"& [-v] [-c KONF_FAILS]... [-d DIREKTORIJA] -t[ID] -w\n"
+"vai:\n"
+"& [-v] [-c KONF_FAILS]... -h DUBL_JAUCKODS [-p[PRODUKTS]]\n"
+"\n"
+"Ziņo par problēmu Bugzilla.\n"
+"\n"
+"Rīks nolasa DIREKTORIJU. Tad tas piesakās Bugzilla un mēģina atrast kļūdu\n"
+"ar to pašu abrt_hash:HEXSTRING laukā 'Whiteboard'.\n"
+"\n"
+"Ja šāda kļūda netiek atrasta, tiek izveidota jauna kļūda. DIREKTORIJAS "
+"elementi\n"
+"tiek saglabāti kļūdā kā kļūdas apraksta daļa vai kā pielikumi\n"
+"atkarībā no to tipa un izmēra.\n"
+"\n"
+"Pretējā gadījumā, ja šāda kļūda ir atrasta un atzīmēta kā CLOSED DUPLICATE,\n"
+"rīks seko dublikātu ķēdei, līdz atrod kļūdu, kas nav DUPLICATE.\n"
+"Rīks atrastajai kļūdai pievieno jaunu komentāru.\n"
+"\n"
+"Jaunās vai mainītās kļūdas URL tiek izvadīts uz stdout un ierakstīts\n"
+"elementā 'reported_to'.\n"
+"\n"
+"Opcija -t augšupielādē FAILUS jau izveidotajā kļūdā Bugzilla vietnē.\n"
+"Kļūdas ID tiek iegūts no direktorijas, kas norādīta ar -d DIREKTORIJA.\n"
+"Ja par DIREKTORIJAS problēmas datiem Bugzilla nekad nav ziņots, augšupielāde "
+"neizdosies.\n"
+"\n"
+"Opcija -tID augšupielādē FAILUS kļūdā ar norādīto ID Bugzilla vietnē.\n"
+"-d DIREKTORIJA tiek ignorēta.\n"
+"\n"
+"Opcija -w pievieno bugzilla lietotāju kļūdas CC sarakstam.\n"
+"\n"
+"Opcija -r iestata lauku URL uz pēdējo URL no elementa reporter_to, kam ir\n"
+"priedēklis TRACKER_NAME. Šī opcija tiek lietota tikai tad, ja jāiesniedz\n"
+"jauna kļūda. Noklusējuma vērtība ir 'ABRT Server'\n"
+"\n"
+"Ja nav norādīts, KONF_FAILS noklusējums ir "
 
 #: ../src/plugins/reporter-bugzilla.c:324
 #: ../src/plugins/reporter-rhtsupport.c:549
 #: ../src/plugins/reporter-mantisbt.c:284
 msgid "Configuration file (may be given many times)"
-msgstr ""
+msgstr "Konfigurācijas fails (var norādīt vairākas reizes)"
 
 #: ../src/plugins/reporter-bugzilla.c:325
 #: ../src/plugins/reporter-mantisbt.c:285
 msgid "Formatting file for initial comment"
-msgstr ""
+msgstr "Formatēšanas fails sākotnējam komentāram"
 
 #: ../src/plugins/reporter-bugzilla.c:326
 #: ../src/plugins/reporter-mantisbt.c:286
 msgid "Formatting file for duplicates"
-msgstr ""
+msgstr "Formatēšanas fails dublikātiem"
 
 #: ../src/plugins/reporter-bugzilla.c:327
 msgid "Attach FILEs [to bug with this ID]"
-msgstr ""
+msgstr "Pievienot FAILUS [kļūdai ar šo ID]"
 
 #: ../src/plugins/reporter-bugzilla.c:328
 msgid "When creating bug, attach binary files too"
-msgstr ""
+msgstr "Veidojot kļūdu, pievienot arī binārus failus"
 
 #: ../src/plugins/reporter-bugzilla.c:329
 #: ../src/plugins/reporter-rhtsupport.c:551
 #: ../src/plugins/reporter-mantisbt.c:288
 msgid "Force reporting even if this problem is already reported"
-msgstr ""
+msgstr "Ziņot piespiedu kārtā, pat ja par šo problēmu jau ir ziņots"
 
 #: ../src/plugins/reporter-bugzilla.c:330
 msgid "Add bugzilla user to CC list [of bug with this ID]"
-msgstr ""
+msgstr "Pievienot bugzilla lietotāju CC sarakstam [kļūdai ar šo ID]"
 
 #: ../src/plugins/reporter-bugzilla.c:331
 #: ../src/plugins/reporter-mantisbt.c:289
 msgid "Print BUG_ID which has given DUPHASH"
-msgstr ""
+msgstr "Izvadīt BUG_ID, kam ir norādītais DUPHASH"
 
 #: ../src/plugins/reporter-bugzilla.c:332
 msgid "Specify a Bugzilla product (ignored without -h)"
-msgstr ""
+msgstr "Norādīt Bugzilla produktu (bez -h tiek ignorēts)"
 
 #: ../src/plugins/reporter-bugzilla.c:333
 #: ../src/plugins/reporter-mantisbt.c:290
 msgid "A name of bug tracker for an additional URL from 'reported_to'"
-msgstr ""
+msgstr "Kļūdu sekotāja nosaukums papildu URL no 'reported_to'"
 
 #: ../src/plugins/reporter-bugzilla.c:334
 msgid "Restrict access to this group only"
-msgstr ""
+msgstr "Ierobežot piekļuvi tikai šai grupai"
 
 #: ../src/plugins/reporter-bugzilla.c:335 ../src/plugins/reporter-mailx.c:292
 #: ../src/plugins/reporter-rhtsupport.c:555
 #: ../src/plugins/reporter-systemd-journal.c:255
 #: ../src/plugins/reporter-mantisbt.c:292
 msgid "Debug"
-msgstr ""
+msgstr "Atkļūdot"
 
 #: ../src/plugins/reporter-bugzilla.c:402
 msgid "Looking for similar problems in bugzilla"
-msgstr ""
+msgstr "Meklē līdzīgas problēmas bugzilla"
 
 #: ../src/plugins/reporter-bugzilla.c:431
 msgid "Failed to get 'REDHAT_BUGZILLA_PRODUCT' from '/etc/os-release'."
-msgstr ""
+msgstr "Neizdevās iegūt 'REDHAT_BUGZILLA_PRODUCT' no '/etc/os-release'."
 
 #: ../src/plugins/reporter-bugzilla.c:434
 msgid "Failed to read '/etc/os-release' to get Bugzilla product."
-msgstr ""
+msgstr "Neizdevās nolasīt '/etc/os-release', lai iegūtu Bugzilla produktu."
 
 #: ../src/plugins/reporter-bugzilla.c:445
 #, c-format
 msgid "Using default product '%s'"
-msgstr ""
+msgstr "Izmanto noklusējuma produktu '%s'"
 
 #: ../src/plugins/reporter-bugzilla.c:468
 #, c-format
 msgid "Login is not provided by configuration. Please enter your %s login:"
 msgstr ""
+"Pieteikšanās vārds konfigurācijā nav norādīts. Lūdzu, ievadiet savu %s "
+"pieteikšanās vārdu:"
 
 #: ../src/plugins/reporter-bugzilla.c:476
 #: ../src/plugins/reporter-rhtsupport.c:597
@@ -1515,12 +1666,13 @@ msgid ""
 "Password is not provided by configuration. Please enter the password for "
 "'%s':"
 msgstr ""
+"Parole konfigurācijā nav norādīta. Lūdzu, ievadiet paroli lietotājam '%s':"
 
 #: ../src/plugins/reporter-bugzilla.c:500
 msgid ""
 "Can't get Bugzilla ID because this problem has not yet been reported to "
 "Bugzilla."
-msgstr ""
+msgstr "Nevar iegūt Bugzilla ID, jo par šo problēmu Bugzilla vēl nav ziņots."
 
 #: ../src/plugins/reporter-bugzilla.c:505
 #, c-format
@@ -1528,22 +1680,24 @@ msgid ""
 "This problem has been reported to Bugzilla '%s' which differs from the "
 "configured Bugzilla '%s'."
 msgstr ""
+"Par šo problēmu ir ziņots Bugzilla '%s', kas atšķiras no konfigurētā "
+"Bugzilla '%s'."
 
 #: ../src/plugins/reporter-bugzilla.c:509
 #, c-format
 msgid "Malformed url to Bugzilla '%s'."
-msgstr ""
+msgstr "Nepareizi veidots Bugzilla URL '%s'."
 
 #: ../src/plugins/reporter-bugzilla.c:513
 #, c-format
 msgid "Using Bugzilla ID '%s'"
-msgstr ""
+msgstr "Izmanto Bugzilla ID '%s'"
 
 #: ../src/plugins/reporter-bugzilla.c:547
 #: ../src/plugins/reporter-bugzilla.c:747
 #: ../src/plugins/reporter-bugzilla.c:943
 msgid "Logging out"
-msgstr ""
+msgstr "Atsakās"
 
 #: ../src/plugins/reporter-bugzilla.c:579
 #, c-format
@@ -1551,15 +1705,17 @@ msgid ""
 "This problem was already reported to Bugzilla (see '%s'). Do you still want "
 "to create a new bug?"
 msgstr ""
+"Par šo problēmu jau ir ziņots Bugzilla (skatiet '%s'). Vai tomēr vēlaties "
+"izveidot jaunu kļūdu?"
 
 #: ../src/plugins/reporter-bugzilla.c:609
 msgid "Can't determine Bugzilla Product from problem data."
-msgstr ""
+msgstr "No problēmas datiem nevar noteikt Bugzilla produktu."
 
 #: ../src/plugins/reporter-bugzilla.c:671
 #: ../src/plugins/reporter-mantisbt.c:506
 msgid "Checking for duplicates"
-msgstr ""
+msgstr "Pārbauda dublikātus"
 
 #: ../src/plugins/reporter-bugzilla.c:728
 #, c-format
@@ -1571,70 +1727,75 @@ msgid ""
 "report and close it as DUPLICATE of the original one? Otherwise, the bug "
 "reporting procedure will be terminated."
 msgstr ""
+"Jūs pieprasījāt, lai dati būtu pieejami tikai noteiktai grupai, bet šī kļūda "
+"ir dublikāts kļūdai %s/%u. Dublikātu gadījumā sākotnējam kļūdas ziņojumam "
+"tiek pievienots jauns komentārs, taču piekļuvi komentāriem nevar ierobežot "
+"noteiktai grupai. Vai vēlaties atvērt jaunu kļūdas ziņojumu un aizvērt to kā "
+"sākotnējā DUPLICATE? Pretējā gadījumā kļūdas ziņošana tiks pārtraukta."
 
 #. Create new bug
 #: ../src/plugins/reporter-bugzilla.c:763
 msgid "Creating a new bug"
-msgstr ""
+msgstr "Izveido jaunu kļūdu"
 
 #: ../src/plugins/reporter-bugzilla.c:782
 msgid "Failed to create a new bug."
-msgstr ""
+msgstr "Neizdevās izveidot jaunu kļūdu."
 
 #: ../src/plugins/reporter-bugzilla.c:800
 #, c-format
 msgid "Adding extra cc %s to bug report"
-msgstr ""
+msgstr "Pievieno kļūdas ziņojumam papildu cc %s"
 
 #: ../src/plugins/reporter-bugzilla.c:812
 #, c-format
 msgid "Adding External URL to bug %i"
-msgstr ""
+msgstr "Pievieno kļūdai %i ārējo URL"
 
 #: ../src/plugins/reporter-bugzilla.c:819
 #, c-format
 msgid "Adding attachments to bug %i"
-msgstr ""
+msgstr "Pievieno kļūdai %i pielikumus"
 
 #: ../src/plugins/reporter-bugzilla.c:841
 #, c-format
 msgid "Closing bug %i as duplicate of bug %i"
-msgstr ""
+msgstr "Aizver kļūdu %i kā kļūdas %i dublikātu"
 
 #: ../src/plugins/reporter-bugzilla.c:853
 #: ../src/plugins/reporter-mantisbt.c:622
 #, c-format
 msgid "Bug is already reported: %i"
-msgstr ""
+msgstr "Par kļūdu jau ir ziņots: %i"
 
 #: ../src/plugins/reporter-bugzilla.c:896
 #, c-format
 msgid "Adding %s to CC list"
-msgstr ""
+msgstr "Pievieno %s CC sarakstam"
 
 #: ../src/plugins/reporter-bugzilla.c:917
 #, c-format
 msgid "Adding new comment to bug %d"
-msgstr ""
+msgstr "Pievieno kļūdai %d jaunu komentāru"
 
 #: ../src/plugins/reporter-bugzilla.c:930
 #: ../src/plugins/reporter-mantisbt.c:672
 msgid "Attaching better backtrace"
-msgstr ""
+msgstr "Pievieno labāku atpakaļsekojumu"
 
 #: ../src/plugins/reporter-bugzilla.c:936
 msgid "Found the same comment in the bug history, not adding a new one"
-msgstr ""
+msgstr "Kļūdas vēsturē atrasts tāds pats komentārs, jauns netiek pievienots"
 
 #: ../src/plugins/reporter-bugzilla.c:946
 #, c-format
 msgid "Status: %s%s%s %s/show_bug.cgi?id=%u"
-msgstr ""
+msgstr "Statuss: %s%s%s %s/show_bug.cgi?id=%u"
 
 #: ../src/plugins/reporter-kerneloops.c:105
 #, c-format
 msgid "Submitting oops report to %s"
-msgstr ""
+msgstr "Iesniedz oops ziņojumu uz %s"
 
 #: ../src/plugins/reporter-kerneloops.c:154
 msgid ""
@@ -1649,11 +1810,21 @@ msgid ""
 "Recognized string parameter: SubmitURL.\n"
 "Parameter can be overridden via $KerneloopsReporter_SubmitURL."
 msgstr ""
+"& [-v] [-c KONF_FAILS]... -d DIREKTORIJA\n"
+"\n"
+"Ziņo par kodola oops vietnei kerneloops.org (vai līdzīgai).\n"
+"\n"
+"Faili, kuru nosaukumi ir uzskaitīti $EXCLUDE_FROM_REPORT, netiek iekļauti\n"
+"tar arhīvā.\n"
+"\n"
+"KONF_FAILS rindām jābūt formātā 'PARAM = VALUE'.\n"
+"Atpazītais virknes parametrs: SubmitURL.\n"
+"Parametru var aizstāt ar $KerneloopsReporter_SubmitURL."
 
 #: ../src/plugins/reporter-kerneloops.c:174
 #: ../src/plugins/reporter-ureport.c:81
 msgid "Configuration file"
-msgstr "Konfigurācijas datne"
+msgstr "Konfigurācijas fails"
 
 #: ../src/plugins/reporter-mailx.c:83
 #, c-format
@@ -1661,21 +1832,23 @@ msgid ""
 "Email address of %s was not specified. Would you like to do so now? If not, "
 "'%s' is to be used"
 msgstr ""
+"%s e-pasta adrese netika norādīta. Vai vēlaties to norādīt tagad? Ja nē, "
+"tiks izmantots '%s'"
 
 #: ../src/plugins/reporter-mailx.c:90
 #, c-format
 msgid "Please, type email address of %s:"
-msgstr ""
+msgstr "Lūdzu, ievadiet %s e-pasta adresi:"
 
 #: ../src/plugins/reporter-mailx.c:97
 #, c-format
 msgid "Can't continue without email address of %s"
-msgstr ""
+msgstr "Bez %s e-pasta adreses nevar turpināt"
 
 #: ../src/plugins/reporter-mailx.c:207
 #, c-format
 msgid "Sending a notification email to: %s"
-msgstr ""
+msgstr "Sūta paziņojuma e-pastu: %s"
 
 #: ../src/plugins/reporter-mailx.c:209
 msgid "Sending an email..."
@@ -1694,18 +1867,23 @@ msgid ""
 "\n"
 "If not specified, CONFFILE defaults to "
 msgstr ""
+"& [-v] -d DIREKTORIJA [-c KONF_FAILS] [-F FORMĀTA_FAILS]\n"
+"\n"
+"Nosūta problēmas direktorijas DIREKTORIJA saturu pa e-pastu\n"
+"\n"
+"Ja nav norādīts, KONF_FAILS noklusējums ir "
 
 #: ../src/plugins/reporter-mailx.c:289 ../src/plugins/reporter-upload.c:187
 msgid "Config file"
-msgstr ""
+msgstr "Konfigurācijas fails"
 
 #: ../src/plugins/reporter-mailx.c:290
 msgid "Formatting file for an email"
-msgstr ""
+msgstr "Formatēšanas fails e-pastam"
 
 #: ../src/plugins/reporter-mailx.c:291
 msgid "Notify only (Do not mark the report as sent)"
-msgstr ""
+msgstr "Tikai paziņot (neatzīmēt ziņojumu kā nosūtītu)"
 
 #: ../src/plugins/reporter-print.c:42
 msgid ""
@@ -1713,64 +1891,69 @@ msgid ""
 "\n"
 "Prints problem information to standard output or FILE"
 msgstr ""
+"& [-v] -d DIREKTORIJA [-o FAILS] [-a yes/no] [-r]\n"
+"\n"
+"Izvada problēmas informāciju standarta izvadē vai FAILĀ"
 
 #: ../src/plugins/reporter-print.c:57
 msgid "Output file"
-msgstr ""
+msgstr "Izvades fails"
 
 #: ../src/plugins/reporter-print.c:58
 msgid "Append to, or overwrite FILE"
-msgstr ""
+msgstr "Pievienot FAILAM vai pārrakstīt to"
 
 #: ../src/plugins/reporter-print.c:59
 msgid "Create reported_to in DIR"
-msgstr ""
+msgstr "Izveidot reported_to DIREKTORIJĀ"
 
 #: ../src/plugins/reporter-print.c:98
 msgid "Cancelled by user."
-msgstr "Lietotāja atcelts."
+msgstr "Lietotājs atcēla."
 
 #: ../src/plugins/reporter-print.c:108
 #, c-format
 msgid "Can't open '%s' for writing. Please select another file:"
-msgstr ""
+msgstr "Nevar atvērt '%s' rakstīšanai. Lūdzu, izvēlieties citu failu:"
 
 #: ../src/plugins/reporter-print.c:153
 #, c-format
 msgid "The report was appended to %s"
-msgstr ""
+msgstr "Ziņojums tika pievienots failam %s"
 
 #: ../src/plugins/reporter-print.c:153
 #, c-format
 msgid "The report was stored to %s"
-msgstr ""
+msgstr "Ziņojums tika saglabāts %s"
 
 #: ../src/plugins/reporter-rhtsupport.c:280
 #: ../src/plugins/reporter-ureport.c:311
 msgid "Failed to generate microreport from the problem data"
-msgstr ""
+msgstr "Neizdevās izveidot mikroziņojumu no problēmas datiem"
 
 #: ../src/plugins/reporter-rhtsupport.c:301
 #: ../src/plugins/reporter-ureport.c:340
 #, c-format
 msgid "Server responded with an error: '%s'"
-msgstr ""
+msgstr "Serveris atbildēja ar kļūdu: '%s'"
 
 #: ../src/plugins/reporter-rhtsupport.c:361
 msgid "Do you still want to create a RHTSupport ticket?"
-msgstr ""
+msgstr "Vai tomēr vēlaties izveidot RHTSupport pieteikumu?"
 
 #: ../src/plugins/reporter-rhtsupport.c:409
 msgid "Invalid password or login. Please enter your Red Hat login:"
 msgstr ""
+"Nederīga parole vai pieteikšanās vārds. Lūdzu, ievadiet savu Red Hat "
+"pieteikšanās vārdu:"
 
 #: ../src/plugins/reporter-rhtsupport.c:473
 msgid "Please enter customer case number to which you want to attach the data:"
-msgstr ""
+msgstr "Lūdzu, ievadiet klienta lietas numuru, kurai vēlaties pievienot datus:"
 
 #: ../src/plugins/reporter-rhtsupport.c:479
 msgid "Can't continue without Red Hat Support case number"
-msgstr ""
+msgstr "Bez Red Hat atbalsta lietas numura nevar turpināt"
 
 #: ../src/plugins/reporter-rhtsupport.c:506
 msgid ""
@@ -1783,26 +1966,37 @@ msgid ""
 "\n"
 "If not specified, CONFFILE defaults to "
 msgstr ""
+"\n"
+"& [-v] [-c KONF_FAILS] [-F FORMĀTA_FAILS] -d DIREKTORIJA\n"
+"vai:\n"
+"& [-v] [-c KONF_FAILS] [-d DIREKTORIJA] -t[ID] [-u -C UR_KONF_FAILS] "
+"FAILS...\n"
+"\n"
+"Ziņo par problēmu RHTSupport.\n"
+"\n"
+"Ja nav norādīts, KONF_FAILS noklusējums ir "
 
 #: ../src/plugins/reporter-rhtsupport.c:550
 msgid "Upload FILEs [to case with this ID]"
-msgstr ""
+msgstr "Augšupielādēt FAILUS [lietai ar šo ID]"
 
 #: ../src/plugins/reporter-rhtsupport.c:552
 msgid "Submit uReport before creating a new case"
-msgstr ""
+msgstr "Pirms jaunas lietas izveides iesniegt uReport"
 
 #: ../src/plugins/reporter-rhtsupport.c:553
 msgid "Configuration file for uReport"
-msgstr ""
+msgstr "uReport konfigurācijas fails"
 
 #: ../src/plugins/reporter-rhtsupport.c:554
 msgid "Formatting file for a new case"
-msgstr ""
+msgstr "Formatēšanas fails jaunai lietai"
 
 #: ../src/plugins/reporter-rhtsupport.c:591
 msgid "Login is not provided by configuration. Please enter your RHTS login:"
 msgstr ""
+"Pieteikšanās vārds konfigurācijā nav norādīts. Lūdzu, ievadiet savu RHTS "
+"pieteikšanās vārdu:"
 
 #: ../src/plugins/reporter-rhtsupport.c:647
 #, c-format
@@ -1811,19 +2005,21 @@ msgid ""
 "to the case? Otherwise, you will have to enter the existing Red Hat support "
 "case number."
 msgstr ""
+"Atradām līdzīgu Red Hat atbalsta lietu %s. Vai vēlaties pievienot datus šai "
+"lietai? Pretējā gadījumā būs jāievada esošās Red Hat atbalsta lietas numurs."
 
 #: ../src/plugins/reporter-rhtsupport.c:676
 #, c-format
 msgid "Attaching '%s' to case '%s'"
-msgstr ""
+msgstr "Pievieno '%s' lietai '%s'"
 
 #: ../src/plugins/reporter-rhtsupport.c:720
 msgid "Sending ABRT crash statistics data"
-msgstr ""
+msgstr "Sūta ABRT avāriju statistikas datus"
 
 #: ../src/plugins/reporter-rhtsupport.c:741
 msgid "Can't create a temporary directory in "
-msgstr ""
+msgstr "Nevar izveidot pagaidu direktoriju "
 
 #: ../src/plugins/reporter-rhtsupport.c:766
 msgid ""
@@ -1831,6 +2027,9 @@ msgid ""
 "is unknown. Please ensure you will be able to provide detailed information "
 "to our Support Team. Would you like to continue and open a new support case?"
 msgstr ""
+"Problēma ir radusies tikai vienu reizi, un nav zināms, vai to var atkārtot. "
+"Lūdzu, pārliecinieties, ka varēsiet sniegt mūsu atbalsta komandai detalizētu "
+"informāciju. Vai vēlaties turpināt un atvērt jaunu atbalsta lietu?"
 
 #: ../src/plugins/reporter-rhtsupport.c:779
 #, c-format
@@ -1838,6 +2037,8 @@ msgid ""
 "The crashed program was released by '%s'. Would you like to report the "
 "problem to Red Hat Support?"
 msgstr ""
+"Avarējušo programmu izlaida '%s'. Vai vēlaties ziņot par problēmu Red Hat "
+"atbalstam?"
 
 #: ../src/plugins/reporter-rhtsupport.c:797
 #, c-format
@@ -1845,6 +2046,8 @@ msgid ""
 "The program '%s' does not appear to be provided by Red Hat. Would you like "
 "to report the problem to Red Hat Support?"
 msgstr ""
+"Šķiet, ka programmu '%s' nenodrošina Red Hat. Vai vēlaties ziņot par "
+"problēmu Red Hat atbalstam?"
 
 #. Gzipping e.g. 0.5gig coredump takes a while. Let user know what we are doing
 #. error msg is already logged by dd_opendir
@@ -1852,53 +2055,54 @@ msgstr ""
 #: ../src/plugins/reporter-rhtsupport.c:861
 #: ../src/plugins/reporter-upload.c:103
 msgid "Compressing data"
-msgstr ""
+msgstr "Saspiež datus"
 
 #: ../src/plugins/reporter-rhtsupport.c:869
 msgid "Can't create temporary file in "
-msgstr ""
+msgstr "Nevar izveidot pagaidu failu "
 
 #. Check for hints and show them if we have something
 #: ../src/plugins/reporter-rhtsupport.c:880
 msgid "Checking for hints"
-msgstr ""
+msgstr "Meklē padomus"
 
 #: ../src/plugins/reporter-rhtsupport.c:885
 msgid "Creating a new case"
-msgstr ""
+msgstr "Izveido jaunu lietu"
 
 #. How can we help user sorting out this problem?
 #: ../src/plugins/reporter-rhtsupport.c:896
 msgid "Can't determine RH Support Product from problem data."
-msgstr ""
+msgstr "No problēmas datiem nevar noteikt RH atbalsta produktu."
 
 #: ../src/plugins/reporter-rhtsupport.c:958
 msgid "Linking ABRT crash statistics record with the case"
-msgstr ""
+msgstr "Sasaista ABRT avāriju statistikas ierakstu ar lietu"
 
 #: ../src/plugins/reporter-rhtsupport.c:971
 #, c-format
 msgid "Linking ABRT crash statistics record with contact email: '%s'"
 msgstr ""
+"Sasaista ABRT avāriju statistikas ierakstu ar kontaktpersonas e-pastu: '%s'"
 
 #: ../src/plugins/reporter-rhtsupport.c:995
 #, c-format
 msgid "Adding comment to case '%s'"
-msgstr ""
+msgstr "Pievieno komentāru lietai '%s'"
 
 #. Attach the tarball of -d DIR
 #: ../src/plugins/reporter-rhtsupport.c:1013
 #, c-format
 msgid "Attaching problem data to case '%s'"
-msgstr ""
+msgstr "Pievieno problēmas datus lietai '%s'"
 
 #: ../src/plugins/reporter-rhtsupport-parse.c:202
 msgid "Documentation which might be relevant: "
-msgstr ""
+msgstr "Dokumentācija, kas varētu būt noderīga: "
 
 #: ../src/plugins/reporter-rhtsupport-parse.c:210
 msgid "Updates which possibly help: "
-msgstr ""
+msgstr "Atjauninājumi, kas, iespējams, palīdz: "
 
 #: ../src/plugins/reporter-systemd-journal.c:225
 msgid ""
@@ -1911,39 +2115,47 @@ msgid ""
 "into systemd journal as a message. If MESSAGEID is defined, the tool\n"
 "creates a catalog message as well.\n"
 msgstr ""
+"& [-v] [-d DIREKTORIJA] [-m ZIŅOJUMA_ID] [-F FORMĀTA_FAILS] [-p "
+"NONE|ESSENTIAL|FULL] [-s SYSLOG_ID]\n"
+"\n"
+"Ziņo problēmas informāciju systemd žurnālā.\n"
+"\n"
+"Rīks nolasa problēmas direktoriju DIREKTORIJA un nosūta tās informāciju\n"
+"systemd žurnālā kā ziņojumu. Ja ir definēts ZIŅOJUMA_ID, rīks\n"
+"izveido arī kataloga ziņojumu.\n"
 
 #: ../src/plugins/reporter-systemd-journal.c:251
 msgid "Catalog message id"
-msgstr ""
+msgstr "Kataloga ziņojuma ID"
 
 #: ../src/plugins/reporter-systemd-journal.c:252
 msgid "Formatting file for catalog message"
-msgstr ""
+msgstr "Formatēšanas fails kataloga ziņojumam"
 
 #: ../src/plugins/reporter-systemd-journal.c:253
 msgid "Dump problem dir into systemd journal fields"
-msgstr ""
+msgstr "Izmest problēmas direktoriju systemd žurnāla laukos"
 
 #: ../src/plugins/reporter-systemd-journal.c:254
 msgid "Define SYSLOG_IDENTIFIER systemd journal field"
-msgstr ""
+msgstr "Definēt systemd žurnāla lauku SYSLOG_IDENTIFIER"
 
 #: ../src/plugins/reporter-upload.c:29
 msgid "Can't continue without URL"
-msgstr ""
+msgstr "Bez URL nevar turpināt"
 
 #. Be permissive and nice, ask only once and don't check
 #. the result. User can dismiss this prompt but the upload
 #. may work somehow???
 #: ../src/plugins/reporter-upload.c:51
 msgid "Please enter password for uploading:"
-msgstr ""
+msgstr "Lūdzu, ievadiet augšupielādes paroli:"
 
 #. success
 #: ../src/plugins/reporter-upload.c:120
 #, c-format
 msgid "Archive is created: '%s'"
-msgstr ""
+msgstr "Arhīvs izveidots: '%s'"
 
 #: ../src/plugins/reporter-upload.c:156
 msgid ""
@@ -1952,39 +2164,45 @@ msgid ""
 "Uploads compressed tarball of problem directory DIR to URL.\n"
 "If URL is not specified, creates tarball in "
 msgstr ""
+"& [-v] -d DIREKTORIJA [-c KONF_FAILS] [-u URL] [-b FAILS] [-r FAILS]\n"
+"\n"
+"Augšupielādē problēmas direktorijas DIREKTORIJA saspiestu tar arhīvu uz "
+"URL.\n"
+"Ja URL nav norādīts, izveido tar arhīvu "
 
 #: ../src/plugins/reporter-upload.c:188
 msgid "Base URL to upload to"
-msgstr ""
+msgstr "Bāzes URL, uz kuru augšupielādēt"
 
 #: ../src/plugins/reporter-upload.c:189
 msgid "SSH public key file"
-msgstr ""
+msgstr "SSH publiskās atslēgas fails"
 
 #: ../src/plugins/reporter-upload.c:190
 msgid "SSH private key file"
-msgstr ""
+msgstr "SSH privātās atslēgas fails"
 
 #: ../src/plugins/reporter-upload.c:219
 msgid ""
 "Please enter a URL (scp, ftp, etc.) where the problem data is to be exported:"
 msgstr ""
+"Lūdzu, ievadiet URL (scp, ftp u. c.), uz kuru eksportēt problēmas datus:"
 
 #: ../src/plugins/reporter-mantisbt.c:80
 msgid "Please enter your MantisBT login:"
-msgstr ""
+msgstr "Lūdzu, ievadiet savu MantisBT pieteikšanās vārdu:"
 
 #: ../src/plugins/reporter-mantisbt.c:84
 msgid "Please enter the password for"
-msgstr ""
+msgstr "Lūdzu, ievadiet paroli:"
 
 #: ../src/plugins/reporter-mantisbt.c:95
 msgid "Credentials are not provided by configuration."
-msgstr ""
+msgstr "Akreditācijas dati konfigurācijā nav norādīti."
 
 #: ../src/plugins/reporter-mantisbt.c:119
 msgid "Invalid password or login."
-msgstr ""
+msgstr "Nederīga parole vai pieteikšanās vārds."
 
 #: ../src/plugins/reporter-mantisbt.c:211
 msgid ""
@@ -2028,25 +2246,66 @@ msgid ""
 "\n"
 "If not specified, CONFFILE defaults to "
 msgstr ""
+"\n"
+"& [-vf] [-c KONF_FAILS]... [-F FORMĀTA_FAILS] [-A FORMĀTA_FAILS2] -d "
+"DIREKTORIJA\n"
+"vai:\n"
+"& [-v] [-c KONF_FAILS]... [-d DIREKTORIJA] -t[ID] FAILS...\n"
+"vai:\n"
+"& [-v] [-c KONF_FAILS]... [-d DIREKTORIJA] -t[ID] -w\n"
+"vai:\n"
+"& [-v] [-c KONF_FAILS]... -h DUBL_JAUCKODS\n"
+"\n"
+"Ziņo par problēmu MantisBT.\n"
+"\n"
+"Rīks nolasa DIREKTORIJU. Tad tas mēģina atrast problēmas pieteikumu\n"
+"ar to pašu abrt_hash pielāgotajā laukā 'abrt_hash'.\n"
+"\n"
+"Ja šāds pieteikums netiek atrasts, tiek izveidots jauns. DIREKTORIJAS "
+"elementi\n"
+"tiek saglabāti pieteikumā kā apraksta daļa vai kā pielikumi\n"
+"atkarībā no to tipa un izmēra.\n"
+"\n"
+"Pretējā gadījumā, ja šāds pieteikums ir atrasts un atzīmēts kā CLOSED "
+"DUPLICATE,\n"
+"rīks seko dublikātu ķēdei, līdz atrod pieteikumu, kas nav DUPLICATE.\n"
+"Rīks atrastajam pieteikumam pievieno jaunu komentāru.\n"
+"\n"
+"Jaunā vai mainītā pieteikuma URL tiek izvadīts uz stdout un ierakstīts\n"
+"elementā 'reported_to'.\n"
+"\n"
+"Opcija -t augšupielādē FAILUS jau izveidotajā pieteikumā MantisBT vietnē.\n"
+"Pieteikuma ID tiek iegūts no direktorijas, kas norādīta ar -d DIREKTORIJA.\n"
+"Ja par DIREKTORIJAS problēmas datiem MantisBT nekad nav ziņots, augšupielāde "
+"neizdosies.\n"
+"\n"
+"Opcija -tID augšupielādē FAILUS pieteikumā ar norādīto ID MantisBT vietnē.\n"
+"-d DIREKTORIJA tiek ignorēta.\n"
+"\n"
+"Opcija -r iestata lauku URL uz pēdējo URL no elementa reporter_to, kam ir\n"
+"priedēklis TRACKER_NAME. Šī opcija tiek lietota tikai tad, ja jāiesniedz\n"
+"jauns pieteikums. Noklusējuma vērtība ir 'ABRT Server'\n"
+"\n"
+"Ja nav norādīts, KONF_FAILS noklusējums ir "
 
 #: ../src/plugins/reporter-mantisbt.c:287
 msgid "Attach FILEs [to issue with this ID]"
-msgstr ""
+msgstr "Pievienot FAILUS [pieteikumam ar šo ID]"
 
 #: ../src/plugins/reporter-mantisbt.c:326
 #, c-format
 msgid "Can't open problem dir '%s'."
-msgstr ""
+msgstr "Nevar atvērt problēmas direktoriju '%s'."
 
 #: ../src/plugins/reporter-mantisbt.c:348
 msgid "Looking for similar problems in MantisBT"
-msgstr ""
+msgstr "Meklē līdzīgas problēmas MantisBT"
 
 #: ../src/plugins/reporter-mantisbt.c:381
 msgid ""
 "Can't get MantisBT ID because this problem has not yet been reported to "
 "MantisBT."
-msgstr ""
+msgstr "Nevar iegūt MantisBT ID, jo par šo problēmu MantisBT vēl nav ziņots."
 
 #: ../src/plugins/reporter-mantisbt.c:386
 #, c-format
@@ -2054,21 +2313,23 @@ msgid ""
 "This problem has been reported to MantisBT '%s' which differs from the "
 "configured MantisBT '%s'."
 msgstr ""
+"Par šo problēmu ir ziņots MantisBT '%s', kas atšķiras no konfigurētā "
+"MantisBT '%s'."
 
 #: ../src/plugins/reporter-mantisbt.c:390
 #, c-format
 msgid "Malformed url to MantisBT '%s'."
-msgstr ""
+msgstr "Nepareizi veidots MantisBT URL '%s'."
 
 #: ../src/plugins/reporter-mantisbt.c:394
 #, c-format
 msgid "Using MantisBT ID '%s'"
-msgstr ""
+msgstr "Izmanto MantisBT ID '%s'"
 
 #: ../src/plugins/reporter-mantisbt.c:402
 #, c-format
 msgid "Attaching file '%s' to issue %s"
-msgstr ""
+msgstr "Pievieno failu '%s' pieteikumam %s"
 
 #: ../src/plugins/reporter-mantisbt.c:432
 #, c-format
@@ -2076,56 +2337,58 @@ msgid ""
 "This problem was already reported to MantisBT (see '%s'). Do you still want "
 "to create a new issue?"
 msgstr ""
+"Par šo problēmu jau ir ziņots MantisBT (skatiet '%s'). Vai tomēr vēlaties "
+"izveidot jaunu pieteikumu?"
 
 #. Create new issue
 #: ../src/plugins/reporter-mantisbt.c:545
 msgid "Creating a new issue"
-msgstr ""
+msgstr "Izveido jaunu pieteikumu"
 
 #: ../src/plugins/reporter-mantisbt.c:550
 #, c-format
 msgid "Invalid format file: %s"
-msgstr ""
+msgstr "Nederīgs formāta fails: %s"
 
 #: ../src/plugins/reporter-mantisbt.c:554
 msgid "Failed to format problem data"
-msgstr ""
+msgstr "Neizdevās formatēt problēmas datus"
 
 #: ../src/plugins/reporter-mantisbt.c:581
 msgid "Adding External URL to issue"
-msgstr ""
+msgstr "Pievieno pieteikumam ārējo URL"
 
 #: ../src/plugins/reporter-mantisbt.c:593
 #, c-format
 msgid "Adding attachments to issue %i"
-msgstr ""
+msgstr "Pievieno pieteikumam %i pielikumus"
 
 #: ../src/plugins/reporter-mantisbt.c:648
 #, c-format
 msgid "Invalid duplicate format file: '%s"
-msgstr ""
+msgstr "Nederīgs dublikātu formāta fails: '%s"
 
 #: ../src/plugins/reporter-mantisbt.c:652
 msgid "Failed to format duplicate comment from problem data"
-msgstr ""
+msgstr "Neizdevās no problēmas datiem formatēt dublikāta komentāru"
 
 #: ../src/plugins/reporter-mantisbt.c:659
 #, c-format
 msgid "Adding new comment to issue %d"
-msgstr ""
+msgstr "Pievieno pieteikumam %d jaunu komentāru"
 
 #: ../src/plugins/reporter-mantisbt.c:695
 msgid "Found the same comment in the issue history, not adding a new one"
-msgstr ""
+msgstr "Pieteikuma vēsturē atrasts tāds pats komentārs, jauns netiek pievienots"
 
 #: ../src/plugins/reporter-mantisbt.c:702
 #, c-format
 msgid "Status: %s%s%s %s/view.php?id=%u"
-msgstr ""
+msgstr "Statuss: %s%s%s %s/view.php?id=%u"
 
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:1
 msgid "CentOS Bug Tracker"
-msgstr ""
+msgstr "CentOS kļūdu sekotājs"
 
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:2
 #: ../src/workflows/workflow_CentOSCCpp.xml.in.h:1
@@ -2138,102 +2401,108 @@ msgstr ""
 #: ../src/workflows/workflow_CentOSVmcore.xml.in.h:1
 #: ../src/workflows/workflow_CentOSXorg.xml.in.h:1
 msgid "Report to CentOS Bug Tracker"
-msgstr ""
+msgstr "Ziņot CentOS kļūdu sekotājam"
 
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:4
 msgid "CentOS Bug Tracker account user name"
-msgstr ""
+msgstr "CentOS kļūdu sekotāja konta lietotājvārds"
 
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:5
 msgid ""
 "You can create bugs.centos.org account &lt;a href=\"https://bugs.centos.org/"
 "signup_page.php\"&gt;here&lt;/a&gt;"
 msgstr ""
+"bugs.centos.org kontu varat izveidot &lt;a href=\"https://bugs.centos.org/"
+"signup_page.php\"&gt;šeit&lt;/a&gt;"
 
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:7
 msgid "CentOS Bug Tracker account password"
-msgstr ""
+msgstr "CentOS kļūdu sekotāja konta parole"
 
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:9
 msgid ""
 "The issue will be accessible only to users with access to 'Private Issues'"
-msgstr ""
+msgstr "Pieteikums būs pieejams tikai lietotājiem ar piekļuvi 'Private Issues'"
 
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:10
 msgid "CentOS Bug Tracker URL"
-msgstr ""
+msgstr "CentOS kļūdu sekotāja URL"
 
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:11
 msgid "Address of CentOS Bug Tracker server"
-msgstr ""
+msgstr "CentOS kļūdu sekotāja servera adrese"
 
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:14
 msgid "CentOS Bug Tracker project"
-msgstr ""
+msgstr "CentOS kļūdu sekotāja projekts"
 
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:15
 msgid ""
 "Specify this only if you needed different project than specified in /etc/os-"
 "release"
 msgstr ""
+"Norādiet to tikai tad, ja vajadzīgs cits projekts nekā /etc/os-release "
+"norādītais"
 
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:16
 msgid "CentOS Bug Tracker project version"
-msgstr ""
+msgstr "CentOS kļūdu sekotāja projekta versija"
 
 #: ../src/plugins/report_CentOSBugTracker.xml.in.h:17
 msgid ""
 "Specify this only if you needed different project version than specified in /"
 "etc/os-release"
 msgstr ""
+"Norādiet to tikai tad, ja vajadzīga cita projekta versija nekā /etc/os-"
+"release norādītā"
 
 #: ../src/plugins/report_Kerneloops.xml.in.h:1
 msgid "Kerneloops.org"
-msgstr ""
+msgstr "Kerneloops.org"
 
 #: ../src/plugins/report_Kerneloops.xml.in.h:2
 msgid "Send to kernel oops tracker"
-msgstr ""
+msgstr "Nosūtīt kodola oops sekotājam"
 
 #: ../src/plugins/report_Kerneloops.xml.in.h:3
 msgid "Kerneloops URL"
-msgstr ""
+msgstr "Kerneloops URL"
 
 #: ../src/plugins/report_Kerneloops.xml.in.h:4
 msgid "Oops server url"
-msgstr ""
+msgstr "Oops servera URL"
 
 #: ../src/plugins/report_Logger.xml.in.h:1
 msgid "Logger"
-msgstr ""
+msgstr "Žurnalētājs"
 
 #: ../src/plugins/report_Logger.xml.in.h:2
 msgid "Save as text file"
-msgstr "Saglabāt kā teksta datni"
+msgstr "Saglabāt kā teksta failu"
 
 #: ../src/plugins/report_Logger.xml.in.h:3
 msgid "Log File"
-msgstr ""
+msgstr "Žurnāla fails"
 
 #: ../src/plugins/report_Logger.xml.in.h:4
 msgid "Name of the logfile"
-msgstr ""
+msgstr "Žurnāla faila nosaukums"
 
 #: ../src/plugins/report_Logger.xml.in.h:5
 msgid "Append"
-msgstr ""
+msgstr "Pievienot"
 
 #: ../src/plugins/report_Logger.xml.in.h:6
 msgid "Append new reports or overwrite the old one."
-msgstr ""
+msgstr "Pievienot jaunus ziņojumus vai pārrakstīt veco."
 
 #: ../src/plugins/report_Mailx.xml.in.h:1
 msgid "Mailx"
-msgstr ""
+msgstr "Mailx"
 
 #: ../src/plugins/report_Mailx.xml.in.h:2
 msgid "Send via email"
-msgstr ""
+msgstr "Nosūtīt pa e-pastu"
 
 #: ../src/plugins/report_Mailx.xml.in.h:3
 msgid "Subject"
@@ -2261,175 +2530,185 @@ msgstr "Saņēmēja e-pasts"
 
 #: ../src/plugins/report_Mailx.xml.in.h:9
 msgid "Send Binary Data"
-msgstr ""
+msgstr "Sūtīt binārus datus"
 
 #: ../src/plugins/report_Mailx.xml.in.h:10
 msgid "Send binary files like coredump"
-msgstr ""
+msgstr "Sūtīt binārus failus, piemēram, kodola izmeti"
 
 #: ../src/plugins/report_RHTSupport.xml.in.h:1
 #: ../src/plugins/report_RHTSupport_AddData.xml.in.h:1
 msgid "Red Hat Customer Support"
-msgstr ""
+msgstr "Red Hat klientu atbalsts"
 
 #: ../src/plugins/report_RHTSupport.xml.in.h:2
 msgid "Report to Red Hat support"
-msgstr ""
+msgstr "Ziņot Red Hat atbalstam"
 
 #: ../src/plugins/report_RHTSupport.xml.in.h:3
 msgid "Username"
-msgstr ""
+msgstr "Lietotājvārds"
 
 #: ../src/plugins/report_RHTSupport.xml.in.h:4
 msgid "Red Hat customer user name"
-msgstr ""
+msgstr "Red Hat klienta lietotājvārds"
 
 #: ../src/plugins/report_RHTSupport.xml.in.h:6
 msgid "Red Hat customer password"
-msgstr ""
+msgstr "Red Hat klienta parole"
 
 #: ../src/plugins/report_RHTSupport.xml.in.h:7
 msgid "Submit uReport"
-msgstr ""
+msgstr "Iesniegt uReport"
 
 #: ../src/plugins/report_RHTSupport.xml.in.h:8
 msgid ""
 "Submit &lt;a href=\"https://access.redhat.com/articles/642323\"&gt;micro-"
 "report&lt;/a&gt; when creating a new case."
 msgstr ""
+"Veidojot jaunu lietu, iesniegt &lt;a href=\"https://access.redhat.com/"
+"articles/642323\"&gt;mikroziņojumu&lt;/a&gt;."
 
 #: ../src/plugins/report_RHTSupport.xml.in.h:9
 msgid "RH Portal URL"
-msgstr ""
+msgstr "RH portāla URL"
 
 #: ../src/plugins/report_RHTSupport.xml.in.h:10
 msgid "Address of the Red Hat support portal"
-msgstr ""
+msgstr "Red Hat atbalsta portāla adrese"
 
 #: ../src/plugins/report_RHTSupport_AddData.xml.in.h:2
 msgid "Attach the data to existing Red Hat support case"
-msgstr ""
+msgstr "Pievienot datus esošai Red Hat atbalsta lietai"
 
 #: ../src/plugins/report_Uploader.xml.in.h:1
 msgid "Report Uploader"
-msgstr ""
+msgstr "Ziņojumu augšupielādētājs"
 
 #: ../src/plugins/report_Uploader.xml.in.h:2
 msgid "Upload as tar.gz file (via FTP/SCP/...)"
-msgstr ""
+msgstr "Augšupielādēt kā tar.gz failu (caur FTP/SCP/...)"
 
 #: ../src/plugins/report_Uploader.xml.in.h:3
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: ../src/plugins/report_Uploader.xml.in.h:4
 msgid ""
 "Where do you want to upload the tarball with report in form login:"
 "password@url"
 msgstr ""
+"Kur vēlaties augšupielādēt tar arhīvu ar ziņojumu, formātā "
+"pieteikšanās_vārds:parole@url"
 
 #: ../src/plugins/report_Uploader.xml.in.h:5
 msgid ""
 "Examples:&#xA;ftp://[user[:pass]@]host/dir/[file.tar.gz]&#xA;scp://[user[:"
 "pass]@]host/dir/[file.tar.gz]&#xA;file:///dir/[file.tar.gz]"
 msgstr ""
+"Piemēri:&#xA;ftp://[lietotājs[:parole]@]resursdators/direktorija/"
+"[fails.tar.gz]&#xA;scp://[lietotājs[:parole]@]resursdators/direktorija/"
+"[fails.tar.gz]&#xA;file:///direktorija/[fails.tar.gz]"
 
 #: ../src/plugins/report_Uploader.xml.in.h:7
 msgid "Use this field if you do not want to have user name in URL"
-msgstr ""
+msgstr "Izmantojiet šo lauku, ja nevēlaties lietotājvārdu URL"
 
 #: ../src/plugins/report_Uploader.xml.in.h:9
 msgid "Use this field if you do not want to have password in URL"
-msgstr ""
+msgstr "Izmantojiet šo lauku, ja nevēlaties paroli URL"
 
 #: ../src/plugins/report_Uploader.xml.in.h:14
 msgid "FTP Proxy"
-msgstr ""
+msgstr "FTP starpniekserveris"
 
 #: ../src/plugins/report_Uploader.xml.in.h:15
 msgid "Sets the proxy server to use for FTP"
-msgstr ""
+msgstr "Iestata FTP izmantojamo starpniekserveri"
 
 #: ../src/plugins/report_Uploader.xml.in.h:16
 msgid "SSH Public key file"
-msgstr ""
+msgstr "SSH publiskās atslēgas fails"
 
 #: ../src/plugins/report_Uploader.xml.in.h:17
 msgid "Use this field to specify SSH public keyfile"
-msgstr ""
+msgstr "Izmantojiet šo lauku, lai norādītu SSH publiskās atslēgas failu"
 
 #: ../src/plugins/report_Uploader.xml.in.h:18
 msgid "SSH Private key file"
-msgstr ""
+msgstr "SSH privātās atslēgas fails"
 
 #: ../src/plugins/report_Uploader.xml.in.h:19
 msgid "Use this field to specify SSH private keyfile"
-msgstr ""
+msgstr "Izmantojiet šo lauku, lai norādītu SSH privātās atslēgas failu"
 
 #: ../src/plugins/report_uReport.xml.in.h:1
 msgid "uReport"
-msgstr ""
+msgstr "uReport"
 
 #: ../src/plugins/report_uReport.xml.in.h:2
 msgid "Sends ureports to FAF server"
-msgstr ""
+msgstr "Sūta uReport ziņojumus uz FAF serveri"
 
 #: ../src/plugins/report_uReport.xml.in.h:3
 msgid "uReport Server URL"
-msgstr ""
+msgstr "uReport servera URL"
 
 #: ../src/plugins/report_uReport.xml.in.h:4
 msgid "Address of uReport webservice"
-msgstr ""
+msgstr "uReport tīmekļa pakalpojuma adrese"
 
 #: ../src/plugins/report_uReport.xml.in.h:5
 msgid "Watch already reported bugs"
-msgstr ""
+msgstr "Sekot jau ziņotām kļūdām"
 
 #: ../src/plugins/report_uReport.xml.in.h:6
 msgid "Adds your Bugzilla login to CC List of already reported bugs."
 msgstr ""
+"Pievieno jūsu Bugzilla pieteikšanās vārdu jau ziņoto kļūdu CC sarakstam."
 
 #: ../src/plugins/report_uReport.xml.in.h:7
 msgid "Report unpackaged problems"
-msgstr ""
+msgstr "Ziņot par problēmām ārpus pakotnēm"
 
 #: ../src/plugins/report_uReport.xml.in.h:8
 msgid "Report problems coming from unpackaged executables."
-msgstr ""
+msgstr "Ziņot par problēmām, ko izraisa izpildāmie faili, kas nav no pakotnēm."
 
 #: ../src/plugins/report_uReport.xml.in.h:9
 msgid "Contact email address"
-msgstr ""
+msgstr "Kontaktpersonas e-pasta adrese"
 
 #: ../src/plugins/report_uReport.xml.in.h:10
 msgid ""
 "Email address that can be used by ABRT server to inform you about news and "
 "updates"
 msgstr ""
+"E-pasta adrese, ko ABRT serveris var izmantot, lai informētu jūs par "
+"jaunumiem un atjauninājumiem"
 
 #: ../src/plugins/watch_Bugzilla.xml.in.h:1
 msgid "Watch Bugzilla Bug"
-msgstr ""
+msgstr "Sekot Bugzilla kļūdai"
 
 #: ../src/plugins/watch_Bugzilla.xml.in.h:2
 msgid "Adds your e-mail to CC List of Bugzilla bug"
-msgstr ""
+msgstr "Pievieno jūsu e-pastu Bugzilla kļūdas CC sarakstam"
 
 #: ../src/plugins/rhbz.c:382
 #, c-format
 msgid "Looks like corrupted xml response, because '%s' member is missing."
-msgstr ""
+msgstr "Izskatās, ka xml atbilde ir bojāta, jo trūkst dalībnieka '%s'."
 
 #: ../src/plugins/rhbz.c:470
 #, c-format
 msgid "Bug %i is CLOSED, but it has no RESOLUTION"
-msgstr ""
+msgstr "Kļūda %i ir CLOSED, bet tai nav RESOLUTION"
 
 #: ../src/plugins/rhbz.c:478
 #, c-format
 msgid "Bug %i is CLOSED as DUPLICATE, but it has no DUP_ID"
-msgstr ""
+msgstr "Kļūda %i ir CLOSED kā DUPLICATE, bet tai nav DUP_ID"
 
 #: ../src/plugins/rhbz.c:583
 msgid ""
@@ -2437,164 +2716,171 @@ msgid ""
 "please see https://github.com/abrt/abrt/wiki/FAQ#creating-private-bugzilla-"
 "tickets for more info"
 msgstr ""
+"Pieprasīta privāta pieteikuma izveide, bet nav norādīta neviena grupa; sīkāk "
+"skatiet https://github.com/abrt/abrt/wiki/FAQ#creating-private-bugzilla-"
+"tickets"
 
 #: ../src/plugins/rhbz.c:604
 #, c-format
 msgid "New bug id: %i"
-msgstr ""
+msgstr "Jaunās kļūdas ID: %i"
 
 #: ../src/plugins/rhbz.c:725
 #, c-format
 msgid "Bugzilla couldn't find parent of bug %d"
-msgstr ""
+msgstr "Bugzilla nevarēja atrast kļūdas %d vecākkļūdu"
 
 #: ../src/plugins/rhbz.c:873
 msgid "Bug.search(quicksearch) return value did not contain member 'bugs'"
-msgstr ""
+msgstr "Bug.search(quicksearch) atgrieztajā vērtībā nebija dalībnieka 'bugs'"
 
 #: ../src/plugins/mantisbt.c:123
 #, c-format
 msgid "MantisBT couldn't find parent of issue %d"
-msgstr ""
+msgstr "MantisBT nevarēja atrast pieteikuma %d vecākpieteikumu"
 
 #: ../src/plugins/mantisbt.c:180
 msgid "SOAP: Failed to get child element because of no parent."
-msgstr ""
+msgstr "SOAP: neizdevās iegūt bērnelementu, jo nav vecākelementa."
 
 #: ../src/plugins/mantisbt.c:189
 msgid "SOAP: Failed to get next element because of no node."
-msgstr ""
+msgstr "SOAP: neizdevās iegūt nākamo elementu, jo nav mezgla."
 
 #: ../src/plugins/mantisbt.c:198
 msgid "SOAP: Failed to get child node because of no parent."
-msgstr ""
+msgstr "SOAP: neizdevās iegūt bērnmezglu, jo nav vecākmezgla."
 
 #: ../src/plugins/mantisbt.c:219
 msgid "SOAP: Failed to parse xml during creating request."
-msgstr ""
+msgstr "SOAP: veidojot pieprasījumu, neizdevās parsēt xml."
 
 #: ../src/plugins/mantisbt.c:227
 msgid "SOAP: Failed to get xml root element."
-msgstr ""
+msgstr "SOAP: neizdevās iegūt xml saknes elementu."
 
 #: ../src/plugins/mantisbt.c:240
 msgid ""
 "SOAP: Failed to add a new child node because of no node or no child name."
 msgstr ""
+"SOAP: neizdevās pievienot jaunu bērnmezglu, jo nav mezgla vai bērna "
+"nosaukuma."
 
 #: ../src/plugins/mantisbt.c:245
 msgid "SOAP: Failed to create a new xml child item."
-msgstr ""
+msgstr "SOAP: neizdevās izveidot jaunu xml bērnvienumu."
 
 #: ../src/plugins/mantisbt.c:250
 msgid "SOAP: Failed to create a new property."
-msgstr ""
+msgstr "SOAP: neizdevās izveidot jaunu īpašību."
 
 #: ../src/plugins/mantisbt.c:260
 msgid "SOAP: Failed to add method parametr."
-msgstr ""
+msgstr "SOAP: neizdevās pievienot metodes parametru."
 
 #: ../src/plugins/mantisbt.c:289
 msgid "SOAP: Failed to add new issue parametrs."
-msgstr ""
+msgstr "SOAP: neizdevās pievienot jauna pieteikuma parametrus."
 
 #: ../src/plugins/mantisbt.c:292
 msgid ""
 "SOAP: Failed to add new issue parameters because the required items are "
 "missing."
 msgstr ""
+"SOAP: neizdevās pievienot jauna pieteikuma parametrus, jo trūkst obligāto "
+"vienumu."
 
 #: ../src/plugins/mantisbt.c:336
 msgid "SOAP: Failed to create a new property in custom fields."
-msgstr ""
+msgstr "SOAP: neizdevās izveidot jaunu īpašību pielāgotajos laukos."
 
 #: ../src/plugins/mantisbt.c:354
 msgid ""
 "SOAP: Failed to create SOAP string because of invalid function arguments."
-msgstr ""
+msgstr "SOAP: nederīgu funkcijas argumentu dēļ neizdevās izveidot SOAP virkni."
 
 #: ../src/plugins/mantisbt.c:361
 msgid "SOAP: Failed to dump xml node."
-msgstr ""
+msgstr "SOAP: neizdevās izmest xml mezglu."
 
 #: ../src/plugins/mantisbt.c:375
 msgid "SOAP: Failed to print SOAP string."
-msgstr ""
+msgstr "SOAP: neizdevās izvadīt SOAP virkni."
 
 #: ../src/plugins/mantisbt.c:382
 msgid "Failed to dump xml node."
-msgstr ""
+msgstr "Neizdevās izmest xml mezglu."
 
 #: ../src/plugins/mantisbt.c:458
 msgid "SOAP: Failed to parse xml (searching value at depth by name)."
-msgstr ""
+msgstr "SOAP: neizdevās parsēt xml (meklējot vērtību dziļumā pēc nosaukuma)."
 
 #: ../src/plugins/mantisbt.c:462 ../src/plugins/mantisbt.c:505
 #: ../src/plugins/mantisbt.c:534
 msgid "SOAP: Failed to create xml text reader."
-msgstr ""
+msgstr "SOAP: neizdevās izveidot xml teksta lasītāju."
 
 #: ../src/plugins/mantisbt.c:501
 msgid "SOAP: Failed to parse xml."
-msgstr ""
+msgstr "SOAP: neizdevās parsēt xml."
 
 #: ../src/plugins/mantisbt.c:530
 msgid "SOAP: Failed to parse xml (get related to issue)."
-msgstr ""
+msgstr "SOAP: neizdevās parsēt xml (iegūt saistīto ar pieteikumu)."
 
 #: ../src/plugins/mantisbt.c:647
 msgid "Url or request isn't specified."
-msgstr ""
+msgstr "URL vai pieprasījums nav norādīts."
 
 #: ../src/plugins/mantisbt.c:675
 #, c-format
 msgid "Error in HTTP POST, HTTP code: 404 (Not found), URL:'%s'"
-msgstr ""
+msgstr "HTTP POST kļūda, HTTP kods: 404 (nav atrasts), URL:'%s'"
 
 #: ../src/plugins/mantisbt.c:699
 #, c-format
 msgid "Error in MantisBT request at '%s': %s"
-msgstr ""
+msgstr "MantisBT pieprasījuma kļūda vietnē '%s': %s"
 
 #: ../src/plugins/mantisbt.c:701
 #, c-format
 msgid "Error in MantisBT request at '%s'"
-msgstr ""
+msgstr "MantisBT pieprasījuma kļūda vietnē '%s'"
 
 #: ../src/plugins/mantisbt.c:743
 #, c-format
 msgid "Failed to attach file: '%s'"
-msgstr ""
+msgstr "Neizdevās pievienot failu: '%s'"
 
 #: ../src/plugins/mantisbt.c:762
 #, c-format
 msgid "Can't lseek '%s'"
-msgstr ""
+msgstr "Nevar izpildīt lseek '%s'"
 
 #: ../src/plugins/mantisbt.c:768
 #, c-format
 msgid "Can't upload '%s', it's too large (%llu bytes)"
-msgstr ""
+msgstr "Nevar augšupielādēt '%s', tas ir pārāk liels (baiti: %llu)"
 
 #: ../src/plugins/mantisbt.c:778
 #, c-format
 msgid "Can't read '%s'"
-msgstr ""
+msgstr "Nevar nolasīt '%s'"
 
 #: ../src/plugins/mantisbt.c:794
 #, c-format
 msgid "Can't open '%s'"
-msgstr ""
+msgstr "Nevar atvērt '%s'"
 
 #: ../src/plugins/mantisbt.c:861
 #, c-format
 msgid "Failed to search MantisBT issue by duphash: '%s'"
-msgstr ""
+msgstr "Neizdevās meklēt MantisBT pieteikumu pēc duphash: '%s'"
 
 #: ../src/plugins/mantisbt.c:906
 #, c-format
 msgid "Failed to search MantisBT duplicate issue: '%s'"
-msgstr ""
+msgstr "Neizdevās meklēt MantisBT dublikāta pieteikumu: '%s'"
 
 #: ../src/plugins/mantisbt.c:934
 #, c-format
@@ -2602,120 +2888,130 @@ msgid ""
 "MantisBT doesn't contain custom field '%s', which is required for full "
 "functionality of the reporter. Do you still want to create a new issue?"
 msgstr ""
+"MantisBT nesatur pielāgoto lauku '%s', kas nepieciešams pilnai ziņotāja "
+"funkcionalitātei. Vai tomēr vēlaties izveidot jaunu pieteikumu?"
 
 #: ../src/plugins/mantisbt.c:958
 #, c-format
 msgid "Failed to get custom fields for '%s' project"
-msgstr ""
+msgstr "Neizdevās iegūt projekta '%s' pielāgotos laukus"
 
 #: ../src/plugins/mantisbt.c:1002
 #, c-format
 msgid "Failed to create a new issue: '%s'"
-msgstr ""
+msgstr "Neizdevās izveidot jaunu pieteikumu: '%s'"
 
 #: ../src/plugins/mantisbt.c:1028
 #, c-format
 msgid "Failed to get MantisBT issue: '%s'"
-msgstr ""
+msgstr "Neizdevās iegūt MantisBT pieteikumu: '%s'"
 
 #: ../src/plugins/mantisbt.c:1042
 #, c-format
 msgid "Issue %i is CLOSED, but it has no RESOLUTION"
-msgstr ""
+msgstr "Pieteikums %i ir CLOSED, bet tam nav RESOLUTION"
 
 #: ../src/plugins/mantisbt.c:1050
 #, c-format
 msgid "Issue %i is CLOSED as DUPLICATE, but it has no DUPLICATE_ID"
-msgstr ""
+msgstr "Pieteikums %i ir CLOSED kā DUPLICATE, bet tam nav DUPLICATE_ID"
 
 #: ../src/plugins/mantisbt.c:1087
 #, c-format
 msgid "Failed to add MantisBT issue note: '%s'"
-msgstr ""
+msgstr "Neizdevās pievienot MantisBT pieteikuma piezīmi: '%s'"
 
 #: ../src/plugins/mantisbt.c:1101
 msgid "The MantisBT project has not been deretmined."
-msgstr ""
+msgstr "MantisBT projekts nav noteikts."
 
 #: ../src/plugins/mantisbt.c:1113
 msgid "Failed to get project id from name"
-msgstr ""
+msgstr "Neizdevās iegūt projekta ID no nosaukuma"
 
 #: ../src/plugins/reporter-ureport.c:75
 msgid "Specify server URL"
-msgstr ""
+msgstr "Norādīt servera URL"
 
 #: ../src/plugins/reporter-ureport.c:77
 msgid "Allow insecure connection to ureport server"
-msgstr ""
+msgstr "Atļaut nedrošu savienojumu ar ureport serveri"
 
 #: ../src/plugins/reporter-ureport.c:78
 msgid "Use client authentication"
-msgstr ""
+msgstr "Izmantot klienta autentifikāciju"
 
 #: ../src/plugins/reporter-ureport.c:79
 msgid "Use HTTP Authentication"
-msgstr ""
+msgstr "Izmantot HTTP autentifikāciju"
 
 #: ../src/plugins/reporter-ureport.c:80
 msgid "Additional files included in 'auth' key"
-msgstr ""
+msgstr "Papildu faili, kas iekļauti atslēgā 'auth'"
 
 #: ../src/plugins/reporter-ureport.c:83
 msgid "bthash of uReport to attach (conflicts with -A)"
-msgstr ""
+msgstr "pievienojamā uReport bthash (konfliktē ar -A)"
 
 #: ../src/plugins/reporter-ureport.c:85
 msgid "attach to a bthash from reported_to (conflicts with -a)"
-msgstr ""
+msgstr "pievienot bthash no reported_to (konfliktē ar -a)"
 
 #: ../src/plugins/reporter-ureport.c:87
 msgid "contact e-mail address (requires -a|-A, conflicts with -E)"
-msgstr ""
+msgstr "kontaktpersonas e-pasta adrese (nepieciešams -a|-A, konfliktē ar -E)"
 
 #: ../src/plugins/reporter-ureport.c:89
 msgid ""
 "contact e-mail address from environment or configuration file (requires -a|-"
 "A, conflicts with -e)"
 msgstr ""
+"kontaktpersonas e-pasta adrese no vides vai konfigurācijas faila "
+"(nepieciešams -a|-A, konfliktē ar -e)"
 
 #: ../src/plugins/reporter-ureport.c:91
 msgid "attach RHBZ bug (requires -a|-A, conflicts with -B)"
-msgstr ""
+msgstr "pievienot RHBZ kļūdu (nepieciešams -a|-A, konfliktē ar -B)"
 
 #: ../src/plugins/reporter-ureport.c:93
 msgid ""
 "attach last RHBZ bug from reported_to (requires -a|-A, conflicts with -b)"
 msgstr ""
+"pievienot pēdējo RHBZ kļūdu no reported_to (nepieciešams -a|-A, konfliktē "
+"ar -b)"
 
 #: ../src/plugins/reporter-ureport.c:95
 msgid "attach short text (requires -a|-A, conflicts with -D)"
-msgstr ""
+msgstr "pievienot īsu tekstu (nepieciešams -a|-A, konfliktē ar -D)"
 
 #: ../src/plugins/reporter-ureport.c:97
 msgid "attach short text from comment (requires -a|-A, conflicts with -d)"
-msgstr ""
+msgstr "pievienot īsu tekstu no komentāra (nepieciešams -a|-A, konfliktē ar -d)"
 
 #: ../src/plugins/reporter-ureport.c:101
 msgid "attach value (requires -a|-A and -T, conflicts with -L)"
-msgstr ""
+msgstr "pievienot vērtību (nepieciešams -a|-A un -T, konfliktē ar -L)"
 
 #: ../src/plugins/reporter-ureport.c:103
 msgid ""
 "attach data of FIELD [URL] of the last report result (requires -a|-A, -r and "
 "-T, conflicts with -l)"
 msgstr ""
+"pievienot pēdējā ziņojuma rezultāta LAUKA [URL] datus (nepieciešams -a|-A, -"
+"r un -T, konfliktē ar -l)"
 
 #: ../src/plugins/reporter-ureport.c:106
 msgid ""
 "use REPORT_RESULT_TYPE when looking for FIELD in reported_to (used only with "
 "-L)"
 msgstr ""
+"izmantot REPORT_RESULT_TYPE, meklējot LAUKU elementā reported_to (tikai ar -"
+"L)"
 
 #: ../src/plugins/reporter-ureport.c:108
 msgid ""
 "attach DATA as ureport attachment ATTACHMENT_TYPE (used only with -l|-L)"
-msgstr ""
+msgstr "pievienot DATUS kā ureport pielikumu ATTACHMENT_TYPE (tikai ar -l|-L)"
 
 #: ../src/plugins/reporter-ureport.c:113
 msgid ""
@@ -2731,70 +3027,84 @@ msgid ""
 "\n"
 "Reads the default configuration from "
 msgstr ""
+"& [-v] [-c FAILS] [-u URL] [-k] [-t AVOTS] [-h AKREDITĀCIJAS_DATI]\n"
+"  [-A -a bthash -B -b kļūdas-id -E -e e-pasts -O -o komentārs] [-d "
+"DIREKTORIJA]\n"
+"  [-A -a bthash -T ATTACHMENT_TYPE -r REPORT_RESULT_TYPE -L RESULT_FIELD] [-"
+"d DIREKTORIJA]\n"
+"  [-A -a bthash -T ATTACHMENT_TYPE -l DATI] [-d DIREKTORIJA]\n"
+"& [-v] [-c FAILS] [-u URL] [-k] [-t AVOTS] [-h AKREDITĀCIJAS_DATI] [-i "
+"AUTH_ITEMS] [-d DIREKTORIJA]\n"
+"\n"
+"Augšupielādēt mikroziņojumu vai pievienot pielikumu mikroziņojumam\n"
+"\n"
+"Noklusējuma konfigurāciju nolasa no "
 
 #: ../src/plugins/reporter-ureport.c:191
 msgid "This problem does not have an uReport assigned."
-msgstr ""
+msgstr "Šai problēmai nav piešķirts uReport."
 
 #: ../src/plugins/reporter-ureport.c:212
 msgid "This problem has not been reported to Bugzilla."
-msgstr ""
+msgstr "Par šo problēmu Bugzilla nav ziņots."
 
 #: ../src/plugins/reporter-ureport.c:218
 #, c-format
 msgid "Unable to find bug ID in bugzilla URL '%s'"
-msgstr ""
+msgstr "Bugzilla URL '%s' nevar atrast kļūdas ID"
 
 #: ../src/plugins/reporter-ureport.c:223
 #, c-format
 msgid "Unable to parse bug ID from bugzilla URL '%s'"
-msgstr ""
+msgstr "No Bugzilla URL '%s' nevar parsēt kļūdas ID"
 
 #: ../src/plugins/reporter-ureport.c:230
 msgid "Cannot attach comment from 'comment' file"
-msgstr ""
+msgstr "Nevar pievienot komentāru no faila 'comment'"
 
 #: ../src/plugins/reporter-ureport.c:232
 msgid "'comment' file is empty"
-msgstr ""
+msgstr "Fails 'comment' ir tukšs"
 
 #: ../src/plugins/reporter-ureport.c:243
 #, c-format
 msgid "This problem has not been reported to '%s'."
-msgstr ""
+msgstr "Par šo problēmu nav ziņots '%s'."
 
 #: ../src/plugins/reporter-ureport.c:251
 #, c-format
 msgid "The report result '%s' is missing URL."
-msgstr ""
+msgstr "Ziņojuma rezultātam '%s' trūkst URL."
 
 #: ../src/plugins/reporter-ureport.c:267
 msgid ""
 "Neither environment variable 'uReport_ContactEmail' nor configuration option "
 "'ContactEmail' is set"
 msgstr ""
+"Nav iestatīts ne vides mainīgais 'uReport_ContactEmail', ne konfigurācijas "
+"opcija 'ContactEmail'"
 
 #: ../src/plugins/reporter-ureport.c:273
 msgid "You need to specify bug ID, contact email, comment or all of them"
-msgstr ""
+msgstr "Jānorāda kļūdas ID, kontaktpersonas e-pasts, komentārs vai tie visi"
 
 #: ../src/plugins/reporter-ureport.c:303
 msgid "You need to specify bthash of the uReport to attach."
-msgstr ""
+msgstr "Jānorāda pievienojamā uReport bthash."
 
 #: ../src/plugins/reporter-ureport.c:332
 msgid "This problem has already been reported."
-msgstr ""
+msgstr "Par šo problēmu jau ir ziņots."
 
 #: ../src/report-newt/report-newt.c:55
 msgid "How would you like to report the problem?"
-msgstr ""
+msgstr "Kā vēlaties ziņot par šo problēmu?"
 
 #: ../src/report-newt/report-newt.c:68 ../src/report-newt/report-newt.c:145
 #: ../src/report-newt/report-newt.c:168 ../src/report-newt/report-newt.c:258
 #: ../src/report-newt/report-newt.c:334 ../src/report-newt/report-newt.c:356
 msgid "Ok"
-msgstr ""
+msgstr "Labi"
 
 #: ../src/report-newt/report-newt.c:68 ../src/report-newt/report-newt.c:145
 msgid "Cancel"
@@ -2802,20 +3112,20 @@ msgstr "Atcelt"
 
 #: ../src/report-newt/report-newt.c:168 ../src/report-newt/report-newt.c:334
 msgid "Error"
-msgstr ""
+msgstr "Kļūda"
 
 #: ../src/report-newt/report-newt.c:255
 msgid "Reporting"
-msgstr ""
+msgstr "Ziņošana"
 
 #: ../src/report-newt/report-newt.c:275
 #, c-format
 msgid "--- Running %s ---"
-msgstr ""
+msgstr "--- Izpilda %s ---"
 
 #: ../src/report-newt/report-newt.c:356
 msgid "No reporters available"
-msgstr ""
+msgstr "Nav pieejamu ziņotāju"
 
 #: ../src/report-newt/report-newt.c:386
 msgid ""
@@ -2823,75 +3133,78 @@ msgid ""
 "\n"
 "newt tool to report problem saved in specified DIR"
 msgstr ""
+"& [-d] DIREKTORIJA\n"
+"\n"
+"newt rīks ziņošanai par problēmu, kas saglabāta norādītajā DIREKTORIJĀ"
 
 #: ../src/report-newt/report-newt.c:396
 msgid "Remove DIR after reporting"
-msgstr ""
+msgstr "Pēc ziņošanas noņemt DIREKTORIJU"
 
 #: ../src/workflows/workflow_AnacondaFedora.xml.in.h:1
 msgid "Report a bug to Fedora maintainers"
-msgstr ""
+msgstr "Ziņot par kļūdu Fedora uzturētājiem"
 
 #: ../src/workflows/workflow_AnacondaFedora.xml.in.h:2
 msgid "Process the report using the Fedora infrastructure"
-msgstr ""
+msgstr "Apstrādāt ziņojumu, izmantojot Fedora infrastruktūru"
 
 #: ../src/workflows/workflow_AnacondaRHEL.xml.in.h:1
 msgid "Report a bug to Red Hat Customer Portal"
-msgstr ""
+msgstr "Ziņot par kļūdu Red Hat klientu portālā"
 
 #: ../src/workflows/workflow_AnacondaRHEL.xml.in.h:2
 #: ../src/workflows/workflow_AnacondaRHELBugzilla.xml.in.h:2
 msgid "Process the report using the Red Hat infrastructure"
-msgstr ""
+msgstr "Apstrādāt ziņojumu, izmantojot Red Hat infrastruktūru"
 
 #: ../src/workflows/workflow_AnacondaRHELBugzilla.xml.in.h:1
 msgid "Report a bug to Red Hat Bugzilla"
-msgstr ""
+msgstr "Ziņot par kļūdu Red Hat Bugzilla"
 
 #: ../src/workflows/workflow_AnacondaUpload.xml.in.h:1
 msgid "Export the problem data for manual reporting"
-msgstr ""
+msgstr "Eksportēt problēmas datus manuālai ziņošanai"
 
 #: ../src/workflows/workflow_AnacondaUpload.xml.in.h:2
 msgid "Upload the data via scp or ftp to a remote destination"
-msgstr ""
+msgstr "Augšupielādēt datus attālā mērķī caur scp vai ftp"
 
 #: ../src/workflows/workflow_CentOSCCpp.xml.in.h:2
 msgid "Process the C/C++ crash using the CentOS infrastructure"
-msgstr ""
+msgstr "Apstrādāt C/C++ avāriju, izmantojot CentOS infrastruktūru"
 
 #: ../src/workflows/workflow_CentOSJava.xml.in.h:2
 msgid "Process the Java exception using the CentOS infrastructure"
-msgstr ""
+msgstr "Apstrādāt Java izņēmumu, izmantojot CentOS infrastruktūru"
 
 #: ../src/workflows/workflow_CentOSJavaScript.xml.in.h:2
 msgid "Process the JavaScript exception using the CentOS infrastructure"
-msgstr ""
+msgstr "Apstrādāt JavaScript izņēmumu, izmantojot CentOS infrastruktūru"
 
 #: ../src/workflows/workflow_CentOSKerneloops.xml.in.h:2
 msgid "Process the kerneloops using the CentOS infrastructure"
-msgstr ""
+msgstr "Apstrādāt kerneloops, izmantojot CentOS infrastruktūru"
 
 #: ../src/workflows/workflow_CentOSLibreport.xml.in.h:2
 msgid "Process the problem using the CentOS infrastructure"
-msgstr ""
+msgstr "Apstrādāt problēmu, izmantojot CentOS infrastruktūru"
 
 #: ../src/workflows/workflow_CentOSPython.xml.in.h:2
 msgid "Process the python exception using the CentOS infrastructure"
-msgstr ""
+msgstr "Apstrādāt python izņēmumu, izmantojot CentOS infrastruktūru"
 
 #: ../src/workflows/workflow_CentOSPython3.xml.in.h:2
 msgid "Process the python 3 exception using the CentOS infrastructure"
-msgstr ""
+msgstr "Apstrādāt python 3 izņēmumu, izmantojot CentOS infrastruktūru"
 
 #: ../src/workflows/workflow_CentOSVmcore.xml.in.h:2
 msgid "Process the kernel crash using the CentOS infrastructure"
-msgstr ""
+msgstr "Apstrādāt kodola avāriju, izmantojot CentOS infrastruktūru"
 
 #: ../src/workflows/workflow_CentOSXorg.xml.in.h:2
 msgid "Process the X Server problem using the CentOS infrastructure"
-msgstr ""
+msgstr "Apstrādāt X servera problēmu, izmantojot CentOS infrastruktūru"
 
 #: ../src/workflows/workflow_FedoraCCpp.xml.in.h:1
 #: ../src/workflows/workflow_FedoraKerneloops.xml.in.h:1
@@ -2903,48 +3216,48 @@ msgstr ""
 #: ../src/workflows/workflow_FedoraJava.xml.in.h:1
 #: ../src/workflows/workflow_FedoraJavaScript.xml.in.h:1
 msgid "Report to Fedora"
-msgstr ""
+msgstr "Ziņot Fedora"
 
 #: ../src/workflows/workflow_FedoraCCpp.xml.in.h:2
 msgid "Process the C/C++ crash using the Fedora infrastructure"
-msgstr ""
+msgstr "Apstrādāt C/C++ avāriju, izmantojot Fedora infrastruktūru"
 
 #: ../src/workflows/workflow_FedoraKerneloops.xml.in.h:2
 msgid "Process the kerneloops using the Fedora infrastructure"
-msgstr ""
+msgstr "Apstrādāt kerneloops, izmantojot Fedora infrastruktūru"
 
 #: ../src/workflows/workflow_FedoraPython.xml.in.h:2
 msgid "Process the python exception using the Fedora infrastructure"
-msgstr ""
+msgstr "Apstrādāt python izņēmumu, izmantojot Fedora infrastruktūru"
 
 #: ../src/workflows/workflow_FedoraPython3.xml.in.h:2
 msgid "Process the python 3 exception using the Fedora infrastructure"
-msgstr ""
+msgstr "Apstrādāt python 3 izņēmumu, izmantojot Fedora infrastruktūru"
 
 #: ../src/workflows/workflow_FedoraVmcore.xml.in.h:2
 msgid "Process the kernel crash using the Fedora infrastructure"
-msgstr ""
+msgstr "Apstrādāt kodola avāriju, izmantojot Fedora infrastruktūru"
 
 #: ../src/workflows/workflow_FedoraXorg.xml.in.h:2
 msgid "Process the X Server problem using the Fedora infrastructure"
-msgstr ""
+msgstr "Apstrādāt X servera problēmu, izmantojot Fedora infrastruktūru"
 
 #: ../src/workflows/workflow_FedoraLibreport.xml.in.h:2
 msgid "Process the problem using the Fedora infrastructure"
-msgstr ""
+msgstr "Apstrādāt problēmu, izmantojot Fedora infrastruktūru"
 
 #: ../src/workflows/workflow_FedoraJava.xml.in.h:2
 msgid "Process the Java exception using the Fedora infrastructure"
-msgstr ""
+msgstr "Apstrādāt Java izņēmumu, izmantojot Fedora infrastruktūru"
 
 #: ../src/workflows/workflow_FedoraJavaScript.xml.in.h:2
 msgid "Process the JavaScript exception using the Fedora infrastructure"
-msgstr ""
+msgstr "Apstrādāt JavaScript izņēmumu, izmantojot Fedora infrastruktūru"
 
 #: ../src/workflows/workflow_LoggerCCpp.xml.in.h:1
 #: ../src/workflows/workflow_Logger.xml.in.h:1
 msgid "Export the problem data information to a text file"
-msgstr ""
+msgstr "Eksportēt problēmas datu informāciju teksta failā"
 
 #: ../src/workflows/workflow_LoggerCCpp.xml.in.h:2
 #: ../src/workflows/workflow_Logger.xml.in.h:2
@@ -2952,36 +3265,39 @@ msgid ""
 "Analyze the problem locally and export the problem data information to a "
 "text file"
 msgstr ""
+"Analizēt problēmu lokāli un eksportēt problēmas datu informāciju teksta failā"
 
 #: ../src/workflows/workflow_MailxCCpp.xml.in.h:1
 #: ../src/workflows/workflow_Mailx.xml.in.h:1
 msgid "Send the problem data via email"
-msgstr ""
+msgstr "Nosūtīt problēmas datus pa e-pastu"
 
 #: ../src/workflows/workflow_MailxCCpp.xml.in.h:2
 #: ../src/workflows/workflow_Mailx.xml.in.h:2
 msgid "Analyze the problem locally and send information via email"
-msgstr ""
+msgstr "Analizēt problēmu lokāli un nosūtīt informāciju pa e-pastu"
 
 #: ../src/workflows/workflow_UploadCCpp.xml.in.h:1
 #: ../src/workflows/workflow_Upload.xml.in.h:1
 msgid "Upload the problem data to a server"
-msgstr ""
+msgstr "Augšupielādēt problēmas datus serverī"
 
 #: ../src/workflows/workflow_UploadCCpp.xml.in.h:2
 #: ../src/workflows/workflow_Upload.xml.in.h:2
 msgid "Analyze the problem locally and upload the data via scp or ftp"
-msgstr ""
+msgstr "Analizēt problēmu lokāli un augšupielādēt datus caur scp vai ftp"
 
 #: ../src/workflows/workflow_uReport.xml.in.h:1
 msgid "Submit anonymous crash report"
-msgstr ""
+msgstr "Iesniegt anonīmu avārijas ziņojumu"
 
 #: ../src/workflows/workflow_uReport.xml.in.h:2
 msgid ""
 "Submit anonymous crash report - I do not want to be contacted by Red Hat "
 "Support"
 msgstr ""
+"Iesniegt anonīmu avārijas ziņojumu — nevēlos, lai ar mani sazinās Red Hat "
+"atbalsts"
 
 #: ../src/workflows/workflow_RHELCCpp.xml.in.h:1
 #: ../src/workflows/workflow_RHELKerneloops.xml.in.h:1
@@ -2992,7 +3308,7 @@ msgstr ""
 #: ../src/workflows/workflow_RHELJava.xml.in.h:1
 #: ../src/workflows/workflow_RHELJavaScript.xml.in.h:1
 msgid "Ask Red Hat Support for help"
-msgstr ""
+msgstr "Lūgt palīdzību Red Hat atbalstam"
 
 #: ../src/workflows/workflow_RHELCCpp.xml.in.h:2
 #: ../src/workflows/workflow_RHELKerneloops.xml.in.h:2
@@ -3006,6 +3322,8 @@ msgid ""
 "Create new Red Hat Support case - I would like to be contacted by Red Hat "
 "Support"
 msgstr ""
+"Izveidot jaunu Red Hat atbalsta lietu — vēlos, lai ar mani sazinās Red Hat "
+"atbalsts"
 
 #: ../src/workflows/workflow_RHELAddDataCCpp.xml.in.h:1
 #: ../src/workflows/workflow_RHELAddDataJava.xml.in.h:1
@@ -3016,7 +3334,7 @@ msgstr ""
 #: ../src/workflows/workflow_RHELAddDataxorg.xml.in.h:1
 #: ../src/workflows/workflow_RHELAddDataJavaScript.xml.in.h:1
 msgid "Attach crash data to an existing Red Hat support case"
-msgstr ""
+msgstr "Pievienot avārijas datus esošai Red Hat atbalsta lietai"
 
 #: ../src/workflows/workflow_RHELAddDataCCpp.xml.in.h:2
 #: ../src/workflows/workflow_RHELAddDataJava.xml.in.h:2
@@ -3027,7 +3345,7 @@ msgstr ""
 #: ../src/workflows/workflow_RHELAddDataxorg.xml.in.h:2
 #: ../src/workflows/workflow_RHELAddDataJavaScript.xml.in.h:2
 msgid "Provide Red Hat Support with crash details"
-msgstr ""
+msgstr "Sniegt Red Hat atbalstam avārijas informāciju"
 
 #: ../src/workflows/workflow_RHELBugzillaCCpp.xml.in.h:1
 #: ../src/workflows/workflow_RHELBugzillaKerneloops.xml.in.h:1
@@ -3038,36 +3356,36 @@ msgstr ""
 #: ../src/workflows/workflow_RHELBugzillaJava.xml.in.h:1
 #: ../src/workflows/workflow_RHELBugzillaJavaScript.xml.in.h:1
 msgid "Report to Red Hat Bugzilla"
-msgstr ""
+msgstr "Ziņot Red Hat Bugzilla"
 
 #: ../src/workflows/workflow_RHELBugzillaCCpp.xml.in.h:2
 msgid "Process the C/C++ crash using the Red Hat infrastructure"
-msgstr ""
+msgstr "Apstrādāt C/C++ avāriju, izmantojot Red Hat infrastruktūru"
 
 #: ../src/workflows/workflow_RHELBugzillaKerneloops.xml.in.h:2
 msgid "Process the kerneloops using the Red Hat infrastructure"
-msgstr ""
+msgstr "Apstrādāt kerneloops, izmantojot Red Hat infrastruktūru"
 
 #: ../src/workflows/workflow_RHELBugzillaPython.xml.in.h:2
 msgid "Process the python exception using the Red Hat infrastructure"
-msgstr ""
+msgstr "Apstrādāt python izņēmumu, izmantojot Red Hat infrastruktūru"
 
 #: ../src/workflows/workflow_RHELBugzillaVmcore.xml.in.h:2
 msgid "Process the kernel crash using the Red Hat infrastructure"
-msgstr ""
+msgstr "Apstrādāt kodola avāriju, izmantojot Red Hat infrastruktūru"
 
 #: ../src/workflows/workflow_RHELBugzillaXorg.xml.in.h:2
 msgid "Process the X Server problem using the Red Hat infrastructure"
-msgstr ""
+msgstr "Apstrādāt X servera problēmu, izmantojot Red Hat infrastruktūru"
 
 #: ../src/workflows/workflow_RHELBugzillaLibreport.xml.in.h:2
 msgid "Process the problem using the Red Hat infrastructure"
-msgstr ""
+msgstr "Apstrādāt problēmu, izmantojot Red Hat infrastruktūru"
 
 #: ../src/workflows/workflow_RHELBugzillaJava.xml.in.h:2
 msgid "Process the Java exception using the Red Hat infrastructure"
-msgstr ""
+msgstr "Apstrādāt Java izņēmumu, izmantojot Red Hat infrastruktūru"
 
 #: ../src/workflows/workflow_RHELBugzillaJavaScript.xml.in.h:2
 msgid "Process the JavaScript exception using the Red Hat infrastructure"
-msgstr ""
+msgstr "Apstrādāt JavaScript izņēmumu, izmantojot Red Hat infrastruktūru"

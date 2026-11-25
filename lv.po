@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-09 10:42+0100\n"
-"PO-Revision-Date: 2026-11-22 14:18+0000\n"
+"PO-Revision-Date: 2026-11-25 20:55+0000\n"
 "Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
 "Language-Team: Latvian <https://translate.fedoraproject.org/projects/abrt/"
 "libreport/lv/>\n"
@@ -1697,7 +1697,7 @@ msgstr "Izmanto Bugzilla ID '%s'"
 #: ../src/plugins/reporter-bugzilla.c:747
 #: ../src/plugins/reporter-bugzilla.c:943
 msgid "Logging out"
-msgstr "Atsakās"
+msgstr "Izrakstās"
 
 #: ../src/plugins/reporter-bugzilla.c:579
 #, c-format
